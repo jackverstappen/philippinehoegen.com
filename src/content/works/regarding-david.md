@@ -1,13 +1,13 @@
 ---
 title: 'Regarding David'
-cover: '/media/f2849cc4f62b6ca4f799f293b126d5c5.jpg'
+cover: '../media/f2849cc4f62b6ca4f799f293b126d5c5.jpg'
 media:
-  - '/media/96d5d61bd15454fdfb6d7099018a1157.jpg'
-  - '/media/5eaf115955ef3e0df645ff239cab218e.jpg'
-  - '/media/b2902e442a5399a98ef7138e4f51548f.jpg'
-  - '/media/a1af49056773463e0cd1932dfb282e10.jpg'
-  - '/media/236c80450e6b20028472370696d614af.jpg'
-  - '/media/89461a09ec7cf02454522f7ea6a65f7c.jpg'
+  - '../media/96d5d61bd15454fdfb6d7099018a1157.jpg'
+  - '../media/5eaf115955ef3e0df645ff239cab218e.jpg'
+  - '../media/b2902e442a5399a98ef7138e4f51548f.jpg'
+  - '../media/a1af49056773463e0cd1932dfb282e10.jpg'
+  - '../media/236c80450e6b20028472370696d614af.jpg'
+  - '../media/89461a09ec7cf02454522f7ea6a65f7c.jpg'
 tags:
   - 'house'
   - 'works'

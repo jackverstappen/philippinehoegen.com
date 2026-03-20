@@ -1,13 +1,13 @@
 ---
 title: 'Scores for Isolation'
-cover: '/media/3e01bd9b45f357bd9e8590582eac969e.jpg'
+cover: '../media/3e01bd9b45f357bd9e8590582eac969e.jpg'
 media:
-  - '/media/7aeee4abe29357219aa1bebdf8ed92db.jpg'
-  - '/media/6eacd0a4d02a7538b9cff334f5ac457a.jpg'
-  - '/media/69674c27e68b028639a91dd506749a7f.jpg'
-  - '/media/121ffd58009730e2b87dab3e7dce0cc9.jpg'
-  - '/media/16fe5aa75405d2cfdba64f60319e7f1b.jpg'
-  - '/media/8ab86b59461c420312ae7500f1c009eb.jpg'
+  - '../media/7aeee4abe29357219aa1bebdf8ed92db.jpg'
+  - '../media/6eacd0a4d02a7538b9cff334f5ac457a.jpg'
+  - '../media/69674c27e68b028639a91dd506749a7f.jpg'
+  - '../media/121ffd58009730e2b87dab3e7dce0cc9.jpg'
+  - '../media/16fe5aa75405d2cfdba64f60319e7f1b.jpg'
+  - '../media/8ab86b59461c420312ae7500f1c009eb.jpg'
 tags:
   - 'house'
   - 'display'

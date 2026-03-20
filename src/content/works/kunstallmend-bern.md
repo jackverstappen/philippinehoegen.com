@@ -1,9 +1,9 @@
 ---
 title: 'Kunstallmend Bern'
-cover: '/media/ae00bfbdbb59f497c4efd1042712d29f.jpg'
+cover: '../media/ae00bfbdbb59f497c4efd1042712d29f.jpg'
 media:
-  - '/media/1d30ef59492f059f00fe4c7d937fa867.jpg'
-  - '/media/357a26644d994959515fceae608aba38.jpg'
+  - '../media/1d30ef59492f059f00fe4c7d937fa867.jpg'
+  - '../media/357a26644d994959515fceae608aba38.jpg'
 tags:
   - 'exhibition'
   - 'research'

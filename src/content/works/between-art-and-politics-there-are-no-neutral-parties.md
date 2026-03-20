@@ -1,12 +1,12 @@
 ---
 title: 'Between Art and Politics: There are No Neutral Parties'
-cover: '/media/5788c9624ccf16497591e2a1b76277df.jpg'
+cover: '../media/5788c9624ccf16497591e2a1b76277df.jpg'
 media:
-  - '/media/09aae4f91ae82155b7bbac6979531c19.jpg'
-  - '/media/f17185ad298c51913e5f9f4190a07bfb.jpg'
-  - '/media/dae8113bc06fcc030d543f70772fdca9.jpg'
-  - '/media/d7f67b33347f0c75a7e394329d1e0114.jpg'
-  - '/media/867bfcfed9bcdc70d40a9f8a1ce2cf02.jpg'
+  - '../media/09aae4f91ae82155b7bbac6979531c19.jpg'
+  - '../media/f17185ad298c51913e5f9f4190a07bfb.jpg'
+  - '../media/dae8113bc06fcc030d543f70772fdca9.jpg'
+  - '../media/d7f67b33347f0c75a7e394329d1e0114.jpg'
+  - '../media/867bfcfed9bcdc70d40a9f8a1ce2cf02.jpg'
 tags:
   - 'border'
   - 'research'

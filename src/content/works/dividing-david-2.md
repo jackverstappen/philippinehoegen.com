@@ -1,12 +1,12 @@
 ---
 title: 'Dividing David 2'
-cover: '/media/65b15dd7de88fb60d01fede0e4b8542e.jpg'
+cover: '../media/65b15dd7de88fb60d01fede0e4b8542e.jpg'
 media:
-  - '/media/9aa92bdcae77be22a1411485940e1ace.jpg'
-  - '/media/f74a16058861f74a30a2761e963f39d5.jpg'
-  - '/media/d9e17f449eb44cf2f9483f818a04bedb.jpg'
-  - '/media/1378c5fc9abd9b09ad8a11db49243c3f.jpg'
-  - '/media/a31bbeac5aa425e37a0460393fb9c9dd.jpg'
+  - '../media/9aa92bdcae77be22a1411485940e1ace.jpg'
+  - '../media/f74a16058861f74a30a2761e963f39d5.jpg'
+  - '../media/d9e17f449eb44cf2f9483f818a04bedb.jpg'
+  - '../media/1378c5fc9abd9b09ad8a11db49243c3f.jpg'
+  - '../media/a31bbeac5aa425e37a0460393fb9c9dd.jpg'
 tags:
   - 'house'
   - 'works'

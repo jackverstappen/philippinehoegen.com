@@ -1,11 +1,11 @@
 ---
 title: 'Showing and Hiding'
-cover: '/media/6d5ceab117b665d41f3591644a982be9.jpg'
+cover: '../media/6d5ceab117b665d41f3591644a982be9.jpg'
 media:
-  - '/media/ecd8bd6bf4d50312c7d2d10aa172aeca.jpg'
-  - '/media/3e56fd625dec137ac5c1950f7655e595.jpg'
-  - '/media/8e462be87305e6f755be13a9a6b452ee.jpg'
-  - '/media/902bc3f4c5a821268138308ff0a415d8.jpg'
+  - '../media/ecd8bd6bf4d50312c7d2d10aa172aeca.jpg'
+  - '../media/3e56fd625dec137ac5c1950f7655e595.jpg'
+  - '../media/8e462be87305e6f755be13a9a6b452ee.jpg'
+  - '../media/902bc3f4c5a821268138308ff0a415d8.jpg'
 tags:
   - 'display'
   - 'research'

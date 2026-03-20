@@ -1,8 +1,8 @@
 ---
 title: 'A Printed Other Version'
-cover: '/media/0114a679e2b09345bae9ac3630d93b4d.jpg'
+cover: '../media/0114a679e2b09345bae9ac3630d93b4d.jpg'
 media:
-  - '/media/46fa88aa4116e045100a6326c71705e1.jpg'
+  - '../media/46fa88aa4116e045100a6326c71705e1.jpg'
 tags:
   - 'capture'
   - 'works'

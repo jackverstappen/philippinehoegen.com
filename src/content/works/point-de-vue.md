@@ -1,11 +1,11 @@
 ---
 title: 'Point de Vue'
-cover: '/media/d7ee970278101c7c984826957cf357d7.jpg'
+cover: '../media/d7ee970278101c7c984826957cf357d7.jpg'
 media:
-  - '/media/f7f365d3a9b58ce195df9bcb7be4d1bb.jpg'
-  - '/media/395c416925a83f3a93471398f365c829.jpg'
-  - '/media/586487dda74ecc3cd81bd47d63239443.jpg'
-  - '/media/bbc9339376582d30f74c3ad8af1c369f.jpg'
+  - '../media/f7f365d3a9b58ce195df9bcb7be4d1bb.jpg'
+  - '../media/395c416925a83f3a93471398f365c829.jpg'
+  - '../media/586487dda74ecc3cd81bd47d63239443.jpg'
+  - '../media/bbc9339376582d30f74c3ad8af1c369f.jpg'
 tags:
   - 'exhibition'
 ---

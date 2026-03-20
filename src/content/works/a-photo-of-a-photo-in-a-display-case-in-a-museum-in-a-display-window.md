@@ -1,11 +1,11 @@
 ---
 title: 'A Photo of a Photo in a Display Case in a Museum in a Display Window'
-cover: '/media/b2308f58675dd8241eb289edbc2d7c7d.jpg'
+cover: '../media/b2308f58675dd8241eb289edbc2d7c7d.jpg'
 media:
-  - '/media/278de9d7dccba1a559029a1b6b0a6001.jpg'
-  - '/media/af0445536e0d48d35f2b714ab98eba78.jpg'
-  - '/media/462673e6417dcfe0d6915a435930107d.jpg'
-  - '/media/945ac2c25e998be9718771d058828c70.jpg'
+  - '../media/278de9d7dccba1a559029a1b6b0a6001.jpg'
+  - '../media/af0445536e0d48d35f2b714ab98eba78.jpg'
+  - '../media/462673e6417dcfe0d6915a435930107d.jpg'
+  - '../media/945ac2c25e998be9718771d058828c70.jpg'
 tags:
   - 'works'
   - 'display'

@@ -1,11 +1,11 @@
 ---
 title: 'Fortress: Undo'
-cover: '/media/9723511532797c74cd1ce2546a389300.jpg'
+cover: '../media/9723511532797c74cd1ce2546a389300.jpg'
 media:
-  - '/media/4412d757095ff22effaddb400f4ff62d.jpg'
-  - '/media/9aa853ae12783cd0f6b8d3d50372b10e.jpg'
-  - '/media/bbcc9763be22b199be9c86fa0ae454a6.jpg'
-  - '/media/4cb481df8d502b8c099b23871e7fd5d8.jpg'
+  - '../media/4412d757095ff22effaddb400f4ff62d.jpg'
+  - '../media/9aa853ae12783cd0f6b8d3d50372b10e.jpg'
+  - '../media/bbcc9763be22b199be9c86fa0ae454a6.jpg'
+  - '../media/4cb481df8d502b8c099b23871e7fd5d8.jpg'
 tags:
   - 'house'
   - 'works'

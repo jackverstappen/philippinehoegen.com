@@ -1,14 +1,14 @@
 ---
 title: 'Practice Based Research Lectorate AKV St Joost'
-cover: '/media/fdc21f9d9f9a443667dbbf00325817b5.jpg'
+cover: '../media/fdc21f9d9f9a443667dbbf00325817b5.jpg'
 media:
-  - '/media/7d883e1a729ce424052fe71cfb2ebd0a.jpg'
-  - '/media/5c591e0f55b49f55a4659d26ab887b33.jpg'
-  - '/media/d594452d8ca41f820cb55705c11bfec9.jpg'
-  - '/media/0bf807d88e638251fd34adf769685b1d.jpg'
-  - '/media/41608f57d62f4dfd5c09f30c748ca682.jpg'
-  - '/media/e997e8d43e76b05aa76683aa58418df8.jpg'
-  - '/media/6b1d258234d4207a91cd40bfed4c4bbd.jpg'
+  - '../media/7d883e1a729ce424052fe71cfb2ebd0a.jpg'
+  - '../media/5c591e0f55b49f55a4659d26ab887b33.jpg'
+  - '../media/d594452d8ca41f820cb55705c11bfec9.jpg'
+  - '../media/0bf807d88e638251fd34adf769685b1d.jpg'
+  - '../media/41608f57d62f4dfd5c09f30c748ca682.jpg'
+  - '../media/e997e8d43e76b05aa76683aa58418df8.jpg'
+  - '../media/6b1d258234d4207a91cd40bfed4c4bbd.jpg'
 tags:
   - 'house'
   - 'research'

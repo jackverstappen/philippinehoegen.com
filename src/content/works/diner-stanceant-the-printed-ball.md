@@ -1,13 +1,13 @@
 ---
 title: 'Diner Stanceant & The Printed Ball'
-cover: '/media/3e5d64738460ffe69f4ba8fc6d4538b9.jpg'
+cover: '../media/3e5d64738460ffe69f4ba8fc6d4538b9.jpg'
 media:
-  - '/media/9f0d71edc388ccf2c5d9c3bd2aa0860c.jpg'
-  - '/media/8fafc1871907047ad747470b3a9c030b.jpg'
-  - '/media/7b3885f56859060aa853c130ce5e29c5.jpg'
-  - '/media/57bbee73a319e4441c399ad119fa4cbf.jpg'
-  - '/media/f0fbbd6fa17678fe6e610a6341fd7cdf.jpg'
-  - '/media/44838b37efe600d7738bcea56ca64ca6.jpg'
+  - '../media/9f0d71edc388ccf2c5d9c3bd2aa0860c.jpg'
+  - '../media/8fafc1871907047ad747470b3a9c030b.jpg'
+  - '../media/7b3885f56859060aa853c130ce5e29c5.jpg'
+  - '../media/57bbee73a319e4441c399ad119fa4cbf.jpg'
+  - '../media/f0fbbd6fa17678fe6e610a6341fd7cdf.jpg'
+  - '../media/44838b37efe600d7738bcea56ca64ca6.jpg'
 tags:
   - 'display'
   - 'research'

@@ -1,14 +1,14 @@
 ---
 title: 'The Beast is the Sovereign, WKV Stuttgart'
-cover: '/media/45a2584aaaa8b666166001a0e6f25bdc.jpg'
+cover: '../media/45a2584aaaa8b666166001a0e6f25bdc.jpg'
 media:
-  - '/media/e8fd2c4e02fc5540974ed7ea72ad7506.jpg'
-  - '/media/6507edab9587327ab573f1677fae2525.jpg'
-  - '/media/9daeac0e7a3c8dda6c4fd4194abecf8c.jpg'
-  - '/media/7abef2fcc7703e035dc89be30fe884d4.jpg'
-  - '/media/f213259e3581ec46dd848d4a8282de18.jpg'
-  - '/media/179d45f1eb9131105dc07dc7b50b374e.jpg'
-  - '/media/94ec95d739751e63e8ee975aa356c3f3.jpg'
+  - '../media/e8fd2c4e02fc5540974ed7ea72ad7506.jpg'
+  - '../media/6507edab9587327ab573f1677fae2525.jpg'
+  - '../media/9daeac0e7a3c8dda6c4fd4194abecf8c.jpg'
+  - '../media/7abef2fcc7703e035dc89be30fe884d4.jpg'
+  - '../media/f213259e3581ec46dd848d4a8282de18.jpg'
+  - '../media/179d45f1eb9131105dc07dc7b50b374e.jpg'
+  - '../media/94ec95d739751e63e8ee975aa356c3f3.jpg'
 tags:
   - 'exhibition'
 ---

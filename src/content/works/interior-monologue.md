@@ -1,11 +1,11 @@
 ---
 title: 'Interior Monologue'
-cover: '/media/52c44e51f1a78ca593d175a9d3725017.jpg'
+cover: '../media/52c44e51f1a78ca593d175a9d3725017.jpg'
 media:
-  - '/media/3be00d643b612d8a1806902b4cb052e4.jpg'
-  - '/media/bebbcd01e658431f90f26fe18d717187.jpg'
-  - '/media/d7c530d63d0ee5508faa135a995c3ad7.jpg'
-  - '/media/7ba80df49557c831607766771ea87458.jpg'
+  - '../media/3be00d643b612d8a1806902b4cb052e4.jpg'
+  - '../media/bebbcd01e658431f90f26fe18d717187.jpg'
+  - '../media/d7c530d63d0ee5508faa135a995c3ad7.jpg'
+  - '../media/7ba80df49557c831607766771ea87458.jpg'
 tags:
   - 'capture'
   - 'works'

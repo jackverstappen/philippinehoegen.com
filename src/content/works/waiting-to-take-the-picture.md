@@ -1,9 +1,9 @@
 ---
 title: 'waiting to take the picture'
-cover: '/media/203c95cc8695649c2e9d27aac76c0c03.jpg'
+cover: '../media/203c95cc8695649c2e9d27aac76c0c03.jpg'
 media:
-  - '/media/b6aad1983f3723bde01cbecd83bfc01d.jpg'
-  - '/media/397836b1b82739b1071e495f303b0169.jpg'
+  - '../media/b6aad1983f3723bde01cbecd83bfc01d.jpg'
+  - '../media/397836b1b82739b1071e495f303b0169.jpg'
 tags:
   - 'capture'
   - 'works'

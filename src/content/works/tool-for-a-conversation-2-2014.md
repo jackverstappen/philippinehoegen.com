@@ -1,8 +1,8 @@
 ---
 title: 'Tool for a Conversation 2, 2014'
-cover: '/media/e38a975f97a8dac271ed1b65deee653b.jpg'
+cover: '../media/e38a975f97a8dac271ed1b65deee653b.jpg'
 media:
-  - '/media/2d7ef7f148dbe069234c73fee7fff174.jpg'
+  - '../media/2d7ef7f148dbe069234c73fee7fff174.jpg'
 tags:
   - 'image_and_word'
   - 'research'

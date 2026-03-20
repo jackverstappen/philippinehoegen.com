@@ -1,12 +1,12 @@
 ---
 title: 'Presentation DIS Seminar _Kunst en Onderzoek, 2019'
-cover: '/media/574c47f602f4d15408378c1427421286.jpg'
+cover: '../media/574c47f602f4d15408378c1427421286.jpg'
 media:
-  - '/media/1ad6fddab10df0c0919116bba692f5b9.jpg'
-  - '/media/92dca0ad1f84b44b12b05a79f9bdcf92.jpg'
-  - '/media/9e02054d55e8de673ffcd8ce8e6ba8dc.jpg'
-  - '/media/6c6189de4db0f3e0d40288b7e461b462.jpg'
-  - '/media/5a530f69f354840e784601db9ae314a4.jpg'
+  - '../media/1ad6fddab10df0c0919116bba692f5b9.jpg'
+  - '../media/92dca0ad1f84b44b12b05a79f9bdcf92.jpg'
+  - '../media/9e02054d55e8de673ffcd8ce8e6ba8dc.jpg'
+  - '../media/6c6189de4db0f3e0d40288b7e461b462.jpg'
+  - '../media/5a530f69f354840e784601db9ae314a4.jpg'
 tags:
   - 'display'
   - 'exhibition'

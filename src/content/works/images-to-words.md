@@ -1,6 +1,6 @@
 ---
 title: 'Images to Words'
-cover: '/media/ec3a2c67116eb31969bbc4eb0748b56d.jpg'
+cover: '../media/ec3a2c67116eb31969bbc4eb0748b56d.jpg'
 media:
 tags:
   - 'works'

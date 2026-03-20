@@ -1,11 +1,11 @@
 ---
 title: 'Arena, 2014'
-cover: '/media/cd8ba73ce097fa6cd6cc0880a137ec22.jpg'
+cover: '../media/cd8ba73ce097fa6cd6cc0880a137ec22.jpg'
 media:
-  - '/media/d71d70110d913f5244c536bf830c0424.jpg'
-  - '/media/a2e96b1cdc718153cb674d5a3451a936.jpg'
-  - '/media/0dc2e197633b55f1d28724509c56263d.jpg'
-  - '/media/fd78e0910ff65ff56161518a19a5b7db.jpg'
+  - '../media/d71d70110d913f5244c536bf830c0424.jpg'
+  - '../media/a2e96b1cdc718153cb674d5a3451a936.jpg'
+  - '../media/0dc2e197633b55f1d28724509c56263d.jpg'
+  - '../media/fd78e0910ff65ff56161518a19a5b7db.jpg'
 tags:
   - 'works'
   - 'display'

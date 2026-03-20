@@ -1,10 +1,10 @@
 ---
 title: 'Publication: KunstWordtTerugKunst'
-cover: '/media/963c119f08949cc93c7c0eb581ce1872.jpg'
+cover: '../media/963c119f08949cc93c7c0eb581ce1872.jpg'
 media:
-  - '/media/112f5ae8a7908a6e470ba0c9fbdc0658.jpg'
-  - '/media/f62cfebdc0727d84bc3bcb3ebb358286.jpg'
-  - '/media/daef2e6db4b087823f603c041d6dc7e5.jpg'
+  - '../media/112f5ae8a7908a6e470ba0c9fbdc0658.jpg'
+  - '../media/f62cfebdc0727d84bc3bcb3ebb358286.jpg'
+  - '../media/daef2e6db4b087823f603c041d6dc7e5.jpg'
 tags:
   - 'capture'
   - 'works'

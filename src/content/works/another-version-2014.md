@@ -1,12 +1,12 @@
 ---
 title: 'Another Version (2014)'
-cover: '/media/436f35c15c8b15d62cd8df20b698c257.jpg'
+cover: '../media/436f35c15c8b15d62cd8df20b698c257.jpg'
 media:
-  - '/media/76416a7c8d22b3d486bf08242a2d9696.jpg'
-  - '/media/7cfd208d636150c69af258dbd8c0e990.jpg'
-  - '/media/bfe6e87ebd1b2964c7e2a018162d5ded.jpg'
-  - '/media/5e18f7301287c0e8774b86e3ca12f48e.jpg'
-  - '/media/0812eb331c1a917c8c7828c0de7b7f33.jpg'
+  - '../media/76416a7c8d22b3d486bf08242a2d9696.jpg'
+  - '../media/7cfd208d636150c69af258dbd8c0e990.jpg'
+  - '../media/bfe6e87ebd1b2964c7e2a018162d5ded.jpg'
+  - '../media/5e18f7301287c0e8774b86e3ca12f48e.jpg'
+  - '../media/0812eb331c1a917c8c7828c0de7b7f33.jpg'
 tags:
   - 'capture'
   - 'works'

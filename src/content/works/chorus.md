@@ -1,6 +1,6 @@
 ---
 title: 'Chorus'
-cover: '/media/709a397fe535dad2ff207a9363831bff.jpg'
+cover: '../media/709a397fe535dad2ff207a9363831bff.jpg'
 media:
 tags:
   - 'works'

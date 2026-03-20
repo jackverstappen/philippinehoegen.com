@@ -1,11 +1,11 @@
 ---
 title: 'Going Underground'
-cover: '/media/41857385d50f70dd80e14b774d171b3b.jpg'
+cover: '../media/41857385d50f70dd80e14b774d171b3b.jpg'
 media:
-  - '/media/b5760b1445344e9e309f8446a6cabeda.jpg'
-  - '/media/d32a0f352141728727e08bdd0a526ce7.jpg'
-  - '/media/da632efe9eac93a8f06b8c417c139436.jpg'
-  - '/media/e2e70e0fd2c0752584b83d7615b453fe.jpg'
+  - '../media/b5760b1445344e9e309f8446a6cabeda.jpg'
+  - '../media/d32a0f352141728727e08bdd0a526ce7.jpg'
+  - '../media/da632efe9eac93a8f06b8c417c139436.jpg'
+  - '../media/e2e70e0fd2c0752584b83d7615b453fe.jpg'
 tags:
   - 'border'
   - 'research'
