@@ -1,0 +1,24 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import WorkHeader from "../components/WorkHeader.astro";
+import WorkGrid from "../components/WorkGrid.astro";
+//import WorkList from "../components/WorkList.astro";
+
+const workCollection = await getCollection("works");
+const workTotal = workCollection.length;
+
+const allTags = [...new Set(
+  workCollection.flatMap((work) => work.data.tags ?? [])
+)].sort();
+
+const title = "WORKS";
+---
+
+<BaseLayout title={title}>
+  <WorkHeader tags={allTags}/>
+  <WorkGrid collection={workCollection}/>
+  <!---
+  <WorkList works={workCollection} />
+   -->
+</BaseLayout>

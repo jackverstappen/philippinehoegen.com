@@ -1,0 +1,68 @@
+---
+title: 'Another Version (2014)'
+cover: '/media/436f35c15c8b15d62cd8df20b698c257.jpg'
+media:
+  - '/media/76416a7c8d22b3d486bf08242a2d9696.jpg'
+  - '/media/7cfd208d636150c69af258dbd8c0e990.jpg'
+  - '/media/bfe6e87ebd1b2964c7e2a018162d5ded.jpg'
+  - '/media/5e18f7301287c0e8774b86e3ca12f48e.jpg'
+  - '/media/0812eb331c1a917c8c7828c0de7b7f33.jpg'
+tags:
+  - 'capture'
+  - 'works'
+  - 'display'
+  - 'image_and_word'
+---
+
+*Another Version*
+is a performance invovling a copy-machine and the collaboration of a small team to execute the copying. 
+  
+This version of the performance took place at PAF (Performing Arts Forum), St-Erme, Fr, on 30-07-2014.
+  
+It consisted of the reading aloud of a letter whilst being photocopied by the team, and and coincided with the (pre-)viewing of a trial version of the video installation 'Arena".
+  
+  
+  
+
+Wednesday, July 30th 2014, St Erme
+
+Dear Cecilia,
+
+Thank you for your questions, which you emailed to me on the 26th of May. They are complex and quirky, I have been saving them up but I cannot answer some.
+
+On Thursday June 19th I was David for the first time. David is a writer, that is to say: he writes. He hasn’t published anything and it’s not very clear whether he wants to, but he works on his novels in his spare time. Maybe it’s a hobby. He also has a job. He’s a bus conductor in Manchester, on the Manchester City Bus Service.
+
+David has a beard. He dresses quite conventionally but not sloppily. He’s a bit nervous with women, but can be quite cheeky too, some women respond well to this. He doesn’t have a girlfriend.  
+Basically he looks exactly like what he is: a cross between an unassuming semi-intellectual and a civil servant.
+
+I like being David. I like his shyness. I mean I like to allow myself to be shy and awkward. Shy and awkward is a relief. I like the fact that he doesn’t seem to need much recognition for the things he does. I like that he’s satisfied to write for the sake of writing, without seeking attention for it. I think possibly that gives him room to write really well. It gives him the time and the space to be rigorous and attentive.
+
+It’s a shame that the glue of the beard is so itchy and uncomfortable. I’d like to wear it more often, maybe go out with it, or just be at home with it. Be at home as David. I would like to know how I would work, how I would sleep, shower, brush my teeth as David.   
+I should look for a better beard.
+
+You asked about the relation in my work to queer theory. For me one of the most important things about queerness and living queerness is instability of identity. It is a space in which identities can be unstable.
+
+Yesterday, during David and Annette’s interviews, Marie le Masson said about alter egos that there is danger in the practice of alter egos, of it becoming just a pose, an empty gesture, and also that it can open up into new sets of clichés, codes of normalcy, which I think is absolutely true. You could say David is, in his way, a cliché of man-ness. On the other hand, there is something exciting about trying on that coat, that normal coat, to see how it sits on me. It is playful, and a serious game.
+
+You also asked me about the body snatcher, the cover, the double … or, the word I use a lot, the version.
+
+The video installation called Arena that is showing upstairs is part of an on-going examination into the nature of display, and the ways in which objects and bodies perform or are made to perform, through their display. The material for this work was shot at the Mission Museum in Steyl. The museum holds a collection of animals and artifacts that were collected by missionaries from the Steyl Monastery during their travels all over the world in the 19th and early 20th centuries. The museum was built specially to house the collection and its display has never been changed since it was first installed in the 1930’s. It uniquely reveals and exemplifies the perceptions and views of its time and the animals’ bodies perform these perceptions and ideologies. If works can have aims, the aim of this work is to, if not deconstruct, at least tug at the apparatus of the display and open up the possibility of a different relationship between the viewer and the animals on display.
+
+The title, *Arena*, denotes a place of combat, contests and other spectacles. It is also connected to a zoological term: the lekking arena: a site or territory in which an aggregation of animals, usually males, gather to engage in competitive displays that may entice visitors of the opposite sex who are surveying prospective partners for copulation. The arena is the place, the site, in which to display whichever striking feature the displayer possesses.
+
+I have been very busy with this lekking arena in the past months. Originally I thought I would work with it as a structure for a game. But more and more it is becoming a tool, either to organize a situation, a sort of score, or to analyze a situation, by using the simple categories of ‘roles’ that it offers, or as way to name: to formulate very simply who is doing what and how and why. In the lekking arena we identify 3 roles: the displayers (those who are deliberately showing something of themselves, they are displaying) the responders: those at whom the displaying is directed and who, through the way they respond, influence the organization of the displayers, and the zoologists who look upon all this activity and give them words, names and formulate ideas about them, either from a distance, a far off stance, or observing through proximity and participation, as Jan Maschelein called it.  
+We could use this tool to look at what we’re doing here. Who is displaying, who are the responders and who are the zoologists?
+
+Probably we are constantly shifting from one role to the next. Perhaps we can become aware of when we do this and why, and take note of which objects are participating in the arena.
+
+In the mission museum are versions of the animals: perverted versions, perhaps even parodies, but they demand attention in the way an apparition can, or a mirror image, or a life-size projection of ones-self. This is the premise of the work; it addresses these versions. The camera seeks them out, re-frames them, re-displays them. The film is made of slow vertical pans that map the entire collection. The camera’s position is close up; skin, fur and feathers take equal attention, as do painted backdrops, stones and attributes. As we stand before the projection, larger than life, of these animals, we are all in the arena. What, for me, becomes unclear, and what is at issue, is: Who is displaying what and for whom? Where or what is the arena, who is the audience, who is looking at whom?
+
+In the opening week Elke, when we were talking about versions, offered a comment that was something like this: a version that demands attention, that demands the autonomy to speak, is perhaps a version that somehow doesn’t quite fit, that sits uncomfortably with you.
+
+I am not sure what it is that makes a version such a version but my sense is that in many cases it has to do with a gesture of display. This is not necessarily a voluntary gesture. It can be forced upon it as is the case of the animals, or here, as is the case of this photocopied version of me. Somewhere in the process of its coming into being and its being put on display, it is possible that it could start to ask for something, that it could begin to look back at us.
+
+Dear Cecilia, I think I barely answered any of you questions, I hope however that this letter held some meaning or at least some entertainment,
+
+Playfully yours,
+
+Philippine

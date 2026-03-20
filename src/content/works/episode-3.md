@@ -1,0 +1,30 @@
+---
+title: 'What is Work? Episode 3: What is the Value of Work?'
+cover: '/media/99a8a8172b868438c943a4b4b7e2ff3e.jpg'
+media:
+  - '/media/a61ee671dbe94297a3d5f48441657094.jpg'
+  - '/media/9b859f184712479177b2d6ed201d2598.jpg'
+  - '/media/514b1dffb9f1999b24e61e1160be3652.jpg'
+tags:
+  - 'house' 
+  - 'works' 
+  - 'display' 
+  - 'agent_and_informer'
+  - 'image_and_word'
+---
+
+
+What is Work? Episode 3: What is the Value of Work?
+  
+Kunsthal Gent, Thursday May 6th, 2021.
+  
+Philippine Hoegen, Julia Reist, Miriam Hempel and guests.
+  
+  
+For this episode we sent out an open call, looking for people who wanted to discuss the value of their work. We dived into the questiosn of value and current valorisation systems on our/their work. On appointment we enterd into conversations with people from different fields and perspectives, and we mapped the collective findings visually.
+  
+
+Each individual was asked to give a score for the value of their work on 12 different dimensions, collectively building up a giant spider chart on the floor of the Kunsthal Gent. This process was captured as a time-lapse video.
+
+We then asked Jack Verstappen if, through (data) analysis, any tentative conclusions could be drawn. He translated a graphic digital rendering of the end result into numeric data and, putting some charts together, visualised the data in various ways: [https://observablehq.com/@jackverstappen/what-is-work  
+](https://observablehq.com/@jackverstappen/what-is-work)Scoring high are the possibility of self expression at work, having a sense of agency or autonomy, gaining skills and knowledge, being appreciated, having a social impact, and working in a caring environment. Interestingly, power, social status and money got the lowest scores.

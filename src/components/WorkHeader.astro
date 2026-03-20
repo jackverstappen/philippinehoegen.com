@@ -1,0 +1,299 @@
+---
+type Props = {
+  tags: string[];
+};
+
+const { tags } = Astro.props;
+---
+
+<header class="title-header">
+  <h2>Works</h2>
+
+  <div class="title-header__row">
+    <span id="header-caption" class="title-header__caption"></span>
+
+    <div class="title-header__controls">
+      <input
+        type="search"
+        id="search-input"
+        placeholder="Search"
+        aria-label="Filter works by title"
+        autocomplete="off"
+      />
+
+      {tags.length > 0 && (
+        <div class="tag-dropdown-wrap">
+          <button
+            type="button"
+            id="tag-trigger"
+            class="tag-trigger"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+          >
+            Tags
+            <span id="tag-badge" class="tag-badge" hidden></span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+              <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+
+          <div
+            id="tag-dropdown"
+            class="tag-dropdown"
+            role="listbox"
+            aria-multiselectable="true"
+            hidden
+          >
+            <div class="tag-dropdown__header">
+              <span id="tag-filter-by-tag">Filter by tag</span>
+              <button type="button" id="tag-clear" class="tag-clear">Clear</button>
+            </div>
+            <ul class="tag-dropdown__list">
+              {tags.map((tag) => (
+                <li>
+                  <label class="tag-option">
+                    <input type="checkbox" name="tag" value={tag} autocomplete="off" />
+                    {tag}
+                  </label>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      )}
+    </div>
+  </div>
+</header>
+
+<style>
+  .title-header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .title-header__caption {
+    font-size: 16px;
+    color: var(--color-text-secondary);
+  }
+
+  .title-header__controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 360px;
+    flex-shrink: 0;
+  }
+
+  #search-input {
+    font-size:16px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .tag-dropdown-wrap {
+    position: relative;
+  }
+
+  .tag-trigger {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+  }
+
+  .tag-badge {
+    background: var(--color-text-primary);
+    color: var(--color-background-primary);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 999px;
+    padding: 1px 6px;
+    min-width: 18px;
+    text-align: center;
+    border: none;
+  }
+
+  .tag-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 200px;
+  background: var(--color-background-primary, #f4f4f4);
+  border: 1.5px solid var(--color-border-secondary, black);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  z-index: 50;
+}
+  .tag-dropdown__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 10px;
+    border-bottom: 0.5px solid var(--color-border-tertiary);
+    font-size: 12px;
+    color: var(--color-text-secondary);
+  }
+
+  #tag-filter-by-tag {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    background: none;
+    border: none;
+    padding: 2px 4px;
+  }
+
+  .tag-clear {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px 4px;
+  }
+
+  .tag-clear:hover { color: var(--color-text-primary); }
+
+  .tag-dropdown__list {
+    list-style: none;
+    margin: 0;
+    padding: 4px;
+    overflow-y: auto;
+  }
+
+  .tag-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--color-text-primary);
+  }
+
+  .tag-option:hover { background: var(--color-background-secondary); }
+</style>
+
+<script>
+  function getSelectedTags(): string[] {
+    return Array.from(
+      document.querySelectorAll<HTMLInputElement>('input[name="tag"]:checked')
+    ).map(cb => cb.value);
+  }
+
+  function updateBadge() {
+    const badge   = document.getElementById('tag-badge') as HTMLElement | null;
+    const trigger = document.getElementById('tag-trigger') as HTMLButtonElement | null;
+    const count   = getSelectedTags().length;
+    if (!badge) return;
+    badge.hidden      = count === 0;
+    badge.textContent = String(count);
+    trigger?.setAttribute('aria-label', count > 0 ? `Tags — ${count} selected` : 'Tags');
+  }
+
+  function dispatchFilter() {
+    const input = document.getElementById('search-input') as HTMLInputElement | null;
+    document.dispatchEvent(new CustomEvent('hex-filter', {
+      detail: {
+        searchTerm: input?.value.trim().toLowerCase() ?? '',
+        tags: getSelectedTags(),
+      }
+    }));
+  }
+
+function openDropdown() {
+  const dd      = document.getElementById('tag-dropdown') as HTMLElement | null;
+  const trigger = document.getElementById('tag-trigger') as HTMLElement | null;
+  if (!dd) return;
+
+  // Calculate available space below the trigger
+  const rect      = trigger!.getBoundingClientRect();
+  const available = window.innerHeight - rect.bottom - 16; // 16px breathing room
+
+  // Apply dynamic max-height to the scrollable list, not the whole dropdown
+  const list = dd.querySelector<HTMLElement>('.tag-dropdown__list');
+  if (list) list.style.maxHeight = `${Math.max(available - 40, 80)}px`; // 40px for header row, 80px minimum
+
+  dd.hidden = false;
+  trigger?.setAttribute('aria-expanded', 'true');
+}
+  function closeDropdown() {
+    const dd      = document.getElementById('tag-dropdown') as HTMLElement | null;
+    const trigger = document.getElementById('tag-trigger') as HTMLElement | null;
+    if (!dd) return;
+    dd.hidden = true;
+    trigger?.setAttribute('aria-expanded', 'false');
+  }
+
+  function toggleDropdown() {
+    const dd = document.getElementById('tag-dropdown') as HTMLElement | null;
+    dd?.hidden ? openDropdown() : closeDropdown();
+  }
+
+  function onHexHover(e: Event) {
+    const { slug } = (e as CustomEvent).detail;
+    const caption = document.getElementById('header-caption') as HTMLElement | null;
+    if (caption) caption.textContent = slug ?? '';
+  }
+
+  function init() {
+    const input   = document.getElementById('search-input') as HTMLInputElement | null;
+    const trigger = document.getElementById('tag-trigger') as HTMLElement | null;
+    const clear   = document.getElementById('tag-clear') as HTMLElement | null;
+
+    // Reset state on navigation
+    if (input) input.value = '';
+    document.querySelectorAll<HTMLInputElement>('input[name="tag"]')
+      .forEach(cb => { cb.checked = false; });
+    updateBadge();
+    closeDropdown();
+
+    // Search input
+    let debounce: ReturnType<typeof setTimeout>;
+    input?.addEventListener('input', () => {
+      clearTimeout(debounce);
+      debounce = setTimeout(dispatchFilter, 200);
+    });
+
+    // Trigger toggle
+    trigger?.addEventListener('click', toggleDropdown);
+
+    // Checkboxes
+    document.querySelectorAll<HTMLInputElement>('input[name="tag"]')
+      .forEach(cb => {
+        cb.addEventListener('change', () => {
+          updateBadge();
+          dispatchFilter();
+        });
+      });
+
+    // Clear button
+    clear?.addEventListener('click', () => {
+      document.querySelectorAll<HTMLInputElement>('input[name="tag"]')
+        .forEach(cb => { cb.checked = false; });
+      updateBadge();
+      dispatchFilter();
+    });
+
+    // Close on outside click
+    document.addEventListener('click', (e) => {
+      const wrap = document.querySelector('.tag-dropdown-wrap');
+      if (wrap && !wrap.contains(e.target as Node)) closeDropdown();
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeDropdown();
+    });
+
+    // Hover caption — managed inside init to handle navigation correctly
+    document.removeEventListener('hex-hover', onHexHover);
+    document.addEventListener('hex-hover', onHexHover);
+  }
+
+  init();
+  document.addEventListener('astro:page-load', init);
+</script>

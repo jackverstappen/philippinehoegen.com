@@ -1,0 +1,25 @@
+---
+title: 'Ventriloquists III, Narrative Matters version'
+cover: '/media/40af2964c9313044f6c2b1f38866fd7c.jpg'
+media:
+  - '/media/af6ca795cb44e07e5a6f55b16b2e9238.jpg'
+  - '/media/650cfcd692dff6d563ed2f6c55b4970b.jpg'
+  - '/media/ae9c5c146df15f86776bc193a3a4edb1.jpg'
+  - '/media/2b758794ae0aa30b736bb7719a1e778f.jpg'
+tags:
+  - 'house'
+  - 'works'
+  - 'display'
+---
+
+Performance Ventriloquists III at the conference: Narrative Matters,
+  
+July 2-5, 2018, Enschede, the Netherlands. 
+
+*"Narrative Matters is a bi-annual conference on the study of narrative, which brings together scholars from different disciplines. The current booming interest for narrative or “story-telling” across academic disciplines and professional fields comes with a number of challenges. One of these challenges, as captured by the conference theme “the ABCs of narrative”, is the need for a better understanding and an interdisciplinary dialogue between A) the arts and humanities; B) the natural and computer sciences; C) the behavioral, social, and health sciences. A thorough interdisciplinary exchange can enrich our understanding of the cognitive, affective, motivational, social, political, ideological, or ethical workings of narrative, and provide insights from which also diverse professional uses of narrative can benefit. A second challenge is that of learning about exciting new developments in technological expression and computational analysis of narrative that might be productive both for researchers and professionals. A third challenge the “ABCs of narrative” aims to address is the need to stimulate “critical narrative savviness” among citizens, in particular in the many professional practices in which narrative or story-telling play a central role. A keen critical acumen and sense of responsibility are needed, in our days as much as ever in the past, to detect and resist unwanted effects of narrative world-making and persuasion."*
+
+Ventriloquists III (2nd version)  
+As an artist engaging with issues of display, objectness and personhood, with a practice consisting primarily of performance, collaborative and performative events and interventions, I would like to propose a performance for Narrative Matters.  
+The performance is part of a research entitled 'The Self as a Relational Infrastructure in Process', commissioned by the Expertise Centre for Art and Design at Avans University. It is a practice-based enquiry into the strategies and technologies we use to create other versions of ourselves, and what the existence of those versions means for our understanding of the self.   
+The performance is called Ventriloquists. The act of ventriloquizing is commonly called the ability to ‘throw’ one's voice. Throwing the voice can mean to give voice to an object, to another person, another version of that person, or of the self. But it can also be understood as forcing one’s voice upon another, or throwing it away as in rejecting one’s own voice. Or more simply: giving it away.   
+There are 3 chapters in the 25-minute performance, in each I apply a different strategy of ‘throwing the voice’ or ‘re-voicing’. In the course of the performance it becomes clear that these simple strategies are in effect transpositions of narratives, producing and exercising other versions, (re-)interpretations, in short: plurality. The plurality of voices, the shifting of context, of body etc., destabilizes the notion of ‘author’ and ‘authority’, of an original, singular narrative, and with that the nature of narrative itself: An instability which is itself performed.

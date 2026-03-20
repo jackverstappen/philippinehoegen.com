@@ -1,0 +1,188 @@
+---
+/**
+ * HexGrid.astro
+ *
+ * Animated hexagonal grid background component inspired by the Observable Plot
+ * homepage (observablehq.com/plot). Generates a dense flat-top hexagonal grid
+ * in inline SVG; each polygon is driven by a pure-CSS @keyframes animation with
+ * a staggered delay derived from its grid position, creating a continuous
+ * diagonal-wave colour ripple — exactly the technique used in the original.
+ *
+ * Usage:
+ *   <HexGrid />
+ *   <HexGrid rows={14} cols={22} hexSize={28} class="my-hero-bg" />
+ *
+ * Props
+ *   rows       number   rows of hexagons         (default 18)
+ *   cols       number   columns of hexagons       (default 28)
+ *   hexSize    number   circumradius in px         (default 22)
+ *   gap        number   inset gap between hexes    (default 1.5)
+ *   duration   number   base animation cycle in s  (default 7)
+ *   animated   boolean  toggle the animation       (default true)
+ *   class      string   extra classes on <svg>
+ */
+
+const {
+  rows      = 18,
+  cols      = 28,
+  hexSize   = 22,
+  gap       = 1.5,
+  duration  = 7,
+  animated  = true,
+  class: className = '',
+  ...rest
+} = Astro.props;
+
+// ─── Geometry ────────────────────────────────────────────────────────────────
+//  Flat-top hexagon:
+//    vertex k = 0..5: angle = 60° × k  (starting at 0° = right)
+//    column pitch = hexSize × 1.5
+//    row pitch    = hexSize × √3
+//    odd columns are shifted down by (hexSize × √3 / 2)
+
+const R      = hexSize;
+const IR     = R - gap / 2;          // inset radius (for visual gap)
+const sqrt3  = Math.sqrt(3);
+const colW   = R * 1.5;
+const rowH   = R * sqrt3;
+
+/** Return the SVG `points` string for a flat-top hexagon centred at (cx, cy). */
+function hexPoints(cx, cy, r) {
+  const pts = [];
+  for (let k = 0; k < 6; k++) {
+    const a = (Math.PI / 3) * k;
+    pts.push(`${(cx + r * Math.cos(a)).toFixed(3)},${(cy + r * Math.sin(a)).toFixed(3)}`);
+  }
+  return pts.join(' ');
+}
+
+/** Build the list of hexagon descriptors. */
+const hexes = [];
+for (let c = 0; c < cols; c++) {
+  const cx = R + c * colW;
+  const yOffset = c % 2 === 1 ? rowH / 2 : 0;
+  for (let r = 0; r < rows; r++) {
+    const cy = R * sqrt3 / 2 + r * rowH + yOffset;
+    hexes.push({
+      points : hexPoints(cx, cy, IR),
+      /** Wave delay: diagonal front travels top-left → bottom-right.
+       *  The modulo keeps the value inside [0, wavePeriod). */
+      delayFrac : ((c + r * 1.6) % (cols + rows * 1.6)) / (cols + rows * 1.6),
+      /** Colour class index cycles through the 8-colour palette. */
+      colorIdx  : (c * 3 + r * 7) % 8,
+    });
+  }
+}
+
+// SVG viewport
+const svgW = R + (cols - 1) * colW + R;
+const svgH = R * sqrt3 / 2 + (rows - 1) * rowH + rowH / 2 + R * sqrt3 / 2;
+
+// Total animation spread: we want the last hex to start its first colour
+// hit at ~= duration seconds after the first hex.
+const maxDelaySec = duration * 0.9;
+
+// Observable's categorical 10 colour palette — the exact hues used on
+// their plot page (teal, yellow, red-orange, blue, green, pink, purple, lavender)
+const palette = [
+  '#6cc5b0', // teal
+  '#efb118', // amber
+  '#ff725c', // red-orange
+  '#4269d0', // blue
+  '#3ca951', // green
+  '#ff8ab7', // pink
+  '#a463f2', // purple
+  '#97bbf5', // periwinkle
+];
+---
+
+<svg
+  class:list={['hex-grid', { 'hex-grid--animated': animated }, className]}
+  viewBox={`0 0 ${svgW.toFixed(2)} ${svgH.toFixed(2)}`}
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+  {...rest}
+>
+  {hexes.map(({ points, delayFrac, colorIdx }) => (
+    <polygon
+      points={points}
+      class={`hex hex-c${colorIdx}`}
+      style={`--delay:${-(delayFrac * maxDelaySec).toFixed(3)}s`}
+    />
+  ))}
+</svg>
+
+<style define:vars={{
+  duration: `${duration}s`,
+  c0: palette[0], c1: palette[1], c2: palette[2], c3: palette[3],
+  c4: palette[4], c5: palette[5], c6: palette[6], c7: palette[7],
+}}>
+  /* ── Container ─────────────────────────────────────────────────────────── */
+  .hex-grid {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+  }
+
+  /* ── Base hex appearance ────────────────────────────────────────────────── */
+  .hex {
+    fill: var(--hex-base, #e4e7ec);
+    stroke: none;
+    transition: fill 0.2s ease;
+  }
+
+  /* ── Dark-mode base ─────────────────────────────────────────────────────── */
+  @media (prefers-color-scheme: dark) {
+    .hex {
+      --hex-base: #1e2330;
+    }
+  }
+
+  /* ── Colour classes – each polygon knows its target accent colour ─────── */
+  .hex-c0 { --accent: var(--c0); }
+  .hex-c1 { --accent: var(--c1); }
+  .hex-c2 { --accent: var(--c2); }
+  .hex-c3 { --accent: var(--c3); }
+  .hex-c4 { --accent: var(--c4); }
+  .hex-c5 { --accent: var(--c5); }
+  .hex-c6 { --accent: var(--c6); }
+  .hex-c7 { --accent: var(--c7); }
+
+  /* ── Keyframe: rest → bloom → rest ──────────────────────────────────────
+     The hex spends most of its time at the base colour; it blooms to its
+     accent for ~20 % of the cycle.  The negative `animation-delay` means
+     each hex starts partway through the cycle, so the grid is already alive
+     on first render — no "cold-start" pop.
+  ─────────────────────────────────────────────────────────────────────────── */
+  @keyframes hex-bloom {
+     0%  { fill: var(--hex-base, #e4e7ec); opacity: 0.55; }
+    35%  { fill: var(--hex-base, #e4e7ec); opacity: 0.55; }
+    50%  { fill: var(--accent);            opacity: 1;    }
+    65%  { fill: var(--hex-base, #e4e7ec); opacity: 0.55; }
+   100%  { fill: var(--hex-base, #e4e7ec); opacity: 0.55; }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @keyframes hex-bloom {
+       0%  { fill: var(--hex-base, #1e2330); opacity: 0.7; }
+      35%  { fill: var(--hex-base, #1e2330); opacity: 0.7; }
+      50%  { fill: var(--accent);             opacity: 1;   }
+      65%  { fill: var(--hex-base, #1e2330); opacity: 0.7; }
+     100%  { fill: var(--hex-base, #1e2330); opacity: 0.7; }
+    }
+  }
+
+  /* ── Apply animation only when enabled ──────────────────────────────────── */
+  .hex-grid--animated .hex {
+    animation: hex-bloom var(--duration) ease-in-out var(--delay, 0s) infinite;
+    /* Negative delay = start mid-cycle so the wave is live immediately. */
+  }
+
+  /* ── Respect reduced-motion preference ──────────────────────────────────── */
+  @media (prefers-reduced-motion: reduce) {
+    .hex-grid--animated .hex {
+      animation: none;
+    }
+  }
+</style>

@@ -1,0 +1,29 @@
+---
+//import { getCollection } from "astro:content";
+import HexGrid from "../components/HexGrid.astro";
+
+const {
+  collection  = [],
+  ...rest
+} = Astro.props;
+
+
+const tiles = collection.map((p)=>({
+    id: `${p.id}`,
+    href: `/works/${p.id}`,
+    src:  p.data.cover?p.data.cover:"",
+    alt:  p.data.title?p.data.title:"",
+    title: p.data.title?p.data.title:"",
+    tags: p.data.tags
+}))
+---
+
+
+<HexGrid tiles={tiles} {...rest} />
+
+<style>
+    .hex-grid {
+        margin-inline:16px;
+        margin-block:8px;
+    }
+</style>

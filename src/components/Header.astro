@@ -7,58 +7,67 @@ const currentPath = Astro.url.pathname;
 // Define a map of routes
 const routes = {
   "/": "Home",
-  "/releases/": "Releases",
-  "/store/": "Store",
-  "/history/": "History",
-  "/contact/": "Contact",
+  "/works/": "Works",
+  "/news/": "News",
+  "/bio/": "Bio",
 };
 // Determine the active route
 const activeRoute = routes[currentPath] || null;
 ---
 
+<nav>
 <header>
-  <h1>
-    <a href="/" class={activeRoute === "Home" ? "current" : ""}
-      ><TextSlider content="Players Club" /></a>
-  </h1>
-  <span><TextSlider content="Record Label" /></span>
-  <ul>
-    <li>
-      <a
-        href="/releases/"
-        class={activeRoute === "Releases" ? "current" : ""}
-        data-astro-prefetch><TextSlider content="Releases" /></a>
-    </li>
-    <li>
-      <a
-        href="/history/"
-        class={activeRoute === "History" ? "current" : ""}
-        data-astro-prefetch><TextSlider content="History" /></a>
-    </li>
-    <li>
-      <a
-        href="/store/"
-        class={activeRoute === "Store" ? "current" : ""}
-        data-astro-prefetch><TextSlider content="Store" /></a>
-    </li>
-    <li>
-      <a
-        href="/contact/"
-        class={activeRoute === "Contact" ? "current" : ""}
-        data-astro-prefetch><TextSlider content="Contact" /></a>
-    </li>
-  </ul>
+  <div>
+    <h1><a href="/" class={activeRoute === "Home" ? "current" : ""}>PHILIPPINE HOEGEN</a></h1>
+  </div>
+  <div>
+    <ul>
+      <li><a
+          href="/works/"
+          class={activeRoute === "Works" ? "current" : ""}
+          data-astro-prefetch><TextSlider content="Works" /></a>
+      </li>
+      <li><a
+          href="/bio/"
+          class={activeRoute === "Bio" ? "current" : ""}
+          data-astro-prefetch><TextSlider content="Bio" /></a>
+      </li>
+      <li><a
+          href="/bio#contact"
+          class={activeRoute === "Contact" ? "current" : ""}
+          data-astro-prefetch><TextSlider content="Contact" /></a>
+      </li>
+      <li><a href="https://www.instagram.com/philippinehoegen/" rel="noopener" aria-label="Instagram, opens in a new tab. (Link goes to a different website and opens in a new window)." target="_blank">
+          <span class="icon instagram"></span>
+        </a>
+      </li>
+      <li><a href="https://www.linkedin.com/in/philippine-hoegen-a755561b/" rel="noopener" aria-label="Linkedin, opens in a new tab. (Link goes to a different website and opens in a new window)." target="_blank">
+          <span class="icon linkedin"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
 </header>
 <Separator />
+</nav>
+
 
 <style>
-  header {
+nav {
+    position: sticky; top: 0;
+    z-index: 1;
+    background-color: #f4f4f4;
+}
+header {
+
     position: relative;
-    display: grid;
-    grid-template-columns: min-content auto;
+    display: flex;
     font-weight: 700;
     padding: 1rem 0;
     gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+
   }
   header a.current {
     pointer-events: none;
@@ -72,7 +81,8 @@ const activeRoute = routes[currentPath] || null;
     display: flex;
     list-style: none;
     gap: 1rem;
-    margin: 0;
+    margin-block:0px;
+    margin-inline: 8px;
     padding: 0;
     grid-column: auto / span 2;
   }
@@ -81,4 +91,17 @@ const activeRoute = routes[currentPath] || null;
       grid-template-columns: 20vw 1fr auto auto;
     }
   }
+
+  .icon {
+    height: 20px;
+    width: 20px;
+    display: inline-block; 
+    background-repeat: no-repeat;             /* no tiling */
+    background-position: center;              /* center it */
+    background-size: contain;                 /* scale to fit 20×20, keep aspect */
+    /* Other styles here */
+  }
+
+  .instagram {background-image: url('/images/instagram.png');}
+  .linkedin {background-image: url('/images/linkedin.png');}
 </style>

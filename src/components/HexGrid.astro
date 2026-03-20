@@ -1,0 +1,381 @@
+---
+import { toAttributeString } from "astro/runtime/server/render/util.js";
+
+/**
+ * HexGrid.astro
+ *
+ * Hexagonal image-tile gallery, faithful to the Observable Plot homepage.
+ *
+ * ── How the hex shape works ───────────────────────────────────────────────
+ * Each tile uses the CSS clip-path polygon straight from the Observable
+ * source — no SVG <clipPath> required:
+ *
+ *   clip-path: polygon(50% 100%, 93.3% 75%, 93.3% 25%, 50% 0%, 6.7% 25%, 6.7% 75%)
+ *
+ * ── How the 2 px border works ─────────────────────────────────────────────
+ * CSS `border` is clipped away by `clip-path`, so the border is achieved by:
+ *   1. giving the `<a>` tile a background colour (the border colour)
+ *   2. positioning the `<img>` absolutely with `inset: 2px`
+ *
+ * Because clip-path clips the whole tile element (background included), the
+ * 2 px ring of background that peeks around the inset image forms a perfect
+ * hex-shaped border — no extra elements needed.
+ *
+ * ── Positioning ───────────────────────────────────────────────────────────
+ * Each `<a>` receives CSS custom properties via inline style:
+ *   --x  integer column index
+ *   --y  integer row index
+ *   --p  parity (0 | 1) — drives the half-row stagger on odd columns
+ *   --i  tile index — drives the sequential animation delay
+ *
+ * The container exposes --col-step, --row-step, --stagger as pixel values.
+ * The CSS transform reads them:
+ *   transform: translate(
+ *     calc(var(--x) * var(--col-step)),
+ *     calc(var(--y) * var(--row-step) + var(--p) * var(--stagger))
+ *   )
+ *
+ * ── Props ──────────────────────────────────────────────────────────────────
+ *  tiles       { href, src, alt, title? }[]   images to show
+ *  hexSize     number   tile width in px                 default 180
+ *  gap         number   gap between tiles in px          default 6
+ *  borderColor string   tile border / ring colour        default "white"
+ *  animated    boolean  enable the sweep animation       default true
+ *  class       string   extra classes on the container
+ */
+
+const {
+  tiles        = [],
+  hexSize      = 100,
+  gap          = 0,
+  borderWidth  = 0,
+  borderColor  = "black",
+  magnify      = 1.2,
+  animated     = true,
+  class: className = "",
+  ...rest
+} = Astro.props;
+
+// ─── Geometry ────────────────────────────────────────────────────────────────
+// Pointy-top hexagon inscribed in a W × H rectangle.
+// The clip-path polygon uses the 6.7 % / 93.3 % coordinates, which define a
+// regular pointy-top hex when H/W = 2/√3 ≈ 1.1547.
+
+const sqrtThree = Math.sqrt(3);
+const radius = (hexSize/2) + borderWidth;
+const pWidth = sqrtThree * radius;
+const pHeight = 2 * radius;
+const hSpace = pWidth+gap;
+const vSpace = (pHeight)  * .75 + gap;
+const W = pHeight;
+const H = pHeight;
+const C = W+gap/2;
+
+// ─── Grid layout ─────────────────────────────────────────────────────────────
+const grid = tiles.map((tile, i) => {
+  const delay = (1.5*Math.random()).toFixed(3);
+  return { ...tile, delay };
+});
+
+---
+
+<div
+  class:list={["hex-grid", { "hex-grid--animated": animated }, className]}
+  style={`
+    --col-w: ${C.toFixed(2)}px;
+    --tile-w: ${W.toFixed(2)}px;
+    --tile-h: ${H.toFixed(2)}px;
+    --gap: ${gap.toFixed(2)}px;
+    --vspace: ${vSpace.toFixed(2)}px;
+    --hspace: ${hSpace.toFixed(2)}px;
+    --border-width: ${borderWidth.toFixed(2)}px;
+    --border-color: ${borderColor};
+    --magnify: ${magnify};
+`}
+  {...rest}
+>
+  {grid.map(({ id, href, src, alt, title, tags, delay }) => (
+    <a
+      class="hex-tile"
+      href={href}
+      data-id={id}
+      data-title={title.toLowerCase()}
+      data-tags={tags?.join(' ').toLowerCase() ?? ''}
+      title={title ?? alt}
+      style={`--delay:${delay}`}
+    >
+      <img
+        src={src}
+        alt={alt}
+        title=""
+        width={W}
+        height={H}
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+  ))}
+</div>
+
+<style>
+  /* ── Container ──────────────────────────────────────────────────────────── */
+  .hex-grid {
+    padding: 0;
+    padding-right:calc(var(--gap) + var(--tile-w));
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(.866*var(--col-w)), 1fr));
+    grid-auto-rows: minmax(var(--tile-h));
+    column-gap:0;
+  }
+
+  /* ── Tile shell ─────────────────────────────────────────────────────────── */
+  .hex-tile {
+    position: absolute;
+    display: block;
+    width:  var(--tile-w);
+    height: var(--tile-h);
+
+    /*
+     * ── THE hex clip-path (straight from Observable Plot) ─────────────────
+     * Pointy-top hexagon: vertex at top-centre and bottom-centre.
+     * The 6.7 % / 93.3 % values are cos(30°) offsets that produce a
+     * regular hexagon when the aspect ratio is W:H = √3:2.
+     */
+
+    clip-path: url("#svgHexagon2");
+
+
+    background: var(--border-color, black);
+    --tx: rotateX(0deg) rotateY(0deg) translate(
+      calc(var(--offset-x) + (var(--col)* var(--hspace)) + var(--row-p,0)*.5*var(--hspace)),
+      calc(var(--offset-y) + var(--row) * var(--vspace))
+    );
+    transform: var(--tx);
+    /*
+    animation: hex-drop .35s cubic-bezier(.215, .61, .355, 1) var(2) backwards;
+    transition: transform .25s ease-out;
+    */
+    filter: grayscale(1) blur(1.2px); 
+    outline: none;
+    text-decoration: none;
+
+  }
+
+.hex-tile[hidden] {
+  display: none;
+}
+
+  /* ── Image — inset 2 px to expose the border ring ──────────────────────── */
+  .hex-tile img {
+    position: absolute;
+    inset: var(--border-width);
+    width:  calc(100% - 2*var(--border-width));
+    height: calc(100% - 2*var(--border-width));
+    object-fit: cover;
+    object-position: center;
+    filter: saturate(0) blur(1.2px);
+    clip-path: url("#svgHexagon2");
+    display: block;
+  }
+  
+  .hex-tile img:hover {
+    filter: blur(0px);
+    transform: scale(1);
+  }
+   
+
+  /* ── Hover / focus ──────────────────────────────────────────────────────── */
+  .hex-tile:hover,
+  .hex-tile:focus-visible {
+    /*
+    transform: translate(
+      calc(var(--x) * var(--col-step)),
+      calc(var(--y) * var(--row-step) + var(--p, 0) * var(--stagger))
+    ) scale(1.07);
+     */
+    transform: var(--tx) scale(var(--magnify)) ;
+     /*   animation: transform 0.5s ease-out;*/
+    animation: transform 0.5s ease-in-out;
+    /* Ensures smooth 3D rendering */
+    backface-visibility: hidden;
+    perspective: 1000px;
+
+    filter: brightness(1.1) saturate(0.15);
+    z-index: 10;
+  }
+
+  /* ── Sequential sweep animation ─────────────────────────────────────────
+   *
+   *  Each tile has a 60 s cycle (slow and calm, matching Observable's feel).
+   *  animation-delay: calc(var(--i) * -1s) seeds every tile at a unique
+   *  offset so the grid is already alive on first paint — no cold-start pop.
+   *  The bloom peaks at 50 % of the cycle.
+   */
+  @keyframes hex-bloom {
+      0% { filter: brightness(0.85) saturate(0.8);  opacity: 0.75; }
+     45% { filter: brightness(0.85) saturate(0.8);  opacity: 0.75; }
+     50% { filter: brightness(1.15) saturate(1.25); opacity: 1;    }
+     55% { filter: brightness(0.85) saturate(0.8);  opacity: 0.75; }
+    100% { filter: brightness(0.85) saturate(0.8);  opacity: 0.75; }
+  }
+
+  @keyframes hex-drop {
+      0% {transform: var(--tx) translateY(-100px) translateZ(400px)}
+      to {transform: var(--tx)}
+  }
+
+  @keyframes wiggle3d {
+    0% { transform: translate3d(0, 0, 0) rotateY(0deg); }
+    25% { transform: translate3d(-5px, 0, 10px) rotateY(-10deg); }
+    50% { transform: translate3d(5px, 0, 10px) rotateY(10deg); }
+    75% { transform: translate3d(-5px, 0, 10px) rotateY(-10deg); }
+    100% { transform: translate3d(0, 0, 0) rotateY(0deg); }
+  }
+
+  .hex-grid--animated .hex-tile.older {
+    animation: hex-drop 3s cubic-bezier(.215, .61, .355, 1) var(2) backwards ;
+  }
+
+  .hex-grid--animated .hex-tile-old {
+    opacity: 0.75;
+    animation: hex-bloom 6s ease-in-out calc(var(--i, 0) * -1s) infinite;
+  }
+
+  /* Hover wins over the running animation */
+  .hex-grid--animated .hex-tile:hover,
+  .hex-grid--animated .hex-tile:focus-visible {
+    animation: none;
+    filter: brightness(1.1) saturate(1.15);
+    opacity: 1;
+  }
+
+  /* ── Reduced motion ─────────────────────────────────────────────────────── */
+  @media (prefers-reduced-motion: reduce) {
+    .hex-tile,
+    .hex-grid--animated .hex-tile {
+      animation: none;
+      transition: none;
+      opacity: 1;
+    }
+    .hex-tile:hover,
+    .hex-tile:focus-visible {
+      filter: brightness(1.08);
+    }
+  }
+</style>
+
+<script>
+let grid: HTMLElement | null = null;
+let ro: ResizeObserver | null = null;
+
+function onHexFilter(e: Event) {
+  if (!grid) return;
+  
+  const { searchTerm, tags } = (e as CustomEvent).detail;
+  const searchActive = ((searchTerm && searchTerm.length>0) || (tags && tags.length))?true:false;
+
+  grid!.querySelectorAll<HTMLElement>('.hex-tile').forEach((tile) => {
+    const title   = (tile.dataset.title   ?? '').toLowerCase();
+    const tileTags = (tile.dataset.tags   ?? '').toLowerCase().split(' ');
+    const matchesText = title.includes(searchTerm); // || tileTags.includes(searchTerm);
+    const matchesTags = tags.every((t: string) => tileTags.includes(t));
+
+
+    tile.hidden = searchActive && (!matchesText || !matchesTags);
+  });
+  syncCols();
+}
+
+function syncCols() {
+  if (!grid) return;
+  const pxUnitsToNum = (px) => +px.substring(0, px.length - 2);
+
+  const allTiles = Array.from(grid!.querySelectorAll<HTMLElement>('.hex-tile'));
+  const visibleTiles = allTiles.filter((tile)=> !tile.hidden);
+
+  const computed = getComputedStyle(grid!);
+  const cols = computed.getPropertyValue('grid-template-columns').trim().split(' ').length;
+  const rows = Math.ceil(visibleTiles.length / cols);
+  const str = computed.getPropertyValue('--gap');
+  const gap = +str.substring(0, str.length - 2);
+  const gridBBox = grid.getBoundingClientRect();
+  const pxPaddingTop =  computed.getPropertyValue('padding-top');
+  const paddingTop = pxUnitsToNum(pxPaddingTop);
+  const tile = visibleTiles[0];
+  const tileBBox = tile.getBoundingClientRect();;
+  const totalHeight = rows ? (2+1.5*gap + tileBBox.height + (rows-1)*.75*(gap+tileBBox.height)): 0
+  const pxH = computed.getPropertyValue('--hspace');
+  const H = pxUnitsToNum(pxH);
+  const offsetX = (gridBBox.width - ((cols+.5)*H))/2; //paddingLeft + (gridBBox.width - ((cols+.5)*H))/4;
+
+  console.log('grid',cols,rows,totalHeight,tileBBox)
+  grid!.style.setProperty('--cols', `${cols}`);
+  grid!.style.setProperty('--rows', `${rows}`);
+  grid!.style.setProperty('--offset-x', `${offsetX-((0.133*tileBBox.width)/2)}px`);
+  grid!.style.setProperty('--offset-y', `${paddingTop}px`);
+  grid!.style.height = `${totalHeight}px`;
+
+  //grid!.querySelectorAll<HTMLElement>('.hex-tile')
+  visibleTiles.forEach((el, i) => {
+    el.style.setProperty('--i', `${i}`);
+    el.style.setProperty('--col', `${i % cols}`);
+    el.style.setProperty('--row', `${Math.floor(i / cols)}`);
+    el.style.setProperty('--col-p', `${(i%cols)%2}`);
+    el.style.setProperty('--row-p', `${(Math.floor(i / cols))%2}`);
+
+  });
+}
+
+
+function init() {
+  grid = document.querySelector('.hex-grid') as HTMLElement | null;
+  if (!grid) return;
+ 
+    // strip all previous event listeners by replacing each tile
+  grid!.querySelectorAll<HTMLElement>('.hex-tile').forEach((el, i) => {
+    el.replaceWith(el.cloneNode(true));
+  });
+
+  const tiles =grid!.querySelectorAll<HTMLElement>('.hex-tile');
+    
+  // Reset stale filter state from previous navigation
+  tiles.forEach((el) => { el.hidden = false; });
+
+  // Reset search input
+  const input = document.getElementById('search-input') as HTMLInputElement | null;
+  if (input) input.value = '';
+
+
+  // Attach listeners
+  tiles.forEach((el, i) => {
+    el.addEventListener('mouseenter', () => {
+      document.dispatchEvent(new CustomEvent('hex-hover', {
+        detail: { 
+          index: i, 
+          slug:el.dataset.title??'',
+          el 
+        }
+      }));
+    });
+
+    el.addEventListener('mouseleave', () => {
+      document.dispatchEvent(new CustomEvent('hex-hover', {
+        detail: { index: null, slug:null, el: null }
+      }));
+    });
+  });     
+
+  ro?.disconnect(); // clean up previous observer
+  ro = new ResizeObserver(syncCols);
+  ro.observe(grid);
+  syncCols();
+
+  document.removeEventListener('hex-filter', onHexFilter);
+  document.addEventListener('hex-filter', onHexFilter);
+
+}
+
+init();
+document.addEventListener('astro:page-load', init);  
+</script>

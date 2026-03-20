@@ -1,0 +1,148 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Separator from "../../components/Separator.astro";
+import Gallery from "../../components/Gallery.astro";
+
+
+export const getStaticPaths = async () => {
+  // Fetch all works from the 'works' collection
+  const workCollection = await getCollection("works");
+
+  // Map over the works to generate paths for each work's page
+  const paths = workCollection.map((work) => {
+    return {
+      params: { work_id: work.id }, // URL parameter for the work's ID
+      props: { workCollection, work }, // Pass the full work and all works as props
+    };
+  });
+
+  // Return the generated paths to Astro for  page generation
+  return paths;
+};
+
+
+type Props = {
+  workCollection: CollectionEntry<"works">[]; // Array of all works in the collection
+  work: CollectionEntry<"works">; // Current work being rendered
+};
+
+const { workCollection, work } = Astro.props; // Extract the works list and current work from the props
+
+// Extract the ID of the current work
+const work_id = work.id;
+
+// Find the index of the current work in the works array
+const currentWorkIndex = workCollection.findIndex((a) => a.id === work_id);
+
+// Calculate the index of the "next" work in the array (wrap around if at the last work)
+const prevWorkIndex = (workCollection.length+currentWorkIndex - 1) % workCollection.length;
+const nextWorkIndex = (workCollection.length+currentWorkIndex + 1) % workCollection.length;
+
+// Get the "next" work based on the calculated index
+const prevWork = workCollection[prevWorkIndex];
+const nextWork = workCollection[nextWorkIndex];
+const mediaCount = work.data.media ? work.data.media.length : 0;
+
+const slides = (!work.data.media || !work.data.media.length) ? [] : 
+  work.data.media.map((m,i)=>({
+    src: m,
+    alt: work.data.title,
+    caption: undefined, //`[ ${i} / ${work.data.media.length} ] - ${work.data.title}`,
+    credit: 'Philippine Hoegen'
+  }))
+
+// Render the content of the current work (e.g., markdown or MDX)
+const { Content } = await render(work);
+---
+
+<BaseLayout title={work.data.title}>
+  <section>
+    <header class="title-header">
+      <h2>
+        {work.data.title}
+      </h2>
+      <span class="faded">({work.data.title})</span>
+      <div>
+        <a href={`/works/${prevWork.id}`}>Prev</a>
+        <span class="faded">|</span>
+        <a href={`/works`}>View all</a>
+        <span class="faded">|</span>
+        <a href={`/works/${nextWork.id}`}>Next</a>
+      </div>
+    </header>
+    <Separator />
+    <div class="content-wrap">
+      <div>
+        <img
+          class="image fade-in cover"
+          src={work.data.cover}
+          alt={work.data.cover}
+        />
+        <span>{mediaCount} media-files associated</span>
+        <Gallery
+      images={slides}
+      label={work.data.title}
+      columns={3}
+    />
+      </div>
+      <div class="content">
+        <div class="tags">
+        <ul class="tag-list">
+          {(work.data.tags ? work.data.tags :[]).map((tag) => <li class="tag-item">{tag}</li>)}
+
+        </ul>
+        </div>
+        <h3>{work.data.title}</h3>
+        <Content />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+<style>
+    ul:before {
+            content: "TAGS: ";
+    }
+    ul {
+    font-size: .6875rem;
+        font-weight:700;
+        padding-inline-start: 0px;
+    }
+    ul li:first-child {
+        margin-left: 20px;
+    }
+    ul li { 
+        font-weight:700;
+        margin-inline:4px; list-style: none; display: inline; }
+
+
+  .content-wrap {
+    grid-template-areas: "img" "content" "works";
+    grid-template-columns: 100%;
+    @media screen and (min-width: 44em) {
+      grid-template-columns: 1fr auto;
+      grid-template-areas: "img img" "content works";
+    }
+    @media screen and (min-width: 50em) {
+      grid-template-columns: 30vw 1fr 170px;
+      grid-template-areas: "img content works";
+    }
+  }
+  .albums {
+    grid-area: works;
+  }
+  .content p:last-child {
+    margin-top: 2.5rem;
+    display: flex;
+  }
+  .cover {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+</style>

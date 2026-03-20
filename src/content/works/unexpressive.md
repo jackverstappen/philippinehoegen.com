@@ -1,0 +1,53 @@
+---
+title: 'Unexpressive'
+cover: '/media/92cc50681cfd5ed9e8fc9ed93a188753.jpg'
+media:
+  - '/media/1a1534c33783cba1c04782a1a7d2231b.jpg'
+  - '/media/68e1c914defb2afa20bed30741a9c54f.jpg'
+  - '/media/1794686130715e56cf9f223794fde390.jpg'
+  - '/media/1d5771bfc36e04d1a19121829345b8d6.jpg'
+tags:
+  - 'exhibition'
+---
+
+*Unexpressive*  
+  
+De Ketelfactory  
+Hoofdstraat 44  
+3114 gg Schiedam  
++31 (0)10 - 473 81 23 [info@deketelfactory.nl](mailto:info@deketelfactory.nl) deketelfactory.nl  
+Fr-sund 13.00 - 17.00 hrs   
+Opening Sunday 25 November 15.00 - 18.00 hrs  
+  
+  
+Artists:   
+Loek Grootjans  
+Philippine Hoegen  
+Mirjam Kuitenbrouwer  
+Wesley Meuris  
+Emma van der Put  
+Lon Robbé  
+Simon van Til   
+  
+Curator: Florette Dijkstra,   
+also editor and initiator of   
+KUNST WORDT TERUGKUNST  
+kunstwordtterugkunst.nl  
+  
+  
+Begin dit jaar werd KUNST WORDT TERUGKUNST, schrift voor nieuwe kunst opgericht. Het is ontstaan vanuit het verlangen een tijdschrift te maken door kunstenaars en vanuit kunst. In een tijd waarin er voor de kunst veel op het spel staat, lijkt het noodzakelijk een nieuw podium te creëren waar kunstenaars en schrijvers zelf verantwoordelijkheid nemen voor kunst. Zij betrekken het denken over kunst in hun werk en doen waar ze het over hebben.  
+Een van de inspiratiebronnen voor het tijdschrift is de kunstenaar Luciano Fabro die in een  
+reeks colleges zijn studenten opriep de bestaansvoorwaarden van kunst te onderzoeken. Want, zegt Fabro, sinds de rol van kunstenaars niet meer is ingebed in de maatschappij, zijn ze de bestaansvoorwaarden kwijt die hen vroeger als vanzelfsprekend vóór gingen. Ze zijn in een wereld geplaatst waarin het niet meer uitmaakt wat ze doen en waar en zelfs of ze het doen. Om het tij te keren zouden jonge kunstenaars op zoek moeten gaan naar nieuwe innerlijke instrumenten. Fabro weet zelf niet welke dat zijn.  
+KUNST WORDT TERUgKUNST wil een bijdrage leveren aan de zoektocht naar innerlijke instrumenten, waarmee de kunst zich kan verbinden.  
+De tentoonstelling Unexpressive toont het werk van kunstenaars uit de eerste vier nummers van KUNST WORDT TERUgKUNST. Expressie is voor hen geen doel maar middel tot het zoeken naar de voorwaarden van kunst in deze tijd. Met als gevolg dat ook het uiteindelijke beeld middel is en geen doel.
+
+Distillatie ‘Innerlijke instrumenten’  
+Zondag 13 januari 2013 van 13.00 tot 18.00 uur
+
+Wat bedoelde Luciano Fabro met ‘innerlijke instrumenten’? Hoe kan een kunstenaar ernaar op zoek gaan? Op de Distillatiedag van Unexpressive staan deze vragen centraal en vindt een rondgang plaats langs het werk van de kunstenaars. KUNST WORDT TERUgKUNST schrift nummer 4 zal die dag verschijnen.  
+Met medewerking van de kunstenaars, zangeres-componiste Plattèl en Peter Henk Steenhuis, schrijver-journalist, onder andere voor Trouw.
+
+Reservering verplicht via deketelfactory.nl
+
+De Ketelfactory in Schiedam stookt kunst. Nolet Distillery – producent van Ketel One  
+Wodka en Ketel 1 Jenever – wil een bijdrage leveren aan kunst en cultuur. Zij ondersteunt de Ketelfactory en stelt een historisch pand op haar terrein beschikbaar. De Ketelfactory staat onder leiding van Winnie Teschmacher.

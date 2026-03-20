@@ -1,0 +1,55 @@
+---
+title: 'Radio essay Border'
+cover: '/media/8acd27d3f04abab8c11abebaeb8d2b93.jpg'
+media:
+  - '/media/94868d435eeaaa23d6ac56dd1fa1be0b.jpg'
+  - '/media/f0b0637f09567d73ad57d76ac07f135e.jpg'
+  - '/media/6f6ca5dc52c9131defb456621aa87cf2.jpg'
+  - '/media/353c39e03c02859a10bc58dff1a774ff.jpg'
+tags:
+  - 'border'
+  - 'research'
+---
+
+*Radio essay 'De Grens', Uitzending 30 Juni 2012, radio L1   
+*radio essay ' Border', aired on june 30th 2012, radio L1  
+  
+[http://www.l1.nl/algemeen/183867-radio-essay-gren  
+s#.T_FRyDDkr2A](http://www.l1.nl/algemeen/183867-radio-essay-grens#.T_FRyDDkr2A)
+
+This radio essay is part of an on-going inquiry into physical, mental and political aspects of the concept of borders. Made in the context of the project Mapping the Landscape at Museum van Bommel van Dam (exhibition 02-09-2012 through 06-01-2013).   
+  
+With thanks to:  
+[Henk van Houtum](http://www.henkvanhoutum.nl)  
+[Dimitri Tokmetzis](http://www.dimitri-tokmetzis.nl/)  
+[Florian Schneider](http://kein.org)  
+[Wolfgang Linneweber](http://www.dialect.de/)  
+[Merel Theloesen](http://www.mereltheloesen.nl/)  
+[Saskia van de Wiel](http://www.vanbommelvandam.nl)  
+[Paul Hermans](http://www.vanbommelvan%20dam.nl)  
+and all interviewees  
+  
+**Persbericht van Museum van Bommel van Dam  
+****Mapping the Landscape: ****Philippine Hoegen in L1 Cultuurcafé**
+
+Kunstenaar Philippine Hoegen verkent al een aantal jaren de fysieke, mentale en politieke dimensies van het begrip grens. Voor het project *Mapping the Landscape* verdiepte ze zich in de ligging van Venlo aan de grenslijn. Hiervoor sprak ze met mensen met specialistische kennis en met bewoners aan Duitse en Nederlands zijde. Aan hen vroeg ze wat de grens voor hen betekent en wat ze merken van de veranderingen in het Nederlandse en Europese grensbeleid. Zijn grenzen nog nodig of maken ze deel uit van een verouderd wereldbeeld? In het programma Cultuurcafé op radio L1 blikt ze samen met presentator Frans Pollux middels geluidsfragmenten terug op de gevoerde gesprekken.
+
+**De grens**
+
+Volgens Hoegen strookt ons archetypisch beeld van de grens – een streep in het landschap – niet met de werkelijkheid. De grens laat zich op veel meer plaatsen ervaren dan langs de randen van de natie. Zo reikt hij landinwaarts naar vliegvelden en havens en bestaat hij op een complex en onzichtbaar niveau in digitale media en opgeslagen persoonsgegevens. De betekenis van een grens is bovendien afhankelijk van het persoonlijke profiel en kenmerken als nationaliteit of herkomst en daardoor voor iedereen anders. Hoegen stelt in haar project de vraag of we in plaats van de vertrouwde lijnen in de Bosatlas niet een nieuwe verbeelding van de hedendaagse grens nodig hebben.
+
+**Gesprekken met specialisten**
+
+Om dieper in te gaan op de manier waarop de grens tegenwoordig functioneert is Philippine Hoegen allereerst het gesprek aangegaan met drie professionals. Met Henk van Houtum, als docent en onderzoeker verbonden aan diverse universiteiten, sprak ze over 'de grens als geloofsconstruct, als afspraak, verlangen en als leugen'. Dimitri Tokmetzis publiceert over digitale persoonsgegevens, bewakingssystemen en hun implicaties voor onze maatschappij. Met hem sprak ze over het camerabewakingssysteem Amigo Boras, dat op vijftien punten langs de Nederlandse grens is aangebracht en een enorme hoeveelheid persoonsgegevens op kan slaan. Florian Schneider ten slotte, activist, filmmaker en onderzoeker aan de Jan van Eyck Academie, heeft ze bevraagd over zijn pleidooi voor een nieuw grensregime, waarbij transnationaliteit het sleutelbegrip vormt.
+
+**Interviews met buurtbewoners**
+
+Daarnaast is de betekenis van de grens vanuit het perspectief van bewoners uit de grensstreek opgetekend. In een camper op het Nolensplein in Venlo en bij mensen thuis heeft Hoegen met mensen van gedachten gewisseld over het contact met het buurland, over beweging en verhuizingen van het ene naar het andere land en de manier waarop een nabijheid van de grens bepalend wordt gevonden voor de eigen identiteit. Wat heeft het openstellen van de grenzen binnen Europa betekend? Kan men zich voorstellen dat de Europese binnengrenzen er over een tijd misschien niet meer zullen zijn?
+
+**Radio L1**
+
+Op zaterdag 30 juni blikt Philippine Hoegen op uitnodiging van presenator Frans Pollux op radio L1 terug op de gesprekken die zij heeft gevoerd. Daarbij wordt uitgebreid gebruik gemaakt van de geluidsfragmenten die zij in de regio heeft opgenomen. De uitzending is onderdeel van het programma Cultuurcafé en te beluisteren tussen 13.00 en 14.00 uur.
+
+**Mapping the Landscape**
+
+Tijdens de Floriade presenteert Museum van Bommel van Dam het project *Mapping the Landscape*. Acht kunstenaars reageren op het stedelijke en natuurlijke landschap in en rond Venlo en brengen opvallende eigenschappen in beeld. Tussen april en juni zijn de projecten van de kunstenaars te vinden in de openbare ruimte van de (Eu)regio. Het sluitstuk vormt een tentoonstelling in het museum, van 2 september t/m 6 januari. Meer informatie over het project vindt u op [www.mappingthelandscape.eu](http://www.mappingthelandscape.eu/).

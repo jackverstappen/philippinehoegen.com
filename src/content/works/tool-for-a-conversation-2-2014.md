@@ -1,0 +1,46 @@
+---
+title: 'Tool for a Conversation 2, 2014'
+cover: '/media/e38a975f97a8dac271ed1b65deee653b.jpg'
+media:
+  - '/media/2d7ef7f148dbe069234c73fee7fff174.jpg'
+tags:
+  - 'image_and_word'
+  - 'research'
+---
+
+with Cecilia Molano and Mala Kline
+
+**RULES OF THE GAME**
+
+**What is on the table?**
+
+A pack of 42 domino-cards. Some cards have 2 images, some 2 words, some an image and a word. Some have an image and a blank space, some a word and a blank space, one card has 2 blank spaces.
+
+** **
+
+**Aim of the game**
+
+The aim of the game to create connections (of similarity, opposition or otherwise) as the cards are laid.
+
+**Roles and rules for the participants**
+
+The game requires a minimum of four active players seated at the table. If there are more than 4 participants, 4 sit down and the others enter into the game as directed by the referee.
+
+Each participant at the table has a role:
+
+1. The Player: the player choses 1 of the 5 open cards or draws a closed card from the stack. He/she attaches one side of the card to one side of one of the cards on the table. The player then has 2 minutes to clarify his/her choice. If there are more than 4 participants, he leaves the table after having fulfilled his role.
+2. The Opponent (clockwise the person next to the player): the opponent refutes the players reasoning and, either proposing a different move or a different reasoning for the same move. The opponent may talk for 2 minutes. If there are more than 4 participants, he/she leaves the table after having fulfilled his/her role.
+3. The Defender (clockwise the person next to the player): the defender defends the players choice or argument. The defender may talk for 2 minutes. If there are more than 4 participants, he/she leaves the table after having fulfilled his/her role.
+4. The Referee (clockwise the person next to the player): the referee decides who has won the argument and therefor if the card should be moved or not. The referee also makes sure the players stick to the rules. If the participants in the game are more than 4 people, the referee, each time a player has fulfilled his role, choses who will replace him/her.
+
+** **
+
+**Starting position**
+
+Lay the shuffled pack of domino-cards face down on the table. Take the top card and place it open in the playing field.
+
+Now take the next top 5 cards and lay them open beside the pack. The game can start: 4 people sit down at the table and decide who is the player. The player choses 1 of the 5 open cards or take the top closed card off the pack. The each fulfills his role as described above.
+
+After a round has been completed, if 1 of the open 5 cards has been used by the former player, the new player replaces the missing 5th card with the top card off the stack.
+
+If there are only 4 participants, the roles move up clockwise one place.

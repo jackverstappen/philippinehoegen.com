@@ -1,13 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import ArtistGrid from "../components/ArtistGrid.astro";
-import ArtistGridHeader from "../components/ArtistGridHeader.astro";
 import Preloader from "../components/Preloader.astro";
 
-const allArtists = await getCollection("artists");
-const artistsTotal = allArtists.length;
-const title = "Players Club - All Artists";
+const title = "";
 ---
 
 <BaseLayout title={title}>
@@ -16,7 +12,85 @@ const title = "Players Club - All Artists";
     If you don’t want to use the preloader (e.g., for faster page load times or if you don’t require preloading images), you can safely remove the <Preloader /> component from this layout.
   -->
   <Preloader />
-  <ArtistGridHeader artistsTotal={artistsTotal} />
-  <ArtistGrid artists={allArtists} />
+  <div class="binary-grid">
+    <div class="card">
+      <p class="tag">artistic research project</p>
+      <h2>Performing Working</h2>
+      <p>In <b>Performing Working</b>, we look at work through the lens of performance. This artistic research project aims to address a broader social problem: the invisibility of the performative in healthcare work, and the invisibility of labour in art and performance.</p>
+      <p><b>Performing Working</b> will examine, on the one hand, the hidden performativity of work situations such as a hospital - the emotional, affective performances that are expected of care staff in order to fulfil the many different roles that the work requires, and equally of the non-staff: the work involved in fulfilling the role of the patient.</p>
+      <p>On the other hand, <b>Performing Working</b> looks at the many facets of the work involved in (performance) art, and tries to describe the - often invisible - labour of (performance) artists and art workers, and the many roles they too have to take in order to work in the complex field, to find out what it takes to do this work and what could make this work more sustainable.</p>
+      <p>Through <b>Performing Working</b>, we want to unravel the ambiguity of the labels performing and working, by a fruitful and productive crossing of both terms, and of the two domains of care and art. Put differently, we will look at work through the lens of performance. By using methods from artistic research and performance, the project aims to address a broader social problem: the invisibility of the performative in care work, and the invisibility of work in art and performance.</p>      
+      <p>Follow along in the <a href="https://www.researchcatalogue.net/view/2550715/2550716" class="cta" rel="noopener" aria-label="Research Catalogue, opens in a new tab. (Link goes to a different website and opens in a new window)." target="_blank">
+        Research Catalogue
+        </a> 
+      </p>
+      
+
+    </div>
+    <div class="card">
+      <h2>News</h2>
+    </div>
+</div>
+  
 </BaseLayout>
 <script src="../scripts/index.js"></script>
+<style>
+/* container */
+.binary-grid {
+    display:block;
+    padding-inline:32px;
+    gap:32px;
+}
+
+/* columns */
+.binary-grid > * {
+    padding:1rem;
+}
+
+.card {
+  margin-top:36px;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  border: 1.5px solid black;
+}
+
+  .icon {
+    height: 16px;
+    width: 16px;
+    display: inline-block; 
+    background-repeat: no-repeat;             /* no tiling */
+    background-position: center;              /* center it */
+    background-size: contain;                 /* scale to fit 20×20, keep aspect */
+    /* Other styles here */
+  }
+
+  .cta {
+    padding:4px;
+  border-radius: 8px;
+  background-color: #00000033;
+
+  border: 1.5px solid black;
+
+  }
+
+
+  .rc {background-image: url('/images/rc.png');}
+
+  .tag {
+    display: block;
+    align-items: center;
+    font-weight: 700;
+    color: goldenrod;
+    color: gray;
+  }
+
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .binary-grid {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}  
+</style>

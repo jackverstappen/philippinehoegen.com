@@ -10,9 +10,9 @@ export default defineConfig({
   },
   prefetch: true,
 
-  site: 'https://playersclub.crnacura.workers.dev/',
+  site: 'https://philippinehoegen.com.workers.dev/',
 
-  integrations: [sitemap()],
+  integrations: [sitemap() ],
   experimental: {
     svg: true,
   },
