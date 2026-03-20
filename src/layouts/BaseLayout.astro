@@ -25,20 +25,20 @@ const currentPage =
   Astro.url.pathname.replace(/\/$/, "").split("/").pop() || "home";
 ---
 
-<!---
+<!doctype html>
+<html lang="en" data-page={currentPage}>
+  <head>
+    <ClientRouter />
     <SEO
-      title={title}
-      description={description}
+      title="Philippine Hoegen - Visual Artist"
+      description="artistic research project aims broader social problems, like the invisibility of the performative in healthcare work, and the invisibility of labour in art and performance."
       charset="UTF-8"
       openGraph={{
         basic: {
-          title: title,
+          title: "Philippine Hoegen - Visual Artist",
           type: "image/jpeg",
-          image: "/playersclub-og.jpg",
+          image: "/philippinehoegen-og.jpg",
         },
-      }}
-      twitter={{
-        creator: "@codrops",
       }}
       extend={{
         // extending the default link tags
@@ -72,9 +72,6 @@ const currentPage =
         ],
         // extending the default meta tags
         meta: [
-          { name: "twitter:image", content: "/playersclub-og.jpg" },
-          { name: "twitter:title", content: title },
-          { name: "twitter:description", content: description },
           { name: "viewport", content: "width=device-width" },
           { name: "msapplication-TileColor", content: "#000000" },
           { name: "theme-color", content: "#ffffff" },
@@ -82,11 +79,6 @@ const currentPage =
         ],
       }}
     />
- -->
-<!doctype html>
-<html lang="en" data-page={currentPage}>
-  <head>
-    <ClientRouter />
   </head>
   <body>
     <ClipPaths/>
@@ -94,7 +86,6 @@ const currentPage =
     <Header />
     <main><slot /></main>
     <Footer />
-    <script src="../scripts/imageFade.js"></script>
   </body>
 </html>
 
