@@ -36,7 +36,6 @@ const tiles = await Promise.all(collection.map(async (p) => {
 }));
 ---
 
-<p>Base is really {base}</p>
 <HexGrid tiles={tiles} {...rest} />
 
 <style>
