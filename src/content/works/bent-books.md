@@ -1,12 +1,12 @@
 ---
 title: 'Bent Books'
-cover: '../media/ce06cc4b0771675d8adbeade093a3560.jpg'
+cover: '../../assets/media/ce06cc4b0771675d8adbeade093a3560.jpg'
 media:
-  - '../media/48f790eafdfaf34fbb8b5a54ffcb410c.jpg'
-  - '../media/e4042366eb31a61ecd45176e57c51c16.jpg'
-  - '../media/ac031b090f674b6a8fcb376bafefac76.jpg'
-  - '../media/14dc2e64e77224ed9c488c9d1f9bc576.jpg'
-  - '../media/c645bbc3cb8f63697eaa3384f9a5c731.jpg'
+  - '../../assets/media/48f790eafdfaf34fbb8b5a54ffcb410c.jpg'
+  - '../../assets/media/e4042366eb31a61ecd45176e57c51c16.jpg'
+  - '../../assets/media/ac031b090f674b6a8fcb376bafefac76.jpg'
+  - '../../assets/media/14dc2e64e77224ed9c488c9d1f9bc576.jpg'
+  - '../../assets/media/c645bbc3cb8f63697eaa3384f9a5c731.jpg'
 tags:
   - 'works'
 ---

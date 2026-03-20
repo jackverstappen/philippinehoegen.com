@@ -1,10 +1,10 @@
 ---
 title: 'Distillatie/Distillation'
-cover: '../media/e05a0b8e6e1c37954a00ea20cd5f4776.jpg'
+cover: '../../assets/media/e05a0b8e6e1c37954a00ea20cd5f4776.jpg'
 media:
-  - '../media/d35baa3dfa5d909f66f7a863f0474832.jpg'
-  - '../media/83c5721e6f482fd84d208b4cd1e11c1a.jpg'
-  - '../media/d85a70b156393264c84d88d236264bc2.jpg'
+  - '../../assets/media/d35baa3dfa5d909f66f7a863f0474832.jpg'
+  - '../../assets/media/83c5721e6f482fd84d208b4cd1e11c1a.jpg'
+  - '../../assets/media/d85a70b156393264c84d88d236264bc2.jpg'
 tags:
   - 'exhibition'
   - 'research'

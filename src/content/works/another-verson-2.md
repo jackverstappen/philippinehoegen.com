@@ -1,14 +1,14 @@
 ---
 title: 'Another Verson 2'
-cover: '../media/8e5b1b877addb38cd095b068e030a649.jpg'
+cover: '../../assets/media/8e5b1b877addb38cd095b068e030a649.jpg'
 media:
-  - '../media/1a9dbe8944627308b93fe7f0254ebd36.jpg'
-  - '../media/1f696951a933a37dad370c4464fc61b5.jpg'
-  - '../media/8518cdbd5cc44a05ee6aa6116696bf4a.jpg'
-  - '../media/b34f6ad768b683a43e9b86283b54e172.jpg'
-  - '../media/122ca8d569e9715fdd394b518f5391f9.jpg'
-  - '../media/b41b2fb07554df885a4fcfa38270cdf5.jpg'
-  - '../media/fed692603b5a41c4bfca2bb0de2eec01.jpg'
+  - '../../assets/media/1a9dbe8944627308b93fe7f0254ebd36.jpg'
+  - '../../assets/media/1f696951a933a37dad370c4464fc61b5.jpg'
+  - '../../assets/media/8518cdbd5cc44a05ee6aa6116696bf4a.jpg'
+  - '../../assets/media/b34f6ad768b683a43e9b86283b54e172.jpg'
+  - '../../assets/media/122ca8d569e9715fdd394b518f5391f9.jpg'
+  - '../../assets/media/b41b2fb07554df885a4fcfa38270cdf5.jpg'
+  - '../../assets/media/fed692603b5a41c4bfca2bb0de2eec01.jpg'
 tags:
   - 'house'
   - 'works'

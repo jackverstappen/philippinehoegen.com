@@ -1,12 +1,12 @@
 ---
 title: 'Triple Launch at BREW Brussels'
-cover: '../media/c8fc350ef04c2359a19f89bcd96e90c5.jpg'
+cover: '../../assets/media/c8fc350ef04c2359a19f89bcd96e90c5.jpg'
 media:
-  - '../media/d99032eca1e5eb524411e05cd4f19b6f.jpg'
-  - '../media/6a53944df8b00c7a9a72b9a31f7d558e.jpg'
-  - '../media/7113d3dec88739d1e7421ed41b30704a.jpg'
-  - '../media/f495bcd9386405a820892180ee8781b8.jpg'
-  - '../media/efc04ff841ab6c942d4e07a61e29931c.jpg'
+  - '../../assets/media/d99032eca1e5eb524411e05cd4f19b6f.jpg'
+  - '../../assets/media/6a53944df8b00c7a9a72b9a31f7d558e.jpg'
+  - '../../assets/media/7113d3dec88739d1e7421ed41b30704a.jpg'
+  - '../../assets/media/f495bcd9386405a820892180ee8781b8.jpg'
+  - '../../assets/media/efc04ff841ab6c942d4e07a61e29931c.jpg'
 tags:
   - 'exhibition'
 ---

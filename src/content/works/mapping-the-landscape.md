@@ -1,6 +1,6 @@
 ---
 title: 'Mapping The Landscape'
-cover: '../media/f84bdafc113a84dc1998103551d4b830.jpg'
+cover: '../../assets/media/f84bdafc113a84dc1998103551d4b830.jpg'
 media:
 tags:
   - 'exhibition'

@@ -1,10 +1,10 @@
 ---
 title: 'ANOTHER VERSION Thinking Through Performing'
-cover: '../media/6f168225d0680176681a4519c9fa381e.jpg'
+cover: '../../assets/media/6f168225d0680176681a4519c9fa381e.jpg'
 media:
-  - '../media/25e02f67e6d347a5c1b45d9846e7f76c.jpg'
-  - '../media/6a314dfbe63bdb58cd4365888debe20d.jpg'
-  - '../media/a2e37748cfcc6fa10327e3aaecb367d9.jpg'
+  - '../../assets/media/25e02f67e6d347a5c1b45d9846e7f76c.jpg'
+  - '../../assets/media/6a314dfbe63bdb58cd4365888debe20d.jpg'
+  - '../../assets/media/a2e37748cfcc6fa10327e3aaecb367d9.jpg'
 tags:
   - 'house'
 ---

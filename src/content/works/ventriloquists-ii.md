@@ -1,13 +1,13 @@
 ---
 title: 'Ventriloquists II'
-cover: '../media/690136eeda998a9d68c21d463e84dda5.jpg'
+cover: '../../assets/media/690136eeda998a9d68c21d463e84dda5.jpg'
 media:
-  - '../media/98643f934c3ec99032c7c4fd61cdde90.jpg'
-  - '../media/638b2a916b4657250866edeebeeeaa78.jpg'
-  - '../media/2006d1739086fefeecca70948b2450a8.jpg'
-  - '../media/1d1279720eb836a47d4ab403a76f4c31.jpg'
-  - '../media/5742e555705493f8da2266bf780f0dd3.jpg'
-  - '../media/6843158b8fc5a5cd24e0e75a1182ec82.jpg'
+  - '../../assets/media/98643f934c3ec99032c7c4fd61cdde90.jpg'
+  - '../../assets/media/638b2a916b4657250866edeebeeeaa78.jpg'
+  - '../../assets/media/2006d1739086fefeecca70948b2450a8.jpg'
+  - '../../assets/media/1d1279720eb836a47d4ab403a76f4c31.jpg'
+  - '../../assets/media/5742e555705493f8da2266bf780f0dd3.jpg'
+  - '../../assets/media/6843158b8fc5a5cd24e0e75a1182ec82.jpg'
 tags:
   - 'house'
   - 'works'

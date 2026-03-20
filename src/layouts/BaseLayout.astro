@@ -19,10 +19,11 @@ type Props = {
 };
 
 const { title, description = "" } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// Current page value (/home, /about, /404 ...)
-const currentPage =
-  Astro.url.pathname.replace(/\/$/, "").split("/").pop() || "home";
+// Strip the base prefix before determining the current page slug
+const pathWithoutBase = Astro.url.pathname.replace(base, '') || '/';
+const currentPage = pathWithoutBase.replace(/\/$/, "").split("/").pop() || "home";
 ---
 
 <!doctype html>
@@ -37,7 +38,7 @@ const currentPage =
         basic: {
           title: "Philippine Hoegen - Visual Artist",
           type: "image/jpeg",
-          image: "/philippinehoegen-og.jpg",
+          image: `${base}/philippinehoegen-og.jpg`,
         },
       }}
       extend={{
@@ -47,21 +48,21 @@ const currentPage =
             rel: "icon",
             type: "image/png",
             sizes: "16x16",
-            href: "/favicon/favicon-16x16.png",
+            href: `${base}/favicon/favicon-16x16.png`,
           },
           {
             rel: "icon",
             type: "image/png",
             sizes: "32x32",
-            href: "/favicon/favicon-32x32.png",
+            href: `${base}/favicon/favicon-32x32.png`,
           },
           {
             rel: "apple-touch-icon",
             sizes: "180x180",
-            href: "/favicon/apple-touch-icon.png",
+            href: `${base}/favicon/apple-touch-icon.png`,
           },
-          { rel: "manifest", href: "/favicon/site.webmanifest" },
-          { rel: "sitemap", href: "/sitemap-index.xml" },
+          { rel: "manifest", href: `${base}/favicon/site.webmanifest` },
+          { rel: "sitemap", href: `${base}/sitemap-index.xml` },
           {
             rel: "preload",
             href: instrumentSansWoff2,
@@ -88,6 +89,7 @@ const currentPage =
     <Footer />
   </body>
 </html>
+<script src="../scripts/imageFade.js"></script>
 
 <style is:global>
   body {

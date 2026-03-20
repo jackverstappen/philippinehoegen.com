@@ -2,43 +2,37 @@
 /**
  * Gallery.astro
  *
- * A thumbnail grid that opens images in an accessible modal lightbox.
- * Keyboard: ← → navigate, Home/End jump to ends, Esc closes.
+ * Thumbnail grid that opens images in a modal slideshow.
+ * Keyboard: ← → navigate, Esc closes.
  * Touch: swipe left/right to navigate.
  *
  * Props:
- *   images  — array of { src: ImageMetadata, alt: string, caption?: string, credit?: string }
+ *   images  — array of { src: ImageMetadata, alt: string, caption?: string }
  *   label   — aria-label for the dialog (default: "Image gallery")
  *   columns — thumbnail grid columns: 2 | 3 | 4 (default: 3)
- *
- * Usage:
- *   <Gallery images={entry.data.images} columns={3} label="Project photos" />
  */
-import { Image } from 'astro:assets';
+import { getImage } from 'astro:assets';
 
 const {
   images,
   label   = 'Image gallery',
   columns = 3,
 } = Astro.props;
+
+const processedImages = await Promise.all(
+  images.map(async (img) => {
+    const thumb = await getImage({ src: img.src, width: 560 });
+    const full  = await getImage({ src: img.src, width: 1600 });
+    return { ...img, thumbSrc: thumb.src, fullSrc: full.src };
+  })
+);
 ---
 
 <div data-gallery>
 
-    <!---
-          <Image
-            src={img.src}
-            alt={img.alt}
-            widths={[280, 560]}
-            sizes="(max-width: 600px) 50vw, 280px"
-            class="gallery-thumb__img"
-            loading={i < columns ? 'eager' : 'lazy'}
-          />
-     -->
-
   <!-- Thumbnail grid -->
   <ul class="gallery-grid" style={`--cols: ${columns};`} aria-label={label}>
-    {images.map((img, i) => (
+    {processedImages.map((img, i) => (
       <li>
         <button
           class="gallery-thumb"
@@ -46,11 +40,11 @@ const {
           aria-label={`Open image ${i + 1}: ${img.alt}`}
           type="button"
         >
-        <img
-          class="image fade-in gallery-thumb__img"
-          src={img.src}
-          alt={img.alt}
-        />
+          <img
+            class="image fade-in gallery-thumb__img"
+            src={img.thumbSrc}
+            alt={img.alt}
+          />
           <span class="gallery-thumb__overlay" aria-hidden="true">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path d="M8 3H3v5M17 8V3h-5M12 17h5v-5M3 12v5h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -85,25 +79,10 @@ const {
         </div>
       </header>
 
-      <!-- 
-                     <Image
-                inferSize:true 
-                src={img.src}
-                alt={img.alt}
-                widths={[800, 1200, 1600]}
-                sizes="(max-width: 900px) 100vw, 860px"
-                class="gallery-modal__image"
-                loading={i === 0 ? 'eager' : 'lazy'}
-              />
-
-                          sizes="auto, (max-width: 30em) 100vw, (max-width: 50em) 50vw, calc(33vw - 100px)"
-
-              -->
-
       <!-- Stage -->
       <div class="gallery-modal__stage">
         <div data-gallery-track class="gallery-modal__track">
-          {images.map((img, i) => (
+          {processedImages.map((img, i) => (
             <div
               data-gallery-slide
               data-title={img.alt}
@@ -112,14 +91,12 @@ const {
               aria-hidden={i !== 0 ? 'true' : 'false'}
               aria-current={i === 0 ? 'true' : 'false'}
             >
-        <img
-          class="image fade-in gallery-modal__image"
-max-width="80%"
-max-height="80%"
-          src={img.src}
-          alt={img.alt}
-        />
-
+              <img
+                class="image fade-in gallery-modal__image"
+                src={img.fullSrc}
+                alt={img.alt}
+                loading={i === 0 ? 'eager' : 'lazy'}
+              />
             </div>
           ))}
         </div>
@@ -129,7 +106,6 @@ max-height="80%"
             <path d="M11 14L6 9l5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </button>
-
         <button data-gallery-next class="gallery-modal__nav gallery-modal__nav--next" aria-label="Next image" type="button">
           <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
             <path d="M7 4l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -141,7 +117,7 @@ max-height="80%"
       <footer class="gallery-modal__footer">
         <p data-gallery-caption class="gallery-modal__caption" aria-live="polite"></p>
         <div class="gallery-modal__dots" role="tablist" aria-label="Image navigation">
-          {images.map((img, i) => (
+          {processedImages.map((img, i) => (
             <button
               data-gallery-dot
               class="gallery-modal__dot"
@@ -218,42 +194,29 @@ max-height="80%"
   outline-offset: 2px;
 }
 
+/* ── Modal ── */
 .gallery-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.85);
   z-index: 9999;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  animation: backdrop-in 0.18s ease;
 }
-
 .gallery-backdrop[hidden] { display: none; }
-
-@keyframes backdrop-in {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
 
 .gallery-modal {
   background: var(--color-background-primary, #fff);
   border-radius: 12px;
-  border: 0.5px solid var(--color-border-tertiary, rgba(0,0,0,0.12));
   width: 100%;
-  max-width: 860px;
-  max-height: calc(100svh - 40px);
+  max-width: 900px;
+  height: calc(100svh - 40px);
   display: flex;
   flex-direction: column;
   overflow: hidden;
   outline: none;
-  animation: modal-in 0.2s ease;
-}
-
-@keyframes modal-in {
-  from { opacity: 0; transform: scale(0.97) translateY(8px); }
-  to   { opacity: 1; transform: scale(1)    translateY(0);   }
 }
 
 .gallery-modal__header {
@@ -261,14 +224,13 @@ max-height="80%"
   align-items: center;
   justify-content: space-between;
   padding: 12px 16px;
-  border-bottom: 0.5px solid var(--color-border-tertiary, rgba(0,0,0,0.1));
+  border-bottom: 0.5px solid rgba(0,0,0,0.1);
   flex-shrink: 0;
 }
 
 .gallery-modal__title {
   font-size: 14px;
   font-weight: 500;
-  color: var(--color-text-primary);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -283,7 +245,7 @@ max-height="80%"
 
 .gallery-modal__counter {
   font-size: 12px;
-  color: var(--color-text-secondary);
+  color: var(--color-text-secondary, #888);
   font-variant-numeric: tabular-nums;
 }
 
@@ -292,38 +254,34 @@ max-height="80%"
   height: 30px;
   border-radius: 50%;
   background: transparent;
-  border: 0.5px solid var(--color-border-secondary, rgba(0,0,0,0.2));
+  border: 0.5px solid rgba(0,0,0,0.2);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-text-secondary);
   transition: background 0.15s;
   flex-shrink: 0;
 }
+.gallery-modal__close:hover { background: rgba(0,0,0,0.06); }
 
-.gallery-modal__close:hover { background: var(--color-background-secondary); }
-
-.gallery-modal__close:focus-visible {
-  outline: 2px solid var(--color-border-info, #378add);
-  outline-offset: 2px;
-}
-
+/* Stage: takes all remaining height, clips the sliding track */
 .gallery-modal__stage {
   position: relative;
   flex: 1;
+  min-height: 0;          /* allow shrink inside flex column */
   overflow: hidden;
-  background: var(--color-background-tertiary, #f5f5f5);
-  min-height: 0;
+  background: #111;
 }
 
+/* Track slides horizontally */
 .gallery-modal__track {
   display: flex;
   height: 100%;
-  transition: transform 0.28s ease;
+  transition: transform 0.3s ease;
   will-change: transform;
 }
 
+/* Each slide fills the stage exactly */
 .gallery-modal__slide {
   min-width: 100%;
   height: 100%;
@@ -333,18 +291,13 @@ max-height="80%"
   justify-content: center;
 }
 
-iddmg {
-    object-fit: contain;
-    object-position: 50% 50%;
-}
-
+/* Image fills the slide, letterboxed */
 .gallery-modal__image {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
   display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .gallery-modal__nav {
@@ -354,60 +307,51 @@ iddmg {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  background: var(--color-background-primary, #fff);
-  border: 0.5px solid var(--color-border-secondary, rgba(0,0,0,0.2));
+  background: rgba(255,255,255,0.9);
+  border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-text-primary);
   z-index: 2;
   transition: background 0.15s;
+  backdrop-filter: blur(4px);
 }
-
-.gallery-modal__nav:hover { background: var(--color-background-secondary); }
+.gallery-modal__nav:hover { background: #fff; }
 .gallery-modal__nav--prev { left: 12px; }
 .gallery-modal__nav--next { right: 12px; }
 
-.gallery-modal__nav:focus-visible {
-  outline: 2px solid var(--color-border-info, #378add);
-  outline-offset: 2px;
-}
-
 .gallery-modal__footer {
-  padding: 12px 16px 14px;
-  border-top: 0.5px solid var(--color-border-tertiary, rgba(0,0,0,0.1));
+  padding: 10px 16px 12px;
+  border-top: 0.5px solid rgba(0,0,0,0.1);
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .gallery-modal__caption {
   font-size: 13px;
-  color: var(--color-text-secondary);
-  margin: 0 0 10px;
+  color: var(--color-text-secondary, #888);
+  margin: 0;
   min-height: 18px;
 }
 
-.gallery-modal__dots { display: flex; gap: 5px; }
+.gallery-modal__dots { display: flex; gap: 5px; flex-wrap: wrap; }
 
 .gallery-modal__dot {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: var(--color-border-secondary, rgba(0,0,0,0.2));
+  background: rgba(0,0,0,0.2);
   border: none;
   padding: 0;
   cursor: pointer;
   transition: background 0.2s, transform 0.2s;
 }
-
 .gallery-modal__dot.is-active {
-  background: var(--color-text-primary);
+  background: var(--color-text-primary, #000);
   transform: scale(1.4);
-}
-
-.gallery-modal__dot:focus-visible {
-  outline: 2px solid var(--color-border-info, #378add);
-  outline-offset: 3px;
 }
 
 @media (max-width: 480px) {
@@ -419,4 +363,7 @@ iddmg {
 <script>
   import { initGallery } from '../scripts/galleryActions.js';
   document.querySelectorAll('[data-gallery]').forEach(initGallery);
+  document.addEventListener('astro:page-load', () => {
+    document.querySelectorAll('[data-gallery]').forEach(initGallery);
+  });
 </script>
