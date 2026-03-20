@@ -30,6 +30,9 @@ p, text, h1, h2, h3, button, input {
   font-family: var(--sans-serif)
 }
 
+html {
+    min-height: 100%;
+}
 
 body {
   margin: 0;
@@ -42,11 +45,18 @@ body {
   font-variant-ligatures: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
   &.blurred {
     filter: blur(5px);
     pointer-events: none;
   }
+}
+
+main {
+  flex:1;
 }
 
 h2 {

@@ -4,13 +4,14 @@ import Separator from "../components/Separator.astro";
 const year = new Date().getFullYear()
 ---
 
-<Separator />
 <footer>
+<Separator />
   <p>&copy; <span id="footer-year">{year}</span> - All rights reserved</p>
 </footer>
 <style>
   footer {
     padding: 2rem 0;
+    width:100%;
   }
   p {
     margin: 0;

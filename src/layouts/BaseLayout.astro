@@ -104,8 +104,22 @@ const currentPage =
 
     <SmoothScroll />
     <Header />
+    <main>
     <slot />
+    </main>
     <Footer />
     <script src="../scripts/imageFade.js"></script>
   </body>
 </html>
+
+<style is:global>
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  main {
+    flex: 1;
+  }
+</style>
