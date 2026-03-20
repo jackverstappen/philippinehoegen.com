@@ -8,6 +8,8 @@ const {
   ...rest
 } = Astro.props;
 
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
 const mediaImages = import.meta.glob<{ default: ImageMetadata }>(
   '/src/assets/media/**/*.{jpg,jpeg,png,webp,avif,gif}'
 );
@@ -25,7 +27,7 @@ const tiles = await Promise.all(collection.map(async (p) => {
   }
   return {
     id: `${p.id}`,
-    href: `/works/${p.id}`,
+    href: `${base}/works/${p.id}`,
     src,
     alt: p.data.title ?? "",
     title: p.data.title ?? "",
