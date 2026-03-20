@@ -18,22 +18,22 @@ const activeRoute = routes[currentPath] || null;
 <nav>
 <header>
   <div>
-    <h1><a href="/" class={activeRoute === "Home" ? "current" : ""}>PHILIPPINE HOEGEN</a></h1>
+    <h1><a href="/philippinehoegen.com/" class={activeRoute === "Home" ? "current" : ""}>PHILIPPINE HOEGEN</a></h1>
   </div>
   <div>
     <ul>
       <li><a
-          href="/works/"
+          href="/philippinehoegen.com/works/"
           class={activeRoute === "Works" ? "current" : ""}
           data-astro-prefetch><TextSlider content="Works" /></a>
       </li>
       <li><a
-          href="/bio/"
+          href="/philippinehoegen.com/bio/"
           class={activeRoute === "Bio" ? "current" : ""}
           data-astro-prefetch><TextSlider content="Bio" /></a>
       </li>
       <li><a
-          href="/bio#contact"
+          href="/philippinehoegen.com/bio#contact"
           class={activeRoute === "Contact" ? "current" : ""}
           data-astro-prefetch><TextSlider content="Contact" /></a>
       </li>
