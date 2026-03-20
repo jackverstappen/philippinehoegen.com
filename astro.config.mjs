@@ -10,7 +10,9 @@ export default defineConfig({
   },
   prefetch: true,
 
-  site: 'https://philippinehoegen.com.workers.dev/',
+  site: 'https://digitizedbeing.com',
+  base: '/philippinehoegen.com',
+
 
   integrations: [sitemap() ],
   experimental: {
