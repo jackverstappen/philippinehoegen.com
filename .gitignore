@@ -1,0 +1,7 @@
+dist/
+node_modules/
+.env
+.env.*
+
+# Claude Code worktrees (temporary, not for version control)
+.claude/worktrees/
