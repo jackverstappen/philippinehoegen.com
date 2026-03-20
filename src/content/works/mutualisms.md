@@ -1,11 +1,11 @@
 ---
 title: 'Mutualisms'
-cover: '../media/e69165631354845dcc4625a5660ab7bc.jpg'
+cover: '../../assets/media/e69165631354845dcc4625a5660ab7bc.jpg'
 media:
-  - '../media/b3598fe2630b536f74e7274c35d14209.jpg'
-  - '../media/ec4d55eeb058be9f7fdd96fb92b2d4c2.jpg'
-  - '../media/b0073a3453eb3d99a7aba744111d47c8.jpg'
-  - '../media/00cb558a8535369637c0822b99598a33.jpg'
+  - '../../assets/media/b3598fe2630b536f74e7274c35d14209.jpg'
+  - '../../assets/media/ec4d55eeb058be9f7fdd96fb92b2d4c2.jpg'
+  - '../../assets/media/b0073a3453eb3d99a7aba744111d47c8.jpg'
+  - '../../assets/media/00cb558a8535369637c0822b99598a33.jpg'
 tags:
   - 'exhibition'
 ---

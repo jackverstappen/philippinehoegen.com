@@ -1,9 +1,9 @@
 ---
 title: 'Masist Gül by Banu Cennetoglu and Philippine Hoegen'
-cover: '../media/2dc209e622a20eb5c326d81437053903.jpg'
+cover: '../../assets/media/2dc209e622a20eb5c326d81437053903.jpg'
 media:
-  - '../media/b8dd3f50ea77f63e9a39e34036189632.jpg'
-  - '../media/d6df45612721852b94fc92c5d81c3d18.jpg'
+  - '../../assets/media/b8dd3f50ea77f63e9a39e34036189632.jpg'
+  - '../../assets/media/d6df45612721852b94fc92c5d81c3d18.jpg'
 tags:
   - 'display'
   - 'exhibition'

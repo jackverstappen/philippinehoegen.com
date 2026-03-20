@@ -1,8 +1,8 @@
 ---
 title: 'The Borneo Trophy'
-cover: '../media/ba7033e74b1cabc54205bc7b0cd5e1d8.jpg'
+cover: '../../assets/media/ba7033e74b1cabc54205bc7b0cd5e1d8.jpg'
 media:
-  - '../media/d9157296d4617e5614a962d98112f863.jpg'
+  - '../../assets/media/d9157296d4617e5614a962d98112f863.jpg'
 tags:
   - 'house'
   - 'capture'

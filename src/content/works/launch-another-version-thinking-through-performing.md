@@ -1,12 +1,12 @@
 ---
 title: 'Launch ANOTHER VERSION Thinking Through Performing'
-cover: '../media/fe4ca98bf2bef52ddd7585d00d461009.jpg'
+cover: '../../assets/media/fe4ca98bf2bef52ddd7585d00d461009.jpg'
 media:
-  - '../media/cdb8d0c4f8f06e733816018936e5e58a.jpg'
-  - '../media/53c33a92e389311e866a8de6d01d5dfc.jpg'
-  - '../media/05edd01557e3bdc43f231ba904cddf4c.jpg'
-  - '../media/8fb01831bc404d508bd329181bdef3fe.jpg'
-  - '../media/f2b4315ecafa6e5ad0f853fb46e19eba.jpg'
+  - '../../assets/media/cdb8d0c4f8f06e733816018936e5e58a.jpg'
+  - '../../assets/media/53c33a92e389311e866a8de6d01d5dfc.jpg'
+  - '../../assets/media/05edd01557e3bdc43f231ba904cddf4c.jpg'
+  - '../../assets/media/8fb01831bc404d508bd329181bdef3fe.jpg'
+  - '../../assets/media/f2b4315ecafa6e5ad0f853fb46e19eba.jpg'
 tags:
   - 'capture'
   - 'works'

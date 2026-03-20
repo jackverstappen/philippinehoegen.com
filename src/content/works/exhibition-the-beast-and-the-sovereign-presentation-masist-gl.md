@@ -1,11 +1,11 @@
 ---
 title: 'Exhibition The Beast and the Sovereign, presentation Masist Gül'
-cover: '../media/1582523f9bbb2119dc7026371d7b3468.jpg'
+cover: '../../assets/media/1582523f9bbb2119dc7026371d7b3468.jpg'
 media:
-  - '../media/5a87a9b795b470b8efab738782428766.jpg'
-  - '../media/189a30d029e1a0299dde0d564333dddf.jpg'
-  - '../media/fb043ef795b2569002113a1bd712c6cc.jpg'
-  - '../media/3d55b906e3c67b1f469243475c747770.jpg'
+  - '../../assets/media/5a87a9b795b470b8efab738782428766.jpg'
+  - '../../assets/media/189a30d029e1a0299dde0d564333dddf.jpg'
+  - '../../assets/media/fb043ef795b2569002113a1bd712c6cc.jpg'
+  - '../../assets/media/3d55b906e3c67b1f469243475c747770.jpg'
 tags:
   - 'exhibition'
 ---

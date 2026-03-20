@@ -1,10 +1,10 @@
 ---
 title: 'Apogee'
-cover: '../media/ba7fc6e7a5c3d9cd11728504f0b820b6.jpg'
+cover: '../../assets/media/ba7fc6e7a5c3d9cd11728504f0b820b6.jpg'
 media:
-  - '../media/ccc3ff4cf3199e36f758f29572411399.jpg'
-  - '../media/59fb389adbebb79f3006f77ed6e8a7e8.jpg'
-  - '../media/54a80ea37befb796f81355f35986453d.jpg'
+  - '../../assets/media/ccc3ff4cf3199e36f758f29572411399.jpg'
+  - '../../assets/media/59fb389adbebb79f3006f77ed6e8a7e8.jpg'
+  - '../../assets/media/54a80ea37befb796f81355f35986453d.jpg'
 tags:
   - 'works'
   - 'border'

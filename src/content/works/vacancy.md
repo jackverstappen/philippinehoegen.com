@@ -1,9 +1,9 @@
 ---
 title: 'Vacancy'
-cover: '../media/676c564fdd36b7e4bffb57e46910607d.jpg'
+cover: '../../assets/media/676c564fdd36b7e4bffb57e46910607d.jpg'
 media:
-  - '../media/07b37242cbc075f621a2a925ad37903e.jpg'
-  - '../media/7a79ac4227e04a0a8f4c2ac21ba869d2.jpg'
+  - '../../assets/media/07b37242cbc075f621a2a925ad37903e.jpg'
+  - '../../assets/media/7a79ac4227e04a0a8f4c2ac21ba869d2.jpg'
 tags:
   - 'house'
   - 'works'

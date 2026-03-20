@@ -1,12 +1,12 @@
 ---
 title: 'Superstructure'
-cover: '../media/3521e9ec2f2eaa2cb6439654c8850912.jpg'
+cover: '../../assets/media/3521e9ec2f2eaa2cb6439654c8850912.jpg'
 media:
-  - '../media/01e8f2f0cd191a00566291f750fea3be.jpg'
-  - '../media/2caf42ac70714482008c157c03123a0d.jpg'
-  - '../media/84dab909a9776758ad97a4660d64a7cc.jpg'
-  - '../media/494b8bc08ec338fcaba6f5d0fa2d43bf.jpg'
-  - '../media/c7ff60b44d11b7d00352d73220f518e9.jpg'
+  - '../../assets/media/01e8f2f0cd191a00566291f750fea3be.jpg'
+  - '../../assets/media/2caf42ac70714482008c157c03123a0d.jpg'
+  - '../../assets/media/84dab909a9776758ad97a4660d64a7cc.jpg'
+  - '../../assets/media/494b8bc08ec338fcaba6f5d0fa2d43bf.jpg'
+  - '../../assets/media/c7ff60b44d11b7d00352d73220f518e9.jpg'
 tags:
   - 'works'
   - 'border'

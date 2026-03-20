@@ -1,13 +1,13 @@
 ---
 title: 'Crossed Wires'
-cover: '../media/351ff44364d0075703876cad151e9aa9.jpg'
+cover: '../../assets/media/351ff44364d0075703876cad151e9aa9.jpg'
 media:
-  - '../media/5246a0ceeec0196b15d7fbaa28ca7273.jpg'
-  - '../media/ec4b7f7e6e228d79b4f1bb8bae7fcbc5.jpg'
-  - '../media/e652ac5e37cceaab87aaf34bb3339eb1.jpg'
-  - '../media/4ed6603906d3b650da967be7018d6030.jpg'
-  - '../media/8bf41fd26de9f5bb035d0a24e3e3ca82.jpg'
-  - '../media/0bfb1bbe016954a9496657227fae4a7e.jpg'
+  - '../../assets/media/5246a0ceeec0196b15d7fbaa28ca7273.jpg'
+  - '../../assets/media/ec4b7f7e6e228d79b4f1bb8bae7fcbc5.jpg'
+  - '../../assets/media/e652ac5e37cceaab87aaf34bb3339eb1.jpg'
+  - '../../assets/media/4ed6603906d3b650da967be7018d6030.jpg'
+  - '../../assets/media/8bf41fd26de9f5bb035d0a24e3e3ca82.jpg'
+  - '../../assets/media/0bfb1bbe016954a9496657227fae4a7e.jpg'
 tags:
   - 'agent_and_informer'
   - 'exhibition'

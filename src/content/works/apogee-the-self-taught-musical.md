@@ -1,10 +1,10 @@
 ---
 title: 'Apogee - The Self-Taught Musical'
-cover: '../media/8eded236e3a6fad1a812cacd0e613cee.jpg'
+cover: '../../assets/media/8eded236e3a6fad1a812cacd0e613cee.jpg'
 media:
-  - '../media/43348fac8584df2d86bf862efee32cd2.jpg'
-  - '../media/1eef3a7f5b51f1eb722a3b6f3853d83c.jpg'
-  - '../media/2108a3055205cfa046a3c0eb96d4b8d9.jpg'
+  - '../../assets/media/43348fac8584df2d86bf862efee32cd2.jpg'
+  - '../../assets/media/1eef3a7f5b51f1eb722a3b6f3853d83c.jpg'
+  - '../../assets/media/2108a3055205cfa046a3c0eb96d4b8d9.jpg'
 tags:
   - 'exhibition'
   - 'image_and_word'

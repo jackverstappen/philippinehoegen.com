@@ -1,11 +1,11 @@
 ---
 title: 'Ventriloquists III, SAR version'
-cover: '../media/7526edd9f2912c8c794a3ff5b0587a37.jpg'
+cover: '../../assets/media/7526edd9f2912c8c794a3ff5b0587a37.jpg'
 media:
-  - '../media/c3eb2a51db63e3cdaca720ece770681a.jpg'
-  - '../media/31c2f3d98bb793c444789edb7aaffb46.jpg'
-  - '../media/ef8f6210c13301f41d704fc508d88104.jpg'
-  - '../media/1c257ac05342714169408ec6d131b974.jpg'
+  - '../../assets/media/c3eb2a51db63e3cdaca720ece770681a.jpg'
+  - '../../assets/media/31c2f3d98bb793c444789edb7aaffb46.jpg'
+  - '../../assets/media/ef8f6210c13301f41d704fc508d88104.jpg'
+  - '../../assets/media/1c257ac05342714169408ec6d131b974.jpg'
 tags:
   - 'house'
   - 'works'
