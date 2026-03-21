@@ -284,9 +284,13 @@ function openDropdown() {
       if (wrap && !wrap.contains(e.target as Node)) closeDropdown();
     });
 
-    // Close on Escape
+    // Close on Escape / focus search on "/"
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') closeDropdown();
+      if (e.key === '/' && document.activeElement !== input) {
+        e.preventDefault();
+        input?.focus();
+      }
     });
 
     // Hover caption — managed inside init to handle navigation correctly
