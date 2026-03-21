@@ -167,3 +167,20 @@ const { Content } = await render(work);
 }
 
 </style>
+
+<script define:vars={{ prevUrl: `${base}/works/${prevWork.id}`, nextUrl: `${base}/works/${nextWork.id}` }}>
+  const isGalleryOpen = () =>
+    !document.querySelector('[data-gallery-backdrop]')?.hasAttribute('hidden');
+
+  window.addEventListener('keydown', (e) => {
+    if (isGalleryOpen()) return;
+
+    if (e.key === 'ArrowUp')   { window.location.href = prevUrl; }
+    if (e.key === 'ArrowDown') { window.location.href = nextUrl; }
+
+    if (e.key === ' ') {
+      e.preventDefault();
+      document.querySelector('[data-gallery-thumb]')?.click();
+    }
+  }, { capture: true });
+</script>
