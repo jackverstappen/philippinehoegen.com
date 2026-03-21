@@ -13,6 +13,8 @@ Time: welcome from 6:30pm, starting 7pm
 Location: Buitenplaats Brienenoord in Rotterdam
 Participation: free, but reservation is needed (limited spots available)
 
+![hello alter ego](./ushering-in-some-alternate-egos.png)
+
 Please have a look for more information and the reservation link on the Buitenplaats website and on IG.
 https://www.buitenplaatsbrienenoord.nl/events/hello-alter-ego 
 Hello Alter Ego is part of the DATA DIVA Training Programme, by Antye Guenther 

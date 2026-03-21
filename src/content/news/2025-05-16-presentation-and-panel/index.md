@@ -11,8 +11,11 @@ worden ontwikkeld en ontwikkelt zich ook een specifi ek instrumentarium en vocab
 • Welke taal wordt gesproken en welk vocabulaire ontwikkelt zich?
 • Wat moeten we kunnen en wat moeten we leren?
 • De praktijk verandert de ‘makers’, hoe gaan we om met dit gegeven?
+![Werkconferentie Exploding Practices](./werkconferentie-exploding-practices.png)
+![De tafel van kunst en methode](./de-tafel-van-kunst-en-methode.png)
 Workshop/presentation for the launch of Performance Research Journal: On Social Imaginaries, introducing our article How We Wish To Work.
 Philippine Hoegen and Veerle Spronck, 16 May 2025
+![Programme Performance Research On Social Imaginaries](./programme-performance-research-on-social-imaginaries.png)
 Session 2 How We Wish to Work 
 By Philippine Hoegen & Veerle Spronck
 This session departs from the idea posited in the issue’s text How We Wish to Work by Philippine Hoegen and Veerle Spronck, that ethics and aesthetics are inextricably entangled in artistic (research) practices, and that pitting them against each other is a habit in artistic critique that urgently needs updating. Through collective refl ection and case-based inquiry, the session examines how ethical-aesthetic considerations take shape within collaborative processes and maps dilemmas related to the stakes of participation, the shaping of commitments, and the negotiation of artistic choices. The aim here is to check and test diff erent positions on the aptitude of artistic work as a site for rehearsing collective imaginaries.

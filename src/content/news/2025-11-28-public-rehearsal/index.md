@@ -13,3 +13,5 @@ Sauna open from 21:00 to 22:00
 You can claim you spot in the www.buitenplaatsbrienenoord.nl ticket shop 
 Date: 28 November 2025, 18:00-22:00 
 Location: Buitenplaats Brienenoord in Rotterdam
+
+![Ushering in some alternate egos](./ushering-in-some-alternate-egos.png)

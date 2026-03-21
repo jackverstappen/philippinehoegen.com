@@ -4,7 +4,7 @@ description: ''
 pubDate: '2026-03-16'
 ---
 
-schedule DIS Seminar #3. ./schedule.png
+![schedule DIS Seminar #3](./schedule.png)
 
 **Research □Shapes of Research** by Fabiola Camuti, Judith Leest, VeerleSpronck & Philippine Hoegen (HKU) TruusTeunissen (UvH) What does it mean to work ethically in artistic and participatory research, beyond checklists and standard forms? In this session, we will delve together into the article Consent in Action: Learning from Artistic Research within an Institutional Review Context, which centers on three key principles: vulnerability, multiple forms of consent, and attention to power and positionality. We will begin with a dialogical presentation based on the article, followed by a workshop in which we explore how these insights can help us recognize and navigate ethical dilemmas in practice.
 Together, we will investigate how ethics can become a shared, learning space within artistic research. 
