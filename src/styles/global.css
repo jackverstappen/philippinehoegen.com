@@ -36,7 +36,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0 1rem;
+  padding: 0;
   color: var(--color-text);
   background-color: var(--color-bg);
   line-height: 1;
@@ -62,8 +62,14 @@ main {
 h2 {
   font-size: var(--font-size-xl);
   margin: 0;
-  margin-block: 24px;
+  margin-block: 8px;
   line-height: 0.85;
+}
+
+@media screen and (min-width: 44em) {
+  h2 {
+    margin-block: 24px;
+  }
 }
 
 h3 {
