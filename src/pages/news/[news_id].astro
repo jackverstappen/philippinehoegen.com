@@ -18,7 +18,7 @@ export const getStaticPaths = async () => {
   // Map over the updates to generate paths for each update's page
   const paths = updatesCollection.map((update) => {
     return {
-      params: { update_id: update.id }, 
+      params: { news_id: update.id },
       props: { updatesCollection, update }, 
     };
   });
