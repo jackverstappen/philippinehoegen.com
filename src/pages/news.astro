@@ -1,29 +1,63 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { Image } from 'astro:assets';
-import localImage from '../assets/media/philippinehoegen.png';
+import { render } from "astro:content";
 
-const title ="NEWS";
+const updatesCollection = await getCollection("updates");
+
+const dateOptions: object = {
+	year: "numeric",
+	month: "long",
+	day: "numeric",
+};
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const recentUpdates = updatesCollection
+  //.sort((a,b)=> a.data.pubDate - b.data.pubDate)
+  .reverse()
+  .filter((update,i)=> i<20)
+  .map((update)=>({
+    ...update
+  }))
+
+const formatDate = (date) => new Date(date).toLocaleDateString("en-US", dateOptions);
+const expose = (rec) => {
+  console.log(rec);
+  
+   return formatDate(rec.pubDate)
+};
+
+console.log(updatesCollection);
+
+const title = "UPDATES";
 ---
 
 <BaseLayout title={title}>
-  <h2>NEWS</h2>
+<h2>UPDATES</h2>
 
-  <!-- Local image — src is an imported asset, fully optimised at build time -->
-  <Image
-    src={localImage}
-    alt="A local photo"
-    widths={[400, 800, 1200]}
-    sizes="(max-width: 600px) 100vw, 800px"
-  />
+<ul class="news-list" id="list" >
+  {recentUpdates.map((update) => 
+    <li><a href={`${base}/news/${update.id}`}>{expose(update.data)} -  {update.data.title}</a></li>)}
+</ul>
 
-  <!-- Local image with explicit dimensions override -->
-  <Image
-    src={localImage}
-    alt="Cropped to a square"
-    width={400}
-    height={400}
-  />
+
+<style>
+  section {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, calc(100% / 2));
+    margin: 1rem 0 10rem;
+    min-height: 400px;
+    @media screen and (min-width: 30em) {
+      grid-template-columns: repeat(4, calc(100% / 4));
+    }
+    @media screen and (min-width: 50em) {
+      grid-template-columns: repeat(7, calc(100% / 7));
+    }
+  }
+</style>
 
 </BaseLayout>
-

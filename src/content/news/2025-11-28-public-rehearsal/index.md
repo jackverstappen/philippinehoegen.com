@@ -1,0 +1,15 @@
+---
+title: 'Public rehearsal, Antye Guenther and Philippine Hoegen: How to court an alter ego?'
+description: ''
+pubDate: '2025-11-28'
+---
+
+What started as a flirtatious exercise in collective script writing, developed into a collaborative exploration of our loves, fears and desires regarding work and research. This entanglement of us and our lives invited some different selves, or alter ego’s to insert themselves mischievously into our artistic (research) practices. In this public rehearsal, we will share with you the scenes we dreamed up and the strategies we stumbled upon along the way, and engage you in a process of embodying these coveted others. 
+Antye Guenther and Philippine Hoegen 
+Each training programma also offers the opportunity to go into our sauna. The schedule of the evening follows roughly this rhythm. 
+Sauna open from 18:00 to 19:00 (with food: potato salad/soup/fresh bread). 
+Training session from 19:00 to 21:00
+Sauna open from 21:00 to 22:00 
+You can claim you spot in the www.buitenplaatsbrienenoord.nl ticket shop 
+Date: 28 November 2025, 18:00-22:00 
+Location: Buitenplaats Brienenoord in Rotterdam

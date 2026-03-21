@@ -12,5 +12,15 @@ const works = defineCollection({
   }),
 });
 
+const updates = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: "./src/content/news" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    pubDate: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(), 
+   }),
+});
+
 // Export all collections
-export const collections = {works};
+export const collections = {works, updates};

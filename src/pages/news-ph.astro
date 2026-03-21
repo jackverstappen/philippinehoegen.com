@@ -1,0 +1,29 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from 'astro:assets';
+import localImage from '../assets/media/philippinehoegen.png';
+
+const title ="NEWS";
+---
+
+<BaseLayout title={title}>
+  <h2>NEWS</h2>
+
+  <!-- Local image — src is an imported asset, fully optimised at build time -->
+  <Image
+    src={localImage}
+    alt="A local photo"
+    widths={[400, 800, 1200]}
+    sizes="(max-width: 600px) 100vw, 800px"
+  />
+
+  <!-- Local image with explicit dimensions override -->
+  <Image
+    src={localImage}
+    alt="Cropped to a square"
+    width={400}
+    height={400}
+  />
+
+</BaseLayout>
+

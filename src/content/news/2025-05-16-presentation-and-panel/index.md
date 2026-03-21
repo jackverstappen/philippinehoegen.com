@@ -1,0 +1,18 @@
+---
+title: 'Presentation and panel'
+description: ''
+pubDate: '2025-05-16'
+---
+
+Presentation and panel during the Work Conference Exploding practices at BAK, Utrecht: De tafel van kunst en methode: Anke Coumans, Nirav Christophe, Philippine Hoegen
+De tafel van kunst en methode: Wat doe je precies? Welke manieren van werken
+worden ontwikkeld en ontwikkelt zich ook een specifi ek instrumentarium en vocabulair? Ontstaat er een eigen discipline? Hoe positioneren kunstenaars in de samenleving zich?
+• Welke (artistieke) methodes, tools en uitgangspunten worden gehanteerd?
+• Welke taal wordt gesproken en welk vocabulaire ontwikkelt zich?
+• Wat moeten we kunnen en wat moeten we leren?
+• De praktijk verandert de ‘makers’, hoe gaan we om met dit gegeven?
+Workshop/presentation for the launch of Performance Research Journal: On Social Imaginaries, introducing our article How We Wish To Work.
+Philippine Hoegen and Veerle Spronck, 16 May 2025
+Session 2 How We Wish to Work 
+By Philippine Hoegen & Veerle Spronck
+This session departs from the idea posited in the issue’s text How We Wish to Work by Philippine Hoegen and Veerle Spronck, that ethics and aesthetics are inextricably entangled in artistic (research) practices, and that pitting them against each other is a habit in artistic critique that urgently needs updating. Through collective refl ection and case-based inquiry, the session examines how ethical-aesthetic considerations take shape within collaborative processes and maps dilemmas related to the stakes of participation, the shaping of commitments, and the negotiation of artistic choices. The aim here is to check and test diff erent positions on the aptitude of artistic work as a site for rehearsing collective imaginaries.

@@ -1,0 +1,8 @@
+---
+title: 'Performance: Callisthenics (version 1.2)'
+description: ''
+pubDate: '2025-05-10'
+---
+
+Performance: Callisthenics (version 1.2) at Beyond the Black Box, Monty, Antwerp, with Paloma Bouhana and Henny Dörr (in absentia). 10 May 2025
+Dramaturgical support Arnisa Zeqo.
