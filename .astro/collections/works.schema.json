@@ -21,15 +21,7 @@
                 {
                   "type": "array",
                   "items": {
-                    "anyOf": [
-                      {
-                        "not": {}
-                      },
-                      {
-                        "type": "string"
-                      }
-                    ],
-                    "default": ""
+                    "type": "string"
                   }
                 }
               ]
