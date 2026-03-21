@@ -141,10 +141,12 @@ const { Content } = await render(work);
   .content-wrap {
     grid-template-areas: "img" "content" "works";
     grid-template-columns: 100%;
+
     @media screen and (min-width: 44em) {
       grid-template-columns: 1fr auto;
       grid-template-areas: "img img" "content works";
     }
+    
     @media screen and (min-width: 50em) {
       grid-template-columns: 30vw 1fr 170px;
       grid-template-areas: "img content works";
