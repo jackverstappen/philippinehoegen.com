@@ -1,6 +1,6 @@
 ---
 title: 'Calcite Revolt at the Wild Book Fair'
-cover: '../../assets/media/b8c4bc64e9984e804b39a26dac05c0e9.jpg'
+cover: '../../assets/media/calcite-revolt-at-the-wild-book-fair/b8c4bc64e9984e804b39a26dac05c0e9.jpg'
 media:
 tags:
   - 'exhibition'

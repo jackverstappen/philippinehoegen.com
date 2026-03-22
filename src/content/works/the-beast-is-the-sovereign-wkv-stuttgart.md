@@ -1,14 +1,14 @@
 ---
 title: 'The Beast is the Sovereign, WKV Stuttgart'
-cover: '../../assets/media/45a2584aaaa8b666166001a0e6f25bdc.jpg'
+cover: '../../assets/media/the-beast-is-the-sovereign-wkv-stuttgart/45a2584aaaa8b666166001a0e6f25bdc.jpg'
 media:
-  - '../../assets/media/e8fd2c4e02fc5540974ed7ea72ad7506.jpg'
-  - '../../assets/media/6507edab9587327ab573f1677fae2525.jpg'
-  - '../../assets/media/9daeac0e7a3c8dda6c4fd4194abecf8c.jpg'
-  - '../../assets/media/7abef2fcc7703e035dc89be30fe884d4.jpg'
-  - '../../assets/media/f213259e3581ec46dd848d4a8282de18.jpg'
-  - '../../assets/media/179d45f1eb9131105dc07dc7b50b374e.jpg'
-  - '../../assets/media/94ec95d739751e63e8ee975aa356c3f3.jpg'
+  - '../../assets/media/the-beast-is-the-sovereign-wkv-stuttgart/e8fd2c4e02fc5540974ed7ea72ad7506.jpg'
+  - '../../assets/media/the-beast-is-the-sovereign-wkv-stuttgart/6507edab9587327ab573f1677fae2525.jpg'
+  - '../../assets/media/the-beast-is-the-sovereign-wkv-stuttgart/9daeac0e7a3c8dda6c4fd4194abecf8c.jpg'
+  - '../../assets/media/the-beast-is-the-sovereign-wkv-stuttgart/7abef2fcc7703e035dc89be30fe884d4.jpg'
+  - '../../assets/media/the-beast-is-the-sovereign-wkv-stuttgart/f213259e3581ec46dd848d4a8282de18.jpg'
+  - '../../assets/media/the-beast-is-the-sovereign-wkv-stuttgart/179d45f1eb9131105dc07dc7b50b374e.jpg'
+  - '../../assets/media/the-beast-is-the-sovereign-wkv-stuttgart/94ec95d739751e63e8ee975aa356c3f3.jpg'
 tags:
   - 'exhibition'
 ---

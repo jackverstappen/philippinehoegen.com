@@ -1,6 +1,6 @@
 ---
 title: 'Rongwrong'
-cover: '../../assets/media/38f977770de8d6628a7a03ac1c6eb3db.jpg'
+cover: '../../assets/media/rongwrong/38f977770de8d6628a7a03ac1c6eb3db.jpg'
 media:
 tags:
   - 'display'

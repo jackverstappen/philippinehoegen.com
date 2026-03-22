@@ -1,12 +1,12 @@
 ---
 title: 'Calcite Revolt'
-cover: '../../assets/media/51f4cc1991ad6b147807b142ef41df6a.jpg'
+cover: '../../assets/media/calcite-revolt/51f4cc1991ad6b147807b142ef41df6a.jpg'
 media:
-  - '../../assets/media/ecd4a7486b61e1f7d353a2856dc7bcbe.jpg'
-  - '../../assets/media/98b0d5f05e55507834376b242f86f8dc.jpg'
-  - '../../assets/media/c6b666c142d34aa02b54bf353c9d1dbf.jpg'
-  - '../../assets/media/e05c23299bc9f7d3b2bce31ca20800a7.jpg'
-  - '../../assets/media/1a695f2fc846e2a84aa9885fc219e53a.jpg'
+  - '../../assets/media/calcite-revolt/ecd4a7486b61e1f7d353a2856dc7bcbe.jpg'
+  - '../../assets/media/calcite-revolt/98b0d5f05e55507834376b242f86f8dc.jpg'
+  - '../../assets/media/calcite-revolt/c6b666c142d34aa02b54bf353c9d1dbf.jpg'
+  - '../../assets/media/calcite-revolt/e05c23299bc9f7d3b2bce31ca20800a7.jpg'
+  - '../../assets/media/calcite-revolt/1a695f2fc846e2a84aa9885fc219e53a.jpg'
 tags:
   - 'research'
 ---

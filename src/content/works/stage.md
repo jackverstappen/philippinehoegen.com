@@ -1,10 +1,10 @@
 ---
 title: 'Stage'
-cover: '../../assets/media/bb242dcf83dec6d68da91a93be6f217f.jpg'
+cover: '../../assets/media/stage/bb242dcf83dec6d68da91a93be6f217f.jpg'
 media:
-  - '../../assets/media/97df19da81f4cac44b7f70e876e728fb.jpg'
-  - '../../assets/media/0c9a12524efa4af850e6602cfaccaf49.jpg'
-  - '../../assets/media/0fa810b62c362d7a853e108d5613c3ea.jpg'
+  - '../../assets/media/stage/97df19da81f4cac44b7f70e876e728fb.jpg'
+  - '../../assets/media/stage/0c9a12524efa4af850e6602cfaccaf49.jpg'
+  - '../../assets/media/stage/0fa810b62c362d7a853e108d5613c3ea.jpg'
 tags:
   - 'works'
   - 'border'

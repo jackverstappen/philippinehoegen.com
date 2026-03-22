@@ -1,10 +1,10 @@
 ---
 title: 'What is Work? Episode 3: What is the Value of Work?'
-cover: '../../assets/media/99a8a8172b868438c943a4b4b7e2ff3e.jpg'
+cover: '../../assets/media/episode-3/99a8a8172b868438c943a4b4b7e2ff3e.jpg'
 media:
-  - '../../assets/media/a61ee671dbe94297a3d5f48441657094.jpg'
-  - '../../assets/media/9b859f184712479177b2d6ed201d2598.jpg'
-  - '../../assets/media/514b1dffb9f1999b24e61e1160be3652.jpg'
+  - '../../assets/media/episode-3/a61ee671dbe94297a3d5f48441657094.jpg'
+  - '../../assets/media/episode-3/9b859f184712479177b2d6ed201d2598.jpg'
+  - '../../assets/media/episode-3/514b1dffb9f1999b24e61e1160be3652.jpg'
 tags:
   - 'house' 
   - 'works' 

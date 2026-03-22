@@ -1,8 +1,8 @@
 ---
 title: 'A Printed Other Version'
-cover: '../../assets/media/0114a679e2b09345bae9ac3630d93b4d.jpg'
+cover: '../../assets/media/a-printed-other-version/0114a679e2b09345bae9ac3630d93b4d.jpg'
 media:
-  - '../../assets/media/46fa88aa4116e045100a6326c71705e1.jpg'
+  - '../../assets/media/a-printed-other-version/46fa88aa4116e045100a6326c71705e1.jpg'
 tags:
   - 'capture'
   - 'works'

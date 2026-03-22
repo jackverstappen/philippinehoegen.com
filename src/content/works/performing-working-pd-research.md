@@ -1,6 +1,6 @@
 ---
 title: 'Performing Working PD research'
-cover: '../../assets/media/3ecf48eb8d053b2ee9b0fc905214389c.jpg'
+cover: '../../assets/media/performing-working-pd-research/3ecf48eb8d053b2ee9b0fc905214389c.jpg'
 media:
 tags:
 

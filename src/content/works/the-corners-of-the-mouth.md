@@ -1,10 +1,10 @@
 ---
 title: 'The Corners of the Mouth'
-cover: '../../assets/media/190b2b2243251fa05a750fe03dfcf036.jpg'
+cover: '../../assets/media/the-corners-of-the-mouth/190b2b2243251fa05a750fe03dfcf036.jpg'
 media:
-  - '../../assets/media/278c7d42bc178ae219fa4177d6c14e0c.jpg'
-  - '../../assets/media/2e2145d75168dfc45074341338b157d1.jpg'
-  - '../../assets/media/60694e27debe7f53f4425423429ad340.jpg'
+  - '../../assets/media/the-corners-of-the-mouth/278c7d42bc178ae219fa4177d6c14e0c.jpg'
+  - '../../assets/media/the-corners-of-the-mouth/2e2145d75168dfc45074341338b157d1.jpg'
+  - '../../assets/media/the-corners-of-the-mouth/60694e27debe7f53f4425423429ad340.jpg'
 tags:
   - 'display'
   - 'agent_and_informer'

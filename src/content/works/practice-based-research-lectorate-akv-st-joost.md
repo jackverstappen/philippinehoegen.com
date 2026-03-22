@@ -1,14 +1,14 @@
 ---
 title: 'Practice Based Research Lectorate AKV St Joost'
-cover: '../../assets/media/fdc21f9d9f9a443667dbbf00325817b5.jpg'
+cover: '../../assets/media/practice-based-research-lectorate-akv-st-joost/fdc21f9d9f9a443667dbbf00325817b5.jpg'
 media:
-  - '../../assets/media/7d883e1a729ce424052fe71cfb2ebd0a.jpg'
-  - '../../assets/media/5c591e0f55b49f55a4659d26ab887b33.jpg'
-  - '../../assets/media/d594452d8ca41f820cb55705c11bfec9.jpg'
-  - '../../assets/media/0bf807d88e638251fd34adf769685b1d.jpg'
-  - '../../assets/media/41608f57d62f4dfd5c09f30c748ca682.jpg'
-  - '../../assets/media/e997e8d43e76b05aa76683aa58418df8.jpg'
-  - '../../assets/media/6b1d258234d4207a91cd40bfed4c4bbd.jpg'
+  - '../../assets/media/practice-based-research-lectorate-akv-st-joost/7d883e1a729ce424052fe71cfb2ebd0a.jpg'
+  - '../../assets/media/practice-based-research-lectorate-akv-st-joost/5c591e0f55b49f55a4659d26ab887b33.jpg'
+  - '../../assets/media/practice-based-research-lectorate-akv-st-joost/d594452d8ca41f820cb55705c11bfec9.jpg'
+  - '../../assets/media/practice-based-research-lectorate-akv-st-joost/0bf807d88e638251fd34adf769685b1d.jpg'
+  - '../../assets/media/practice-based-research-lectorate-akv-st-joost/41608f57d62f4dfd5c09f30c748ca682.jpg'
+  - '../../assets/media/practice-based-research-lectorate-akv-st-joost/e997e8d43e76b05aa76683aa58418df8.jpg'
+  - '../../assets/media/practice-based-research-lectorate-akv-st-joost/6b1d258234d4207a91cd40bfed4c4bbd.jpg'
 tags:
   - 'house'
   - 'research'

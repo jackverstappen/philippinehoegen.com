@@ -1,11 +1,11 @@
 ---
 title: 'Ventriloquists III, Narrative Matters version'
-cover: '../../assets/media/40af2964c9313044f6c2b1f38866fd7c.jpg'
+cover: '../../assets/media/ventriloquists-iii-narrative-matters-version/40af2964c9313044f6c2b1f38866fd7c.jpg'
 media:
-  - '../../assets/media/af6ca795cb44e07e5a6f55b16b2e9238.jpg'
-  - '../../assets/media/650cfcd692dff6d563ed2f6c55b4970b.jpg'
-  - '../../assets/media/ae9c5c146df15f86776bc193a3a4edb1.jpg'
-  - '../../assets/media/2b758794ae0aa30b736bb7719a1e778f.jpg'
+  - '../../assets/media/ventriloquists-iii-narrative-matters-version/af6ca795cb44e07e5a6f55b16b2e9238.jpg'
+  - '../../assets/media/ventriloquists-iii-narrative-matters-version/650cfcd692dff6d563ed2f6c55b4970b.jpg'
+  - '../../assets/media/ventriloquists-iii-narrative-matters-version/ae9c5c146df15f86776bc193a3a4edb1.jpg'
+  - '../../assets/media/ventriloquists-iii-narrative-matters-version/2b758794ae0aa30b736bb7719a1e778f.jpg'
 tags:
   - 'house'
   - 'works'

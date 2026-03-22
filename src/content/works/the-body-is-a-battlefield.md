@@ -1,6 +1,6 @@
 ---
 title: 'The Body is a Battlefield'
-cover: '../../assets/media/45a4878311860bcd6aafd3423840101f.jpg'
+cover: '../../assets/media/the-body-is-a-battlefield/45a4878311860bcd6aafd3423840101f.jpg'
 media:
 tags:
   - 'exhibition'

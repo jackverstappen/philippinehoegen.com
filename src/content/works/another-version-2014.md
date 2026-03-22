@@ -1,12 +1,12 @@
 ---
 title: 'Another Version (2014)'
-cover: '../../assets/media/436f35c15c8b15d62cd8df20b698c257.jpg'
+cover: '../../assets/media/another-version-2014/436f35c15c8b15d62cd8df20b698c257.jpg'
 media:
-  - '../../assets/media/76416a7c8d22b3d486bf08242a2d9696.jpg'
-  - '../../assets/media/7cfd208d636150c69af258dbd8c0e990.jpg'
-  - '../../assets/media/bfe6e87ebd1b2964c7e2a018162d5ded.jpg'
-  - '../../assets/media/5e18f7301287c0e8774b86e3ca12f48e.jpg'
-  - '../../assets/media/0812eb331c1a917c8c7828c0de7b7f33.jpg'
+  - '../../assets/media/another-version-2014/76416a7c8d22b3d486bf08242a2d9696.jpg'
+  - '../../assets/media/another-version-2014/7cfd208d636150c69af258dbd8c0e990.jpg'
+  - '../../assets/media/another-version-2014/bfe6e87ebd1b2964c7e2a018162d5ded.jpg'
+  - '../../assets/media/another-version-2014/5e18f7301287c0e8774b86e3ca12f48e.jpg'
+  - '../../assets/media/another-version-2014/0812eb331c1a917c8c7828c0de7b7f33.jpg'
 tags:
   - 'capture'
   - 'works'

@@ -1,9 +1,9 @@
 ---
 title: 'Kunstallmend Bern'
-cover: '../../assets/media/ae00bfbdbb59f497c4efd1042712d29f.jpg'
+cover: '../../assets/media/kunstallmend-bern/ae00bfbdbb59f497c4efd1042712d29f.jpg'
 media:
-  - '../../assets/media/1d30ef59492f059f00fe4c7d937fa867.jpg'
-  - '../../assets/media/357a26644d994959515fceae608aba38.jpg'
+  - '../../assets/media/kunstallmend-bern/1d30ef59492f059f00fe4c7d937fa867.jpg'
+  - '../../assets/media/kunstallmend-bern/357a26644d994959515fceae608aba38.jpg'
 tags:
   - 'exhibition'
   - 'research'

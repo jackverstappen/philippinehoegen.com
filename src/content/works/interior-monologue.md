@@ -1,11 +1,11 @@
 ---
 title: 'Interior Monologue'
-cover: '../../assets/media/52c44e51f1a78ca593d175a9d3725017.jpg'
+cover: '../../assets/media/interior-monologue/52c44e51f1a78ca593d175a9d3725017.jpg'
 media:
-  - '../../assets/media/3be00d643b612d8a1806902b4cb052e4.jpg'
-  - '../../assets/media/bebbcd01e658431f90f26fe18d717187.jpg'
-  - '../../assets/media/d7c530d63d0ee5508faa135a995c3ad7.jpg'
-  - '../../assets/media/7ba80df49557c831607766771ea87458.jpg'
+  - '../../assets/media/interior-monologue/3be00d643b612d8a1806902b4cb052e4.jpg'
+  - '../../assets/media/interior-monologue/bebbcd01e658431f90f26fe18d717187.jpg'
+  - '../../assets/media/interior-monologue/d7c530d63d0ee5508faa135a995c3ad7.jpg'
+  - '../../assets/media/interior-monologue/7ba80df49557c831607766771ea87458.jpg'
 tags:
   - 'capture'
   - 'works'

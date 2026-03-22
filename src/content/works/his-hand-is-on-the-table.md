@@ -1,13 +1,13 @@
 ---
 title: 'His Hand is on the Table'
-cover: '../../assets/media/1d75eaf6af5b2741364d805619900702.jpg'
+cover: '../../assets/media/his-hand-is-on-the-table/1d75eaf6af5b2741364d805619900702.jpg'
 media:
-  - '../../assets/media/c3fd45f5d351c9ba56b414ed87738c57.jpg'
-  - '../../assets/media/7d48ea4648e3d2209f66f4a277c05fd9.jpg'
-  - '../../assets/media/c53c3c322e465fde1a88b59fb76d1979.jpg'
-  - '../../assets/media/5018ac2642313dc3941a3fcf49f0414b.jpg'
-  - '../../assets/media/e2a0e67b4a7628888c95fdfbcdfccaa8.jpg'
-  - '../../assets/media/a89c3cafa26b58cec148eb349483cf48.jpg'
+  - '../../assets/media/his-hand-is-on-the-table/c3fd45f5d351c9ba56b414ed87738c57.jpg'
+  - '../../assets/media/his-hand-is-on-the-table/7d48ea4648e3d2209f66f4a277c05fd9.jpg'
+  - '../../assets/media/his-hand-is-on-the-table/c53c3c322e465fde1a88b59fb76d1979.jpg'
+  - '../../assets/media/his-hand-is-on-the-table/5018ac2642313dc3941a3fcf49f0414b.jpg'
+  - '../../assets/media/his-hand-is-on-the-table/e2a0e67b4a7628888c95fdfbcdfccaa8.jpg'
+  - '../../assets/media/his-hand-is-on-the-table/a89c3cafa26b58cec148eb349483cf48.jpg'
 tags:
   - 'house'
   - 'display'

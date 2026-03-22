@@ -1,13 +1,13 @@
 ---
 title: 'Regarding David'
-cover: '../../assets/media/f2849cc4f62b6ca4f799f293b126d5c5.jpg'
+cover: '../../assets/media/regarding-david/f2849cc4f62b6ca4f799f293b126d5c5.jpg'
 media:
-  - '../../assets/media/96d5d61bd15454fdfb6d7099018a1157.jpg'
-  - '../../assets/media/5eaf115955ef3e0df645ff239cab218e.jpg'
-  - '../../assets/media/b2902e442a5399a98ef7138e4f51548f.jpg'
-  - '../../assets/media/a1af49056773463e0cd1932dfb282e10.jpg'
-  - '../../assets/media/236c80450e6b20028472370696d614af.jpg'
-  - '../../assets/media/89461a09ec7cf02454522f7ea6a65f7c.jpg'
+  - '../../assets/media/regarding-david/96d5d61bd15454fdfb6d7099018a1157.jpg'
+  - '../../assets/media/regarding-david/5eaf115955ef3e0df645ff239cab218e.jpg'
+  - '../../assets/media/regarding-david/b2902e442a5399a98ef7138e4f51548f.jpg'
+  - '../../assets/media/regarding-david/a1af49056773463e0cd1932dfb282e10.jpg'
+  - '../../assets/media/regarding-david/236c80450e6b20028472370696d614af.jpg'
+  - '../../assets/media/regarding-david/89461a09ec7cf02454522f7ea6a65f7c.jpg'
 tags:
   - 'house'
   - 'works'
