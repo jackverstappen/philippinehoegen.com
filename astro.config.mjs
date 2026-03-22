@@ -4,6 +4,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import node from '@astrojs/node';
+import markdoc from '@astrojs/markdoc';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
@@ -63,7 +64,7 @@ export default defineConfig({
   site: 'https://digitizedbeing.com',
   base: '/philippinehoegen.com',
 
-  integrations: [sitemap(), react(), keystatic_vite_only()],
+  integrations: [sitemap(), react(), markdoc(), keystatic_vite_only()],
   vite: {
     // Force Vite to pick the Node.js conditional export of @keystatic/core
     // packages in SSR context. Without this Vite resolves the edge/default
