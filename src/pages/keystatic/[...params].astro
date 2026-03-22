@@ -1,6 +1,28 @@
 ---
 export const prerender = false;
 import KeystaticApp from '../../components/KeystaticApp';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, ''); // e.g. "/philippinehoegen.com"
 ---
 
-<KeystaticApp client:only="react" />
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Keystatic Admin</title>
+    {/*
+      Keystatic's React router hardcodes /keystatic/* paths and has no awareness
+      of Astro's `base` setting. Strip the base prefix from the browser URL before
+      React hydrates so the router initialises at /keystatic/ as it expects.
+      The server still handles requests at /[base]/keystatic/* correctly.
+    */}
+    <script define:vars={{ base }}>
+      if (base && window.location.pathname.startsWith(base)) {
+        history.replaceState(null, '', window.location.pathname.slice(base.length) + window.location.search + window.location.hash || '/');
+      }
+    </script>
+  </head>
+  <body>
+    <KeystaticApp client:only="react" />
+  </body>
+</html>

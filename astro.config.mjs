@@ -10,16 +10,16 @@ import { fileURLToPath } from 'node:url';
 const BASE = '/philippinehoegen.com';
 
 // Keystatic's React UI hardcodes /api/keystatic/* and /keystatic/* paths with
-// no awareness of Astro's `base` setting. This dev-only middleware transparently
-// rewrites those requests to the base-prefixed paths that Astro actually serves.
+// no awareness of Astro's `base` setting. The base-path mismatch is handled
+// instead via a history.replaceState in src/pages/keystatic/[...params].astro
+// which strips the base prefix before the React router initialises.
+// This plugin is kept as a named placeholder in case future middleware is needed.
 const keystatic_base_proxy = {
   name: 'keystatic-base-proxy',
   enforce: /** @type {const} */ ('pre'),
   apply: /** @type {const} */ ('serve'),
   configureServer(server) {
-    server.middlewares.use((req, _res, next) => {
-      next(); // no-op: Astro dev server already serves SSR routes at both base-prefixed and non-prefixed paths
-    });
+    server.middlewares.use((_req, _res, next) => next());
   },
 };
 
@@ -39,6 +39,9 @@ function keystatic_vite_only() {
           `import "@keystatic/astro/ui";\nimport "@keystatic/astro/api";\nimport "@keystatic/core/ui";\n`
         );
         updateConfig({
+          // Keystatic's React app redirects localhost → 127.0.0.1 at runtime.
+          // Ensure the dev server is bound to 127.0.0.1 so that redirect lands.
+          server: config.server.host ? {} : { host: '127.0.0.1' },
           vite: {
             plugins: [
               {
