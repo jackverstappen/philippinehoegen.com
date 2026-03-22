@@ -1,11 +1,11 @@
 ---
 title: 'Going Underground'
-cover: '../../assets/media/41857385d50f70dd80e14b774d171b3b.jpg'
+cover: '../../assets/media/going-underground/41857385d50f70dd80e14b774d171b3b.jpg'
 media:
-  - '../../assets/media/b5760b1445344e9e309f8446a6cabeda.jpg'
-  - '../../assets/media/d32a0f352141728727e08bdd0a526ce7.jpg'
-  - '../../assets/media/da632efe9eac93a8f06b8c417c139436.jpg'
-  - '../../assets/media/e2e70e0fd2c0752584b83d7615b453fe.jpg'
+  - '../../assets/media/going-underground/b5760b1445344e9e309f8446a6cabeda.jpg'
+  - '../../assets/media/going-underground/d32a0f352141728727e08bdd0a526ce7.jpg'
+  - '../../assets/media/going-underground/da632efe9eac93a8f06b8c417c139436.jpg'
+  - '../../assets/media/going-underground/e2e70e0fd2c0752584b83d7615b453fe.jpg'
 tags:
   - 'border'
   - 'research'

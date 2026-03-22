@@ -1,13 +1,13 @@
 ---
 title: 'Diner Stanceant & The Printed Ball'
-cover: '../../assets/media/3e5d64738460ffe69f4ba8fc6d4538b9.jpg'
+cover: '../../assets/media/diner-stanceant-the-printed-ball/3e5d64738460ffe69f4ba8fc6d4538b9.jpg'
 media:
-  - '../../assets/media/9f0d71edc388ccf2c5d9c3bd2aa0860c.jpg'
-  - '../../assets/media/8fafc1871907047ad747470b3a9c030b.jpg'
-  - '../../assets/media/7b3885f56859060aa853c130ce5e29c5.jpg'
-  - '../../assets/media/57bbee73a319e4441c399ad119fa4cbf.jpg'
-  - '../../assets/media/f0fbbd6fa17678fe6e610a6341fd7cdf.jpg'
-  - '../../assets/media/44838b37efe600d7738bcea56ca64ca6.jpg'
+  - '../../assets/media/diner-stanceant-the-printed-ball/9f0d71edc388ccf2c5d9c3bd2aa0860c.jpg'
+  - '../../assets/media/diner-stanceant-the-printed-ball/8fafc1871907047ad747470b3a9c030b.jpg'
+  - '../../assets/media/diner-stanceant-the-printed-ball/7b3885f56859060aa853c130ce5e29c5.jpg'
+  - '../../assets/media/diner-stanceant-the-printed-ball/57bbee73a319e4441c399ad119fa4cbf.jpg'
+  - '../../assets/media/diner-stanceant-the-printed-ball/f0fbbd6fa17678fe6e610a6341fd7cdf.jpg'
+  - '../../assets/media/diner-stanceant-the-printed-ball/44838b37efe600d7738bcea56ca64ca6.jpg'
 tags:
   - 'display'
   - 'research'

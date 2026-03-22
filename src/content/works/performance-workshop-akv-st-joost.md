@@ -1,12 +1,12 @@
 ---
 title: 'Performance workshop AKV St Joost'
-cover: '../../assets/media/840bd2cff5f3c540324340143ede035d.jpg'
+cover: '../../assets/media/performance-workshop-akv-st-joost/840bd2cff5f3c540324340143ede035d.jpg'
 media:
-  - '../../assets/media/ab61b10fe169bb1b833c42bafb29916c.jpg'
-  - '../../assets/media/2f9a0e382d2dcf9c7c7582a387587c61.jpg'
-  - '../../assets/media/cf185c4fd3ea188a91e4429d2d0eceb4.jpg'
-  - '../../assets/media/6c0988fa8286bb8822e4eca5e5d245f8.jpg'
-  - '../../assets/media/b23dcf6fd8f9ce5521933b9e185c5537.jpg'
+  - '../../assets/media/performance-workshop-akv-st-joost/ab61b10fe169bb1b833c42bafb29916c.jpg'
+  - '../../assets/media/performance-workshop-akv-st-joost/2f9a0e382d2dcf9c7c7582a387587c61.jpg'
+  - '../../assets/media/performance-workshop-akv-st-joost/cf185c4fd3ea188a91e4429d2d0eceb4.jpg'
+  - '../../assets/media/performance-workshop-akv-st-joost/6c0988fa8286bb8822e4eca5e5d245f8.jpg'
+  - '../../assets/media/performance-workshop-akv-st-joost/b23dcf6fd8f9ce5521933b9e185c5537.jpg'
 tags:
   - 'research'
 ---

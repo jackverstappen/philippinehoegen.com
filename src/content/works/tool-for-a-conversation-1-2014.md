@@ -1,10 +1,10 @@
 ---
 title: 'Tool for a Conversation 1, 2014'
-cover: '../../assets/media/ee4e0a8578093b2553ab6d1e1ee78bcd.jpg'
+cover: '../../assets/media/tool-for-a-conversation-1-2014/ee4e0a8578093b2553ab6d1e1ee78bcd.jpg'
 media:
-  - '../../assets/media/4f36e3a4c6038e55186de7af0ff9a6ab.jpg'
-  - '../../assets/media/1c97a0400c07dbb78e32812f84c9b2cc.jpg'
-  - '../../assets/media/b9d7d127f5112d4ddfeb73cac1bc25d8.jpg'
+  - '../../assets/media/tool-for-a-conversation-1-2014/4f36e3a4c6038e55186de7af0ff9a6ab.jpg'
+  - '../../assets/media/tool-for-a-conversation-1-2014/1c97a0400c07dbb78e32812f84c9b2cc.jpg'
+  - '../../assets/media/tool-for-a-conversation-1-2014/b9d7d127f5112d4ddfeb73cac1bc25d8.jpg'
 tags:
   - 'image_and_word'
   - 'research'

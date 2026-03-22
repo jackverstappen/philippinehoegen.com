@@ -1,10 +1,10 @@
 ---
 title: 'Masist Gül-Berlin Biennale 2008-Schinkel Pavillon'
-cover: '../../assets/media/2e3b9b5190bf2057b438f3218e4ec5ab.jpg'
+cover: '../../assets/media/masist-gl-berlin-biennale-2008-schinkel-pavillon/2e3b9b5190bf2057b438f3218e4ec5ab.jpg'
 media:
-  - '../../assets/media/bcf631667a5ca920dd39a991625800b2.jpg'
-  - '../../assets/media/cef8ec08610308aeef6fbcd57e71cf33.jpg'
-  - '../../assets/media/607f5f681de9e29b9aeec5084face358.jpg'
+  - '../../assets/media/masist-gl-berlin-biennale-2008-schinkel-pavillon/bcf631667a5ca920dd39a991625800b2.jpg'
+  - '../../assets/media/masist-gl-berlin-biennale-2008-schinkel-pavillon/cef8ec08610308aeef6fbcd57e71cf33.jpg'
+  - '../../assets/media/masist-gl-berlin-biennale-2008-schinkel-pavillon/607f5f681de9e29b9aeec5084face358.jpg'
 tags:
   - 'display'
   - 'exhibition'

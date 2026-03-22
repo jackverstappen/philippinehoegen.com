@@ -1,11 +1,11 @@
 ---
 title: 'Presentations Bent Books'
-cover: '../../assets/media/91037c43d0d83f9a86ca82394cad289a.jpg'
+cover: '../../assets/media/presentations-bent-books/91037c43d0d83f9a86ca82394cad289a.jpg'
 media:
-  - '../../assets/media/be23a466aef6bf64b3ac21c82da71ed7.jpg'
-  - '../../assets/media/25edcd3ff65c98943583d74f641fae48.jpg'
-  - '../../assets/media/f1db5f5376b9c939323f7531f4b39e2c.jpg'
-  - '../../assets/media/be77569755ed852f83dd07f16c94c9c4.jpg'
+  - '../../assets/media/presentations-bent-books/be23a466aef6bf64b3ac21c82da71ed7.jpg'
+  - '../../assets/media/presentations-bent-books/25edcd3ff65c98943583d74f641fae48.jpg'
+  - '../../assets/media/presentations-bent-books/f1db5f5376b9c939323f7531f4b39e2c.jpg'
+  - '../../assets/media/presentations-bent-books/be77569755ed852f83dd07f16c94c9c4.jpg'
 tags:
   - 'display'
   - 'exhibition'

@@ -1,11 +1,11 @@
 ---
 title: 'Book Launch "When the second voice..." by Maddy Arkesteyn'
-cover: '../../assets/media/6bcb96c19f877c1dd54be060a424881d.jpg'
+cover: '../../assets/media/book-launch-when-the-second-voice-by-maddy-arkesteyn/6bcb96c19f877c1dd54be060a424881d.jpg'
 media:
-  - '../../assets/media/4c37cac7f074ceb0b5d5eb2b91d33d77.jpg'
-  - '../../assets/media/6d29ef48671925b00fc6e51d7368bdd5.jpg'
-  - '../../assets/media/b39231d7ff9c80cb21ff5235a65facd7.jpg'
-  - '../../assets/media/7004b9ae4e508b3656f6440798c161b5.jpg'
+  - '../../assets/media/book-launch-when-the-second-voice-by-maddy-arkesteyn/4c37cac7f074ceb0b5d5eb2b91d33d77.jpg'
+  - '../../assets/media/book-launch-when-the-second-voice-by-maddy-arkesteyn/6d29ef48671925b00fc6e51d7368bdd5.jpg'
+  - '../../assets/media/book-launch-when-the-second-voice-by-maddy-arkesteyn/b39231d7ff9c80cb21ff5235a65facd7.jpg'
+  - '../../assets/media/book-launch-when-the-second-voice-by-maddy-arkesteyn/7004b9ae4e508b3656f6440798c161b5.jpg'
 tags:
   - 'exhibition'
 ---

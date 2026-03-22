@@ -1,11 +1,11 @@
 ---
 title: 'Untitled'
-cover: '../../assets/media/01a70d55f44b494173e90e780e8d5211.jpg'
+cover: '../../assets/media/untitled/01a70d55f44b494173e90e780e8d5211.jpg'
 media:
-  - '../../assets/media/6adeca10855cfdad85c5836ca931ba9b.jpg'
-  - '../../assets/media/3424b3ea5f27ac9120df6b98d347a305.jpg'
-  - '../../assets/media/5419281c316f5e736ec6b9cbac444771.jpg'
-  - '../../assets/media/6606861a09bc80354a5152d1b6707269.jpg'
+  - '../../assets/media/untitled/6adeca10855cfdad85c5836ca931ba9b.jpg'
+  - '../../assets/media/untitled/3424b3ea5f27ac9120df6b98d347a305.jpg'
+  - '../../assets/media/untitled/5419281c316f5e736ec6b9cbac444771.jpg'
+  - '../../assets/media/untitled/6606861a09bc80354a5152d1b6707269.jpg'
 tags:
   - 'works'
   - 'agent_and_informer'

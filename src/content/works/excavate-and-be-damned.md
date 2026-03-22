@@ -1,10 +1,10 @@
 ---
 title: 'Excavate and be Damned?'
-cover: '../../assets/media/6061b43c852433179195a153487c0ef9.jpg'
+cover: '../../assets/media/excavate-and-be-damned/6061b43c852433179195a153487c0ef9.jpg'
 media:
-  - '../../assets/media/85cb3bb841b18e7fad36aedf8089eba4.jpg'
-  - '../../assets/media/19e84c241ba8cdb4212fa04476404021.jpg'
-  - '../../assets/media/94300757c199561ce2e77d0383fc388f.jpg'
+  - '../../assets/media/excavate-and-be-damned/85cb3bb841b18e7fad36aedf8089eba4.jpg'
+  - '../../assets/media/excavate-and-be-damned/19e84c241ba8cdb4212fa04476404021.jpg'
+  - '../../assets/media/excavate-and-be-damned/94300757c199561ce2e77d0383fc388f.jpg'
 tags:
   - 'display'
   - 'research'

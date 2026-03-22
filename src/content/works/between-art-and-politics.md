@@ -1,10 +1,10 @@
 ---
 title: 'Between Art and Politics'
-cover: '../../assets/media/f25ddd753fecf25cf8d4d4b54af8352c.jpg'
+cover: '../../assets/media/between-art-and-politics/f25ddd753fecf25cf8d4d4b54af8352c.jpg'
 media:
-  - '../../assets/media/5f3c5ff2ce1bf13ebeb33cacd7379dce.jpg'
-  - '../../assets/media/fdb18a83e79216c83476324b7e246eea.jpg'
-  - '../../assets/media/4dfb98a73fadfce77f5bc0beeca04d31.jpg'
+  - '../../assets/media/between-art-and-politics/5f3c5ff2ce1bf13ebeb33cacd7379dce.jpg'
+  - '../../assets/media/between-art-and-politics/fdb18a83e79216c83476324b7e246eea.jpg'
+  - '../../assets/media/between-art-and-politics/4dfb98a73fadfce77f5bc0beeca04d31.jpg'
 tags:
   - 'border'
   - 'research'

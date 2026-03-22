@@ -1,6 +1,6 @@
 ---
 title: 'What is Work Episode 1: What is Your Work?'
-cover: '../../assets/media/e2217c22353873dd37876443db3f68de.jpg'
+cover: '../../assets/media/what-is-work-episode-1-what-is-your-work/e2217c22353873dd37876443db3f68de.jpg'
 media:
 tags:
   - 'house'

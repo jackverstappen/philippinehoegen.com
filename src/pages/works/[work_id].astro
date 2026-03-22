@@ -37,10 +37,10 @@ type Props = {
 const { workCollection, work } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// Resolve a frontmatter path like "../../assets/media/foo.jpg" to ImageMetadata
+// Resolve a frontmatter path like "../../assets/media/[slug]/foo.jpg" to ImageMetadata
 const resolveImage = async (path: string): Promise<ImageMetadata | null> => {
-  const filename = path.split('/').pop();
-  const key = `/src/assets/media/${filename}`;
+  const mediaPath = path.split('assets/media/').pop();
+  const key = `/src/assets/media/${mediaPath}`;
   const loader = mediaImages[key];
   if (!loader) return null;
   const mod = await loader();

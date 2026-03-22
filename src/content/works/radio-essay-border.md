@@ -1,11 +1,11 @@
 ---
 title: 'Radio essay Border'
-cover: '../../assets/media/8acd27d3f04abab8c11abebaeb8d2b93.jpg'
+cover: '../../assets/media/radio-essay-border/8acd27d3f04abab8c11abebaeb8d2b93.jpg'
 media:
-  - '../../assets/media/94868d435eeaaa23d6ac56dd1fa1be0b.jpg'
-  - '../../assets/media/f0b0637f09567d73ad57d76ac07f135e.jpg'
-  - '../../assets/media/6f6ca5dc52c9131defb456621aa87cf2.jpg'
-  - '../../assets/media/353c39e03c02859a10bc58dff1a774ff.jpg'
+  - '../../assets/media/radio-essay-border/94868d435eeaaa23d6ac56dd1fa1be0b.jpg'
+  - '../../assets/media/radio-essay-border/f0b0637f09567d73ad57d76ac07f135e.jpg'
+  - '../../assets/media/radio-essay-border/6f6ca5dc52c9131defb456621aa87cf2.jpg'
+  - '../../assets/media/radio-essay-border/353c39e03c02859a10bc58dff1a774ff.jpg'
 tags:
   - 'border'
   - 'research'

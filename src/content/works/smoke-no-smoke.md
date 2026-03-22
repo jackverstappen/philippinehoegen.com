@@ -1,9 +1,9 @@
 ---
 title: 'Smoke no smoke'
-cover: '../../assets/media/e6888209f7cc9dd91560ae3068997a4a.jpg'
+cover: '../../assets/media/smoke-no-smoke/e6888209f7cc9dd91560ae3068997a4a.jpg'
 media:
-  - '../../assets/media/97fc6215a65dabd9ccbd96c89ff91381.jpg'
-  - '../../assets/media/497f0e7f6d941a5877e350d022c687d7.jpg'
+  - '../../assets/media/smoke-no-smoke/97fc6215a65dabd9ccbd96c89ff91381.jpg'
+  - '../../assets/media/smoke-no-smoke/497f0e7f6d941a5877e350d022c687d7.jpg'
 tags:
   - 'capture'
   - 'works'

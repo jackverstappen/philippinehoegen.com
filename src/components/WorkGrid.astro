@@ -17,8 +17,8 @@ const mediaImages = import.meta.glob<{ default: ImageMetadata }>(
 const tiles = await Promise.all(collection.map(async (p) => {
   let src = "";
   if (p.data.cover) {
-    const filename = p.data.cover.split('/').pop();
-    const loader = mediaImages[`/src/assets/media/${filename}`];
+    const mediaPath = p.data.cover.split('assets/media/').pop();
+    const loader = mediaImages[`/src/assets/media/${mediaPath}`];
     if (loader) {
       const mod = await loader();
       const optimized = await getImage({ src: mod.default, width: 200 });

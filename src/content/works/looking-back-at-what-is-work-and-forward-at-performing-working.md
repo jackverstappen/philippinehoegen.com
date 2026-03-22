@@ -1,6 +1,6 @@
 ---
 title: 'Looking back at WHAT IS WORK?, and forward at Performing Working'
-cover: '../../assets/media/9fbdf65522b59151c80b478da5150461.jpg'
+cover: '../../assets/media/looking-back-at-what-is-work-and-forward-at-performing-working/9fbdf65522b59151c80b478da5150461.jpg'
 media:
 tags:
   - 'house'

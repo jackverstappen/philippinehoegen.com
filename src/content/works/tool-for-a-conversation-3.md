@@ -1,9 +1,9 @@
 ---
 title: 'Tool for a conversation: 3'
-cover: '../../assets/media/ab777a9ab94c5080c65e4263b83761fd.jpg'
+cover: '../../assets/media/tool-for-a-conversation-3/ab777a9ab94c5080c65e4263b83761fd.jpg'
 media:
-  - '../../assets/media/33bda11ae16149c4855dacbce5bc5d44.jpg'
-  - '../../assets/media/a8d4ffaf58a31b9679439b06a7518822.jpg'
+  - '../../assets/media/tool-for-a-conversation-3/33bda11ae16149c4855dacbce5bc5d44.jpg'
+  - '../../assets/media/tool-for-a-conversation-3/a8d4ffaf58a31b9679439b06a7518822.jpg'
 tags:
   - 'image_and_word'
   - 'research'

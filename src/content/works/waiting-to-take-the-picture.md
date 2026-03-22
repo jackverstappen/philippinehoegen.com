@@ -1,9 +1,9 @@
 ---
 title: 'waiting to take the picture'
-cover: '../../assets/media/203c95cc8695649c2e9d27aac76c0c03.jpg'
+cover: '../../assets/media/waiting-to-take-the-picture/203c95cc8695649c2e9d27aac76c0c03.jpg'
 media:
-  - '../../assets/media/b6aad1983f3723bde01cbecd83bfc01d.jpg'
-  - '../../assets/media/397836b1b82739b1071e495f303b0169.jpg'
+  - '../../assets/media/waiting-to-take-the-picture/b6aad1983f3723bde01cbecd83bfc01d.jpg'
+  - '../../assets/media/waiting-to-take-the-picture/397836b1b82739b1071e495f303b0169.jpg'
 tags:
   - 'capture'
   - 'works'

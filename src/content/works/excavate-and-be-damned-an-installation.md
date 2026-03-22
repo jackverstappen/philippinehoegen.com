@@ -1,11 +1,11 @@
 ---
 title: 'Excavate and be Damned? An installation'
-cover: '../../assets/media/0e72242404b43075f8bc567a6d8067fd.jpg'
+cover: '../../assets/media/excavate-and-be-damned-an-installation/0e72242404b43075f8bc567a6d8067fd.jpg'
 media:
-  - '../../assets/media/4fb1e5fcaa2318d0287efd6cc1ce0d53.jpg'
-  - '../../assets/media/76656634579b214d646587201c573cb0.jpg'
-  - '../../assets/media/bd5e81b9251b3edfa95e1eb82b53c989.jpg'
-  - '../../assets/media/733f2f52c9c63272557868c7ab54986d.jpg'
+  - '../../assets/media/excavate-and-be-damned-an-installation/4fb1e5fcaa2318d0287efd6cc1ce0d53.jpg'
+  - '../../assets/media/excavate-and-be-damned-an-installation/76656634579b214d646587201c573cb0.jpg'
+  - '../../assets/media/excavate-and-be-damned-an-installation/bd5e81b9251b3edfa95e1eb82b53c989.jpg'
+  - '../../assets/media/excavate-and-be-damned-an-installation/733f2f52c9c63272557868c7ab54986d.jpg'
 tags:
   - 'works'
   - 'image_and_word'

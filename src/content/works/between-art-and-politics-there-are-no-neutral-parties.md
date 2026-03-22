@@ -1,12 +1,12 @@
 ---
 title: 'Between Art and Politics: There are No Neutral Parties'
-cover: '../../assets/media/5788c9624ccf16497591e2a1b76277df.jpg'
+cover: '../../assets/media/between-art-and-politics-there-are-no-neutral-parties/5788c9624ccf16497591e2a1b76277df.jpg'
 media:
-  - '../../assets/media/09aae4f91ae82155b7bbac6979531c19.jpg'
-  - '../../assets/media/f17185ad298c51913e5f9f4190a07bfb.jpg'
-  - '../../assets/media/dae8113bc06fcc030d543f70772fdca9.jpg'
-  - '../../assets/media/d7f67b33347f0c75a7e394329d1e0114.jpg'
-  - '../../assets/media/867bfcfed9bcdc70d40a9f8a1ce2cf02.jpg'
+  - '../../assets/media/between-art-and-politics-there-are-no-neutral-parties/09aae4f91ae82155b7bbac6979531c19.jpg'
+  - '../../assets/media/between-art-and-politics-there-are-no-neutral-parties/f17185ad298c51913e5f9f4190a07bfb.jpg'
+  - '../../assets/media/between-art-and-politics-there-are-no-neutral-parties/dae8113bc06fcc030d543f70772fdca9.jpg'
+  - '../../assets/media/between-art-and-politics-there-are-no-neutral-parties/d7f67b33347f0c75a7e394329d1e0114.jpg'
+  - '../../assets/media/between-art-and-politics-there-are-no-neutral-parties/867bfcfed9bcdc70d40a9f8a1ce2cf02.jpg'
 tags:
   - 'border'
   - 'research'

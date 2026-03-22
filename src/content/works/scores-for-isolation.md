@@ -1,13 +1,13 @@
 ---
 title: 'Scores for Isolation'
-cover: '../../assets/media/3e01bd9b45f357bd9e8590582eac969e.jpg'
+cover: '../../assets/media/scores-for-isolation/3e01bd9b45f357bd9e8590582eac969e.jpg'
 media:
-  - '../../assets/media/7aeee4abe29357219aa1bebdf8ed92db.jpg'
-  - '../../assets/media/6eacd0a4d02a7538b9cff334f5ac457a.jpg'
-  - '../../assets/media/69674c27e68b028639a91dd506749a7f.jpg'
-  - '../../assets/media/121ffd58009730e2b87dab3e7dce0cc9.jpg'
-  - '../../assets/media/16fe5aa75405d2cfdba64f60319e7f1b.jpg'
-  - '../../assets/media/8ab86b59461c420312ae7500f1c009eb.jpg'
+  - '../../assets/media/scores-for-isolation/7aeee4abe29357219aa1bebdf8ed92db.jpg'
+  - '../../assets/media/scores-for-isolation/6eacd0a4d02a7538b9cff334f5ac457a.jpg'
+  - '../../assets/media/scores-for-isolation/69674c27e68b028639a91dd506749a7f.jpg'
+  - '../../assets/media/scores-for-isolation/121ffd58009730e2b87dab3e7dce0cc9.jpg'
+  - '../../assets/media/scores-for-isolation/16fe5aa75405d2cfdba64f60319e7f1b.jpg'
+  - '../../assets/media/scores-for-isolation/8ab86b59461c420312ae7500f1c009eb.jpg'
 tags:
   - 'house'
   - 'display'

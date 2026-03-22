@@ -1,10 +1,10 @@
 ---
 title: 'Unfinished Business'
-cover: '../../assets/media/f0a8f3145612c77c1e33325f8d32f48d.jpg'
+cover: '../../assets/media/unfinished-business/f0a8f3145612c77c1e33325f8d32f48d.jpg'
 media:
-  - '../../assets/media/848472ea1c6de0b885332ac3fb537a8c.jpg'
-  - '../../assets/media/6cc0b45a65bf9dced600efcab8c0292f.jpg'
-  - '../../assets/media/e9a56a03e7a3d934aafbc7d335e7ee2c.jpg'
+  - '../../assets/media/unfinished-business/848472ea1c6de0b885332ac3fb537a8c.jpg'
+  - '../../assets/media/unfinished-business/6cc0b45a65bf9dced600efcab8c0292f.jpg'
+  - '../../assets/media/unfinished-business/e9a56a03e7a3d934aafbc7d335e7ee2c.jpg'
 tags:
   - 'works'
   - 'display'

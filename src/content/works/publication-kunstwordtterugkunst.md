@@ -1,10 +1,10 @@
 ---
 title: 'Publication: KunstWordtTerugKunst'
-cover: '../../assets/media/963c119f08949cc93c7c0eb581ce1872.jpg'
+cover: '../../assets/media/publication-kunstwordtterugkunst/963c119f08949cc93c7c0eb581ce1872.jpg'
 media:
-  - '../../assets/media/112f5ae8a7908a6e470ba0c9fbdc0658.jpg'
-  - '../../assets/media/f62cfebdc0727d84bc3bcb3ebb358286.jpg'
-  - '../../assets/media/daef2e6db4b087823f603c041d6dc7e5.jpg'
+  - '../../assets/media/publication-kunstwordtterugkunst/112f5ae8a7908a6e470ba0c9fbdc0658.jpg'
+  - '../../assets/media/publication-kunstwordtterugkunst/f62cfebdc0727d84bc3bcb3ebb358286.jpg'
+  - '../../assets/media/publication-kunstwordtterugkunst/daef2e6db4b087823f603c041d6dc7e5.jpg'
 tags:
   - 'capture'
   - 'works'

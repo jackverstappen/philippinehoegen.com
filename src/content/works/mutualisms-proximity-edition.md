@@ -1,10 +1,10 @@
 ---
 title: 'Mutualisms Proximity Edition'
-cover: '../../assets/media/02c3ae17e89bac36da256fc010677fbd.jpg'
+cover: '../../assets/media/mutualisms-proximity-edition/02c3ae17e89bac36da256fc010677fbd.jpg'
 media:
-  - '../../assets/media/702b0f675205c503d0059a46df623e1f.jpg'
-  - '../../assets/media/b7be721303b4ad75702f6a4bd1924edb.jpg'
-  - '../../assets/media/98e5df4456241d904d9c8c11d00fc075.jpg'
+  - '../../assets/media/mutualisms-proximity-edition/702b0f675205c503d0059a46df623e1f.jpg'
+  - '../../assets/media/mutualisms-proximity-edition/b7be721303b4ad75702f6a4bd1924edb.jpg'
+  - '../../assets/media/mutualisms-proximity-edition/98e5df4456241d904d9c8c11d00fc075.jpg'
 tags:
   - 'works'
   - 'image_and_word'

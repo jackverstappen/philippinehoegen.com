@@ -1,6 +1,6 @@
 ---
 title: 'What is work? Episode 2: Work Performance and Performing Work'
-cover: '../../assets/media/ee31033e9a77d5ff813e30013fdef8f9.jpg'
+cover: '../../assets/media/what-is-work-episode-2-work-performance-and-performing-work/ee31033e9a77d5ff813e30013fdef8f9.jpg'
 media:
 tags:
   - 'house'

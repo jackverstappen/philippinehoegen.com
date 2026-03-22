@@ -1,11 +1,11 @@
 ---
 title: 'Fortress: Undo'
-cover: '../../assets/media/9723511532797c74cd1ce2546a389300.jpg'
+cover: '../../assets/media/fortress-undo/9723511532797c74cd1ce2546a389300.jpg'
 media:
-  - '../../assets/media/4412d757095ff22effaddb400f4ff62d.jpg'
-  - '../../assets/media/9aa853ae12783cd0f6b8d3d50372b10e.jpg'
-  - '../../assets/media/bbcc9763be22b199be9c86fa0ae454a6.jpg'
-  - '../../assets/media/4cb481df8d502b8c099b23871e7fd5d8.jpg'
+  - '../../assets/media/fortress-undo/4412d757095ff22effaddb400f4ff62d.jpg'
+  - '../../assets/media/fortress-undo/9aa853ae12783cd0f6b8d3d50372b10e.jpg'
+  - '../../assets/media/fortress-undo/bbcc9763be22b199be9c86fa0ae454a6.jpg'
+  - '../../assets/media/fortress-undo/4cb481df8d502b8c099b23871e7fd5d8.jpg'
 tags:
   - 'house'
   - 'works'

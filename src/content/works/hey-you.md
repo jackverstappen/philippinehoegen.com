@@ -1,6 +1,6 @@
 ---
 title: 'Hey You!'
-cover: '../../assets/media/c7ea082e1e6b0e471afbe5b43f743afb.jpg'
+cover: '../../assets/media/hey-you/c7ea082e1e6b0e471afbe5b43f743afb.jpg'
 media:
 tags:
   - 'house'

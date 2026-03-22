@@ -1,11 +1,11 @@
 ---
 title: 'Unexpressive'
-cover: '../../assets/media/92cc50681cfd5ed9e8fc9ed93a188753.jpg'
+cover: '../../assets/media/unexpressive/92cc50681cfd5ed9e8fc9ed93a188753.jpg'
 media:
-  - '../../assets/media/1a1534c33783cba1c04782a1a7d2231b.jpg'
-  - '../../assets/media/68e1c914defb2afa20bed30741a9c54f.jpg'
-  - '../../assets/media/1794686130715e56cf9f223794fde390.jpg'
-  - '../../assets/media/1d5771bfc36e04d1a19121829345b8d6.jpg'
+  - '../../assets/media/unexpressive/1a1534c33783cba1c04782a1a7d2231b.jpg'
+  - '../../assets/media/unexpressive/68e1c914defb2afa20bed30741a9c54f.jpg'
+  - '../../assets/media/unexpressive/1794686130715e56cf9f223794fde390.jpg'
+  - '../../assets/media/unexpressive/1d5771bfc36e04d1a19121829345b8d6.jpg'
 tags:
   - 'exhibition'
 ---
