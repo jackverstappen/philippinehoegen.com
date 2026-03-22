@@ -1,0 +1,106 @@
+---
+title: 'Practice Based Research Lectorate AKV St Joost'
+cover: './fdc21f9d9f9a443667dbbf00325817b5.jpg'
+media:
+  - './7d883e1a729ce424052fe71cfb2ebd0a.jpg'
+  - './5c591e0f55b49f55a4659d26ab887b33.jpg'
+  - './d594452d8ca41f820cb55705c11bfec9.jpg'
+  - './0bf807d88e638251fd34adf769685b1d.jpg'
+  - './41608f57d62f4dfd5c09f30c748ca682.jpg'
+  - './e997e8d43e76b05aa76683aa58418df8.jpg'
+  - './6b1d258234d4207a91cd40bfed4c4bbd.jpg'
+tags:
+  - 'house'
+  - 'research'
+---
+
+**The Self as an Infrastructure in Process; a practice based enquiry into personhood and autonomy.**
+
+Researcher: Philippine Hoegen
+
+**Commisioned by Avans University ****Expertise Centre for Art and Design**
+
+**Short abstract **
+
+Having been commissioned a practice based research by the Expertise Centre for Art and Design at the Avans University of Applied Sciences in The Netherlands, I am exploring unstable notions of ‘self’, ‘other’ and 'person', taking performance as an investigative tool.
+
+My research has theoretical, practical and discursive aspects. What we mean by human, subject or citizen depends on our understanding of the highly ideological category in which these are assumed to be assembled: the person. In most definitions the person is perceived as that which, within the human body, is more than body, feeding on the premise of a gap between body and that which makes us human, a gap which is being levered open further in contemporary law and politics, often with lethal consequences. To understand ourselves as cyborgs might offer relief from this deadlock, embracing the human condition as existing fundamentally in dependency relationships with extraneous elements and objects, and in various versions of ourselves.
+
+Embodiment is pivotal in both the theoretical and practical part of this research. In my own performative practice, I experiment with different versions of my own self to explore the nature of it’s instability. Being different selves is both an on-stage and an off-stage practice, both a means for gathering information and an end as a series of developed performances.
+
+Departing from the proposition that performance, besides being an artistic medium can also be a research strategy, I have initiated a performance work group within the art academy to test and practice this proposal. It brings together students and teachers who are not necessarily familiar with performance but who are looking to investigate the subjects of their artistic or educational work in new ways. In this group we have developed a working format whereby participants work collectively on each other’s research questions, applying performative methods such as scores or improvisations to gain insight in,- and information on these questions .
+
+**January 2017: Research results**
+
+**1 Theoretical Framework and Discourse**
+
+Content
+
+What we mean by human, subject or citizen depends on our understanding of the highly ideological category in which these are assumed to be assembled: the person. In most definitions the person is perceived as that which, within the human body, is more than the body, feeding on the premise of a gap between body and that which is thought to make us human: a mind, consciousness, will or soul, all closely related to assumptions on the notion of autonomy. This gap is being prised open progressively in contemporary ideologies, law and politics, our bodies conceptually divorced from our selves, which for many results in a lethal state of affairs.
+
+To understand ourselves as cyborgs might offer relief from this deadlock, embracing the human condition as existing fundamentally in dependency relationships with extraneous elements and objects, and in various versions of ourselves.
+
+Result
+
+The theoretical part of this research has served to both fill gaps in relevant knowledge on the subject matter, and to give direction, depth and breadth to the original central research question. Concretely this has resulted in texts that summarize and reflect on the insights that have been gained. These formed the basis of my contribution to the conference: *The Body is a Battlefield*, at Het Nieuwe Instituut in Rotterdam on 08/09/2016, a number of presentations of the within the academy, for example in the *‘docentenwerkgroep’ *on 30/11/2016 and an *EKV teachers workshop* in May 2016. These texts also formed the basis for my application to present the research at the 8th ELIA conference[[1]](#_ftn1) in London (granted).  
+  
+Next Steps
+
+In the course of the process it has become clear however that, to do justice to the subject matter, to my specific approach and in order to be a pertinent contribution to the field, a more complex type of textual work will be necessary. Initial steps are being made for an approach that allows for a meeting between the creative and the academic, a written collaboration with Sebastian Olma and others is a possibility under consideration.
+
+Sources, a.o.:
+
+- Judith Butler: Gender Trouble: Feminism and Subversion of Identity
+- Jason Read: The Production of Subjectivity: from Transindividuality to the Commons
+- Roberto Espirito: Third Person
+- Beatrice/Paul Preciado: Testo Junkie: Sex, Drugs, and Biopolitics in the Pharmacopornographic Era
+- Michel Foucault (lecture): The Culture of the Self
+- Donna Haraway: The Cyborg Manifesto
+- Meredith Render: The Law of the Body,
+- N. Katherine Hayles: How We Became Posthuman
+
+**2 Practice (Collaborative and Solo)**
+
+Content
+
+Embodiment is pivotal in both the theoretical and practical part of this research. In my own performative practice, I have been experimenting with different versions of my own self, to explore the nature of it’s instability. Being different selves is both an ‘on-stage’ and an ‘off-stage’ practice, both a means for gathering information and an end, as in: a series of developed performances.
+
+Result
+
+On 20/05/2016 I performed a new version of the performance *Regarding David*, - a key component at the basis of this research - at Het Nieuwe Instituut in Rotterdam. This version was prepared in close collaboration with Manon Verkoyen, a forth year visual arts student at AKV|St.Joost in Breda.
+
+Next steps
+
+This performance turned out to be an important step, as the discussions between David and the audience members -which are a part of it - brought to light some essential conceptual lapses. A new version of the performance is now in development, which will be informed and underpinned by the insights from the theoretical and the discursive fields of this research. I am looking at possibilities for a collaborations.
+
+**3 Discursive: ‘What Happened’, performative research with students**
+
+Content
+
+Departing from the proposition that performance, besides being an artistic medium can also be a research strategy, I have initiated a performance work group within the art academy to test and practice this proposal. It brings together students and teachers who are not necessarily familiar with performance but who are looking to investigate the subjects of their artistic or educational work in new ways. In this group we have developed a working format whereby participants work collectively on each other’s research questions, applying performative methods such as scores or improvisations to gain insight in,- and information on these questions.
+
+Result
+
+The result was an intense trajectory in which assumptions on performance, collectivity and education were tested and transformed. We (a group of 30/40 participants – students/ teachers ) had 8 extra curricural meetings/work sessions in total in the period febr – dec 2016 (written reports are available in the research database) and we did an evaluation during the last meeting. All participants expressed a strong desire and urgency for the experiment to be continued, and plans for a second series, carrying the name ‘*What Happened’ *and commencing in February, are being made.
+
+Originally this experiment was conceived as a way to connect the research to the institute and to open it up to students and teachers, a way of sharing its methodologies and developing them collectively. But in practice it proved to be more than that. Simultaneously with this research I was in training to develop my didactical knowledge and skills (*cursus didactiek*). Informed by the insights I gathered there, I realised that in fact I had stumbled upon a rather innovative educational format. This work group differs radically from conventional educational formats, as it plays out on the cutting edge notions of education as a joint quest -rather than handing down knowledge-, on common and collective knowledge, on researching-through-making/doing in general and on performance as a research strategy in particular.
+
+Because of what transpired in these ‘performance-as-research’ sessions –what it produced for the students paired with my own excitement about the potential of this working method as a novel educational format- it has taken up a much larger place in the research than was anticipated.
+
+Next Steps
+
+First step is to digest the evaluation of the first series of performative-research gatherings as described. From that, a revised format will be made and initiated, starting in February 2017 under the title ‘*What Happened’*. Besides using this as an inquiry into the nature of artistic research, I will continue to explore what this working method can produce as an educational format.  
+I will work on a text that describes the method so that it can be communicated and used by others.  
+The project will be presented at ELIA in July 2017, input and conclusions from the conference will be digested and put to use in a third series to be carried out in the first semester of 2017-2018.
+
+**Conclusion**
+
+Whilst I have, in one or more ways, realised what I set out to do, it also become very clear that in each of the different fields the potential of the material that has been tapped into, is vaster than anticipated, so that justice cannot be done to it in the given time frame of a year. At the same time, I have gained a sense of urgency for both the subject matter of this research and its practices and methodologies.  
+  
+**Prolongation granted: 1-2-2017 / 31-1-2018 **
+
+---
+
+[[1]](#_ftnref1) 8th ELIA Academy - What’s going on Here? Exploring Elasticity in Teaching and Learning in the Arts.
+
+London, United Kingdom, 5 – 7 July 2017

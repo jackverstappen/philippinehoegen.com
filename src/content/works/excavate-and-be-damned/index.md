@@ -1,0 +1,28 @@
+---
+title: 'Excavate and be Damned?'
+cover: './6061b43c852433179195a153487c0ef9.jpg'
+media:
+  - './85cb3bb841b18e7fad36aedf8089eba4.jpg'
+  - './19e84c241ba8cdb4212fa04476404021.jpg'
+  - './94300757c199561ce2e77d0383fc388f.jpg'
+tags:
+  - 'display'
+  - 'research'
+---
+
+*Excavate and be Damned?*  
+Banu Cennetoglu & Philippine Hoegen  
+  
+12 May 2012, 2pm, The White Horse, Royal Mile, Edinburgh  
+A round table discussion chaired by writer Neil Cooper and including writer, publisher, and activist Kevin Williamson. The discussion will take as point of departure the specific case of a work by the deceased artist Masist Gül (1947 - 2003, Istanbul), which gives rise to questions on the ethics both of publishing and of not publishing posthumously, on the problematics of translating slang and colloquialisms, on the role and responsibility of those publishing, the choice of context and the positioning of pornographic content.
+
+21.04.12 - 27.05.12  
+Adaptation  
+Banu Cennetoglu & Philippine Hoegen | Maria Fusco | Dominic Paterson | Sarah Tripp   
+Sat 21 April - Sun 27 May  
+   
+Adaptation is a phased year long project initiated by Sarah Tripp with Collective that will consider the effect that changing circumstances can have on forms – this is particularly pertinent at this a time when Collective is in its own process of adaptation, preparing to move from its current site on Cockburn Street to a new site at the end of 2012.  
+   
+The practitioners involved in Adaptation all have multi-stranded practices including: photography, filmmaking, publishing, writing, teaching, appropriation, facilitation, curating, commentating, public discourse and the creation of events. ach will host an event, participate in the exhibition and make a publication.
+
+The project will have a circular structure, which aims to challenge progress narratives, and will be divided into four phases each dominated by a particular form – this structure, of course, can be challenged, adapted and changed by the participating practitioners. In order to begin, the phases are characterised as: *The Direct Address*, *The Reflective Sequence*, *The Reflective Sequence Sited in Time and Place* and *The Final Direct Address*. *The Direct Address* will consist of four presentations created by the practitioners open to the public to mark the commencement of the project in Spring 2012. All the practitioners will be present on this occasion but there is no obligation for them to make the *Address* themselves. It is suggested that *The Reflective Sequence *takes the form of a book to be disseminated by a print on demand system. This part of the project will happen in the early summer of 2012 with all the publications launching at the same time. The next phase, *The Reflective Sequence Sited in Time and Place,* will take the form of four photo-films to be installed within the Collective’s gallery space on Cockburn Street. This exhibition of the films will be the final and closing exhibition at Cockburn Street before the Collective conclude their 22-year residence and depart for their new site in Edinburgh towards the end of 2012. The final *Direct Address* will take place on the final day the Collective is open to the public at the Cockburn Street site, having the dual function of a closing celebration for the exhibition and the Gallery.

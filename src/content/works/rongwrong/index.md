@@ -1,0 +1,55 @@
+---
+title: 'Rongwrong'
+cover: './38f977770de8d6628a7a03ac1c6eb3db.jpg'
+media:
+tags:
+  - 'display'
+  - 'research'
+---
+
+> 
+> *'The School of Life', Banu Cennetoglu and Philippine Hoegen at Rongwrong*
+> 
+> 
+> Dear .......................,
+> 
+> 
+> This is a personal invitation to an afternoon at Rongwrong, an artspace in Amsterdam, where we are currently organizing a series of small gatherings 'The School of Life: things you do not learn in school'.   
+>   
+> We have invited artists Banu Cennetoglu and Philippine Hoegen to talk about their artist's book series 'Bent', which they publish in Turkey since 2006, and in particular to talk about the work of artist actor Masist Gul, who throughout his life was in fact never recognized as an artist. Cennetoglu and Hoegen published Gul's series of 6 hand painted books entitled "Kaldırım Destanı – Kaldırımlar Kurdunun Hayatı" (Pavement Myth – The Life of the Pavement's Wolf).  
+>   
+> For their presentation in Amsterdam the artists would like to engage in a deeper and informed discussion with other artists, writers, academics and publishers on how to deal with a posthumous oeuvre. They have set up a list of questions and further information about their project and Masist Gul, which you may find in the attachment in this email.  
+>   
+> It would be great if you could read their invitation and hopefully join us for an afternoon at Rongwrong on Sunday 22nd of April at 5 pm.  
+>   
+> Please let us know if you would like to accept our invitation (as the space of Rongwrong is quite small and seats are limited)  
+>   
+> Warm regards,
+> 
+> 
+> Antonia Carrara, Arnisa Zeqo and Laurie Cluitmans
+> 
+> 
+> +++++++++++++++++++ RONGWRONG
+> 
+> 
+> Binnenbantammerstraat n.2 1011 CK Amsterdamwww.rongwrong.org
+> 
+> 
+> rongwrong is a new space for art and theory. We're open Saturdays and Sundays from 2 to 6 pm or by appointment (+31 648618238) For any enquiries or proposition, please contact us at info@rongwrong.org'The School of Life' A series of intimate discussions with artists, writers and special guests. Throughout the months of March and April 2012 we have wished to address the intrinsic relations between the quotidian, the inner self and more abstract realms as ethics, politics and aesthetics.Our recurrent questions, through the last months, have often concerned the constant friction between the inner self and the theoretical, professional and artistic practices that describe and inscribe us in daily life. In a concealed veil the everyday embraces an ever-changing map of one’s life – with its detours, mountains and rivers, memories and historical developments.
+> 
+> 
+> How does it feel like to navigate within those?
+> 
+> 
+> Throughout the years many attempts have been made to connect the pleasures and frustrations of the quotidian to the practice of intellectual and artistic thinking. We have come together at Rongwrong to explore topics as diverse as: facing the coming of old age, visually representing one’s own life, struggling between fiction and reality…
+> 
+> 
+> We discuss these matters together with you in a modest attempt to approach the quotidian within the political, the poetical and the performative aspects of life.
+> 
+> 
+> Our Guests : Franco Berardi (Bifo), A.A. Bronson, Cathy Haynes, Vincenzo Latronico,Louwrien Wijers, Banu Cennetoglu and Philippine Hoegen, Jennifer Teets and Paolo Thorsen-Nagel.
+> 
+> 
+> ‘The School of Life: Things We Do Not Learn in School’ is made possible with the generous support of the Amsterdams Fonds voor de Kunsten and in collaboration with The Rietveld Academy Studium Generale.
+>

@@ -1,0 +1,265 @@
+---
+title: 'Launch ANOTHER VERSION Thinking Through Performing'
+cover: './fe4ca98bf2bef52ddd7585d00d461009.jpg'
+media:
+  - './cdb8d0c4f8f06e733816018936e5e58a.jpg'
+  - './53c33a92e389311e866a8de6d01d5dfc.jpg'
+  - './05edd01557e3bdc43f231ba904cddf4c.jpg'
+  - './8fb01831bc404d508bd329181bdef3fe.jpg'
+  - './f2b4315ecafa6e5ad0f853fb46e19eba.jpg'
+tags:
+  - 'capture'
+  - 'works'
+  - 'display'
+  - 'agent_and_informer'
+  - 'border'
+  - 'image_and_word'
+  - 'research'
+---
+
+Book launch of ANOTHER VERSION: Thinking Through Performing, at Bâtard Festival, Beursschouwberg, Brussels, January 30th. With thanks to so many collaborators and contributors!!  
+[https://www.facebook.com/events/1709894572479715/](https://www.facebook.com/events/1709894572479715/)  
+[https://www.batard.be/program-2020](https://www.batard.be/program-2020?fbclid=IwAR2fBwo0v8OJWujxaDMABF8J3xJfCq3SQAxYywvUu4Uz3204pw9Afo6wZBo)  
+  
+ THE LAUNCH will consist of conversations with participants in the workshop taking place in the afternoon in which the book is used, and short presentations by collaborators in the publication: Philippine Hoegen (author), Miriam Hempel (design and co-conceptualisation), Kristien Van den Brande (essay contribution), moderated by Sebastian Olma (research supervision / CARADT).
+
+THE WORKSHOP will introduce the methodology of performative versioning outlined in the publication. Using the proposals, scores and reflections assembled in the publication, questions brought forward by participants will be worked on collectively and individually. The workshop is free, but places are limited, so to participate please contact:[camille@batard.be](mailto:camille@batard.be) [https://www.facebook.com/events/792660261235020/  
+](https://www.facebook.com/events/792660261235020/)[https://www.batard.be/program-2020](https://www.batard.be/program-2020?fbclid=IwAR0h92-yQ9esIAn2KOSpOuEYAiyFFov12DlH0nQBE31KdLpIfEglsadcY7o)
+
+ABOUT THE PUBLICATION  
+(For more information: [https://www.onomatopee.net/product/another-version-thinking-through-performing/)  
+](https://www.onomatopee.net/product/another-version-thinking-through-performing/?fbclid=IwAR02KMAjQdms0v0C2w8Nbi0SxSPgty4EkrzBdWcUvVz2buvKAW7lGOcn5dk)ANOTHER VERSION: *Thinking Through Performing *approaches performance as a method of producing different versions of the self, referred to as ‘versioning’. It explores technologies and processes that produce such versions, and asks the question of how to understand the self within this multiplicity. ANOTHER VERSION*: Thinking Through Performing *proposes strategies of versioning as a means of attaching gesture, speech or lived experience to research questions or problems.
+
+It is comprised of 7 cahiers and contains games, scores, short stories, images, quotes and reflections that are often products of collaborative practices. Each cahier opens up a particular territory or lens, indicated through its title:
+
+CAHIER I Multiplicators, CAHIER II Pandiculators, CAHIER III Arena, CAHIER IV Objectaffilia, CAHIER V Animalities and CAHIER VI Ledger.
+
+The content of each cahier is structured into eight categories: conversation, image as score, notes, quote, reference text, report, score and short story. These can be used as the reader/user sees fit, a story, an image or a quote can be used as a score, a score can be reversed or a reflection can be cut up and transformed into a new text.
+
+CAHIER 0 reflects and expands on the content of the publication and the research from which it sprigs. It contains a conversation *Multiplicity, Multiplicators and the Supermarket Score* between Philippine Hoegen and Sebastian Olma, and an essay *Ecstatic Methods — Seven Vectors Addressed to Philippine Hoegen* by Kristien Van den Brande.
+
+COLOPHON
+
+ANOTHER VERSION:
+
+*Thinking Through Performing*
+
+by Philippine Hoegen
+
+Onomatopee 159
+
+Cabinet Project
+
+IN COLLABORATION WITH CARADT (Centre of Applied Research
+
+for Art, Design & Technology, Avans University of Applied
+
+Sciences, Breda and Den Bosch, NL)
+
+SUPERVISOR Prof. Dr. Sebastian Olma
+
+DESIGN AND CO-CONCEPTUALISATION Miriam Hempel,
+
+www.daretoknow.uk
+
+IMAGES COLLAGES, DRAWINGS AND PHOTOS by Philippine Hoegen
+
+IMAGES OF NOTES by different participants in working sessions
+
+ESSAY cahier 0 Kristien Van den Brande
+
+EDITORIAL ADVICE arp: Brussels
+
+COPY EDITING AND PROOFREADING Sarah Cale
+
+PRODUCED AND SUPPORTED BY CARADT, Avans University, NL
+
+SUPPORTED BY Mondriaan Fonds, NL
+
+PRINTED BY Graphius, BE
+
+Brussels, 2020
+
+COPYRIGHT OF creative commons
+
+www.onomatopee.net
+
+ISBN 978-94-93148-28-4
+
+COLLABORATOR & PARTICIPANTS
+
+Aegir van de Loo
+
+Amandi van Loon
+
+Anita Hrnić
+
+Anna van Zoolingen
+
+Annemiek Wolse
+
+Anouk van Weerlee
+
+Aykan Safoğlu
+
+Bo Stokkermans
+
+Carmen Dusmet
+
+Carrasco
+
+Charlotte Bol
+
+Charlotte Rohde
+
+Daniël van der Giessen
+
+Emmie Liebregts
+
+Emmy Vollard
+
+Emre Busse
+
+Evy Reinders
+
+Floor Snels
+
+Folke Janssen
+
+Francisca Khamis Giacoman
+
+Giulia Bardelli
+
+Gosie Vervloessem
+
+Hanna Valle
+
+Harm in t Groen
+
+Ian Skirvin
+
+Ilse Leenders
+
+Indy Fortuijn
+
+Jacqueline Overberg
+
+Jaleesa Malle
+
+Joris Roosen
+
+Kristien Van den Brande
+
+Lara Bongard
+
+Leo Kay
+
+Levi van Gelder
+
+Lieke Bakker
+
+Lilia Mestre
+
+Lisanne van Brakel
+
+Manon Verkooyen
+
+Mara Varelaki
+
+Marialena Marouda
+
+Maud Nederkoorn
+
+Maurice Nuiten
+
+Max van de
+
+Meulengraaf
+
+Mike Megens
+
+Myrthe Sterk
+
+Nick Pouls
+
+Nicolas Y Galeazzi
+
+Niels Roest
+
+Nika van Woenzel
+
+Pia Louwerens
+
+Rachel Verouden
+
+Rowena Buur
+
+Sid Dankers
+
+Sofie Hollander
+
+Tiiu Jansen
+
+Wanda Tiersma
+
+Wies Paree
+
+Wouter Stroet
+
+Yason Moeniralam
+
+Zsa zsa Hessel
+
+WITH THANKS
+
+Alex Farrer
+
+Ana Hoffner
+
+Antonia Baehr
+
+Banu Cennetoğlu
+
+Carolien Stikker
+
+Cecila Molano
+
+Derk Byvanck
+
+Ernestine K.hne
+
+Femke de Boer
+
+Freek Lomme
+
+Jack Verstappen
+
+Leen Bedaux
+
+Lisa Nelson
+
+Mala Kline
+
+Patricia Reed
+
+Pierre Rubio
+
+Reinier Vranken
+
+Rens Holslag
+
+Robert Suermondt
+
+Samah Hijawi
+
+Saskia van Stein
+
+Veridiana Zurita
+
+Wilma Diepens
+
+Staff and students
+
+AKV|St.Joost, Breda
+
+and Den Bosch

@@ -1,0 +1,63 @@
+---
+title: 'Masist Gül by Banu Cennetoglu and Philippine Hoegen'
+cover: './2dc209e622a20eb5c326d81437053903.jpg'
+media:
+  - './b8dd3f50ea77f63e9a39e34036189632.jpg'
+  - './d6df45612721852b94fc92c5d81c3d18.jpg'
+tags:
+  - 'display'
+  - 'exhibition'
+  - 'research'
+---
+
+##### *Masist Gül by Banu Cennetoglu and Philippine Hoegen*
+
+##### *at Kunstraum Lakeside, Klagenfurt, AT*
+
+##### [http://www.lakeside-kunstraum.at/](http://www.lakeside-kunstraum.at/index.php?id=483&L=1)
+
+##### Jannuary 24 to March 14, 2014
+
+##### -
+
+To make a body of work visible posthumously is a delicate and hazardous task, especially if the artist was not recognized in the context of official art history during his or her lifetime. There is always a risk that the artist, the work or both are instrumentalized or exoticized in the process.
+
+In this case the artist in question is Masist Gül, whose work and persona are of a very specific nature.
+
+---
+
+**Masist Gül** (1947–2003) was an artist of Armenian origin, who was born and lived in Istanbul. Although he made his living as an actor playing minor roles in over 300 movies, in his private life, unknown to the outside world, he was an extraordinary artist. He produced a large amount of collages, drawings and poetry. During the 80’s he conceived and made by hand, using a periodical comic-book format, a series of 6 books with the title «Kaldırım Destanı—Kaldırımlar Kurdunun Hayatı/Pavement Myth—The Life of the Pavement’s Wolf.» Bent 001,* published in 2006, are the first existing reproductions of these originals.
+
+Masist Gül’s archive, containing the originals of «Kaldırım Destanı—Kaldırımlar ­Kurdunun Hayat»ı and various drawings, writings, photographs and books by the artist, was exhibited for the first time at BAS in 2006. In 2007, the archive was shown at Etablissement d’en Face in ­Brussels and in 2008 at the Schinkel Pavillon in Berlin during the 5th Berlin Biennale.
+
+This exhibition shows the entire archive of Gül’s work, and an installation entitled «Excavate and be Damned?» that was the outcome of a research Cennetoğlu and Hoegen did on an as yet unpublished work by Gül.
+
+---
+
+1905–1973: 68 Years of the Pavement Myth—The Life of the Pavement’s Wolf
+
+He was one of the birds that had fallen into the mud with a broken wing—He was one of the paving stones pulled out from the edge of a sidewalk—He was one of those vagabonds or bums who never have a home—He walked toward darkness, bewildered …
+
+From birth he yearned for the affection of a mother and the bread of a father—In light of civilization he was principally a scandal—The first things he saw in his life were nothing but hundreds of thousands of cruelties and torture—He walked toward darkness, bewildered …
+
+He was born a poet … He was the greatest poet upon the earth—He was ruthless to the bad and he was unbeatable, awful and evil – HIS GREATEST ENEMY WAS HE HIMSELF … He used to cut every part of his body—He walked toward darkness, bewildered …
+
+He was born damned; he could not entertain himself even with his own money—He was a person without honor; no woman could ever love him—He had no right to be happy; he could not change his destiny either—He walked toward darkness, bewildered …
+
+He was astonishingly fast and he was as powerful as a superman—When he was born what he tasted was not his mother’s milk but a dog’s—He had grown up in cruelty and torture; he had begun to crawl straight after being born—He walked toward darkness, bewildered …
+
+All the squatters were under his protection—At the cost of his own creeping his goal was to make them survive—Yet his greatest enemy was he HIMSELF; he was the one full of hatred—He walked toward darkness, bewildered …
+
+He was born as a bird without wings in this strange world—He could not take off and fly; he was left in the open on this wide road—AND IN THE END, HE WAS A KING named THE PAVEMENT WOLF—And in the end, his fame overflowed from the ears of the people … and it reached beyond the skies.—Written by Masist, the Pavement.
+
+(Translated from the Turkish by R.A.)
+
+Source: Documenta Magazine, No 1–3, 2007, Reader
+
+**Banu Cennetoğ****lu** works with photo­graphy, installation and printed matter. Her work has been shown in several institutions such as Secession, Vienna (2013); Hannover Kunstverein (2013), Artist’s Space, New York (2013), Nicosia Municipal Arts Centre, Cyprus (2012); Kunst­halle Basel (2011); Kumu Art Museum, Estonia (2011); La Centre de la Photo­graphie Genève, Switzerland (2010); La Coleccion Jumex, Mexico (2008); San Francisco Art Institute (2007), Walker Art Center, Minneapolis (2007). She participated in The Project Biennial of Contemporary Art, D-0 ARK Underground, Bosnia; Manifesta 8, Murcia; 3rd Berlin Biennale; 1st Athens Biennale; 10th Istanbul Biennale. In 2009 Cennetog˘lu co-represented Turkey at the Venice Biennale with Ahmet Öğüt. In 2006 she initiated BAS, a ­project space in Istanbul focusing on ­collection and production of artists’ books and printed matter. Together with artist Philippine Hoegen, they co-edited Bent, a publishing imprint (2006–2009) for the production and distribution of artists’ books from Turkey.
+
+www.b-a-s.info
+
+**Philippine Hoegen’s** practice consists of exhibiting work (both her own and that of others), organizing debates and discussions and writing–on art and as an art form. She currently runs BREW, a space in Brussels which organizes and hosts events and activities in the field of contemporary art, in collaboration with Carolien Stikker. She is founder and board member of ­Calcite Revolt, a platform of exchange for artists, curators, critics and theoreticians. With artist Banu Cennetog˘lu, she co-edited Bent, a publishing imprint (2006–2009) on the production and ­distribution of artists’ books from Turkey. She is a tutor of visual art at AKV St Joost Academy for Visual Art, Breda/Den Bosch, NL, and a participant of a.pass artistic research program in Brussels. Recent presentations: 2013 performative lecture «Exterior Monologue,» University of Art and Design, Cluj-Napoca, RO; Exhibition and public discussion «Unexpressive,» De ketelfactory, Schiedam. NL; 2012/13 Exhibition and public discussions «Adaptations,» with Banu ­Cennetog˘lu, The Collective Gallery, ­Edinburgh; 2012 Radio essay and exhibition «Mapping the Landscape,» Museum van Bommel van Dam, Venlo, NL; 2011 Exhibition and publication «Mutualisms,» Proximity and C-PS, Chicago.
+
+[www.philippinehoegen.com](http://www.philippinehoegen.com)
