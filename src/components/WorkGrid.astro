@@ -11,14 +11,14 @@ const {
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const mediaImages = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/assets/media/**/*.{jpg,jpeg,png,webp,avif,gif}'
+  '/src/content/works/**/*.{jpg,jpeg,png,webp,avif,gif}'
 );
 
 const tiles = await Promise.all(collection.map(async (p) => {
   let src = "";
   if (p.data.cover) {
-    const mediaPath = p.data.cover.split('assets/media/').pop();
-    const loader = mediaImages[`/src/assets/media/${mediaPath}`];
+    const filename = p.data.cover.replace(/^\.\//, '');
+    const loader = mediaImages[`/src/content/works/${p.id}/${filename}`];
     if (loader) {
       const mod = await loader();
       const optimized = await getImage({ src: mod.default, width: 200 });

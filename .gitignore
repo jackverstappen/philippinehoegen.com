@@ -1,7 +1,8 @@
 dist/
 node_modules/
+.astro/
 .env
 .env.*
 
-# Claude Code worktrees (temporary, not for version control)
-.claude/worktrees/
+# Claude Code configuration (local only)
+.claude/

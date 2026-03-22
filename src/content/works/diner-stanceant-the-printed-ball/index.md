@@ -1,0 +1,25 @@
+---
+title: 'Diner Stanceant & The Printed Ball'
+cover: './3e5d64738460ffe69f4ba8fc6d4538b9.jpg'
+media:
+  - './9f0d71edc388ccf2c5d9c3bd2aa0860c.jpg'
+  - './8fafc1871907047ad747470b3a9c030b.jpg'
+  - './7b3885f56859060aa853c130ce5e29c5.jpg'
+  - './57bbee73a319e4441c399ad119fa4cbf.jpg'
+  - './f0fbbd6fa17678fe6e610a6341fd7cdf.jpg'
+  - './44838b37efe600d7738bcea56ca64ca6.jpg'
+tags:
+  - 'display'
+  - 'research'
+---
+
+In collaboration with Gosie Vervloessem, in the context of 'Milieu', apass, 2014
+  
+  
+"
+*There was a dinner party, which we called the Diner Stanceant. Gosie and I were under the influence, that is to say: the influence of Jan Masschelein, who is a professor in the theory of pedagogy in Leuven and who we later invited here, at apass, to talk and play a game with us. The ‘stance’ was a word he used and which captivated us: a word that is locked up in the word dis-stance, it is an attitude one imposes upon oneself , an active, maintained position that has to be performed.*
+  
+
+*The party was strictly for alter-ego’s. The alter-ego allows you to stand beside yourself, take a little dis-stance. For me it was my first social event as David, who is a thoroughly nice and unassuming bus-conductor and writer from Manchester. I’m sure you will meet him. Gosie was Annette.*
+
+*Later on at PAF, David and Annette invited everyone to sit and drink around the table,to reminisce, gossip or grumble about the dinner party. We gathered these conversations as they arose, swelled and settled softly on a huge table cloth, and saved them for posterity.*"

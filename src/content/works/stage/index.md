@@ -1,0 +1,38 @@
+---
+title: 'Stage'
+cover: './bb242dcf83dec6d68da91a93be6f217f.jpg'
+media:
+  - './97df19da81f4cac44b7f70e876e728fb.jpg'
+  - './0c9a12524efa4af850e6602cfaccaf49.jpg'
+  - './0fa810b62c362d7a853e108d5613c3ea.jpg'
+tags:
+  - 'works'
+  - 'border'
+---
+
+*Stage, 2012  
+*  
+Made in the framework of the project ‘Mapping the Landscape’ at Museum van Bommel van Dam, Venlo, *Stage *consists of 2 projections installed back-to-back and 2 audio tracks. Showing both sides of a section of the NL-DE border, which was once the main border crossing area with customs offices and patrolling officials but is now a double dead-end street, *Stage* observes the goings-on here one languid afternoon.  
+Nothing much happens.  
+Present within the frame are both an unassuming townscape and the site of complex, political and ideological entanglements.
+
+For ‘Mapping the Landscape’ Hoegen explored aspects of the border in the local context of Venlo and in a broader sense, an enquiry that resulted in the radio essay ‘Border’ which was aired on June 30th 2012 on L1 radio and which contains excerpts from interviews with Henk van Houtum, Florian Schneider and Dimitri Tokmetzis as well as conversations with locals form both sides of the border.  
+[http://www.l1.nl/algemeen/183867-radio-essay-grens#.T_FRyDDkr2A](http://www.l1.nl/algemeen/183867-radio-essay-grens#.T_FRyDDkr2A)
+
+*Stage* is part of the exhibition ‘Mapping the Landscape’ at Museum van Bommel van Dam.  
+September 2nd 2012 through Januari 6th 2013  
+opening 2 september om 15.00 uur  
+Antoine Berghs  
+Paul Devens  
+Sebastian Freytag  
+Philippine Hoegen  
+Frank Koolen  
+Heidi Linck  
+Paulien Oltheten  
+Kai Rheineck  
+  
+Museum van Bommel van Dam  
+Deken van Oppensingel 6  
+NL 5911 AD Venlo  
+www.vanbommelvandam.nl  
+Open dinsdag t/m zondag 11.00–17.00 uur.

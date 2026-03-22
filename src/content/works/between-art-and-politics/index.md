@@ -1,0 +1,33 @@
+---
+title: 'Between Art and Politics'
+cover: './f25ddd753fecf25cf8d4d4b54af8352c.jpg'
+media:
+  - './5f3c5ff2ce1bf13ebeb33cacd7379dce.jpg'
+  - './fdb18a83e79216c83476324b7e246eea.jpg'
+  - './4dfb98a73fadfce77f5bc0beeca04d31.jpg'
+tags:
+  - 'border'
+  - 'research'
+---
+
+*Between Art and Politics, 16 Maart 2012*
+  
+  
+Between Art and Politics is a Round Table Discussion organised by students of AKV St Joost as part of the Minor 'Bewteen Art and Politics' , tutored by Philippine Hoegen and 
+[Pietje Tegenbosch](http://www.tegenboschvanvreden.com)
+.
+  
+At issue are contemporary developements in Dutch cultural politics, the pressure for legitimisation of the arts and the scope and potential of art as a place of autonomy and subversion.
+  
+  
+Speakers: 
+[Wilburt Smulders](http://www.let.uu.nl/~Wilbert.Smulders/personal/)
+, 
+[Rune Peitersen](http://www.runepeitersen.com/)
+, 
+[Annelinde Kirchgaesser](http://www.anne-linde.com/)
+, 
+[Camiel van Winkel](http://www.camielvanwinkel.nl/)
+Organising students: Anna Barbara Kolbers, Vera Mennens, Anne Feenstra, Pauw Vos, Wim de Leeuw, Koen Cornelise, Lina van Hassel
+  
+Moderator: Philippine Hoegen
