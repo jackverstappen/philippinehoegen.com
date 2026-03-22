@@ -7,22 +7,6 @@ import node from '@astrojs/node';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-const BASE = '/philippinehoegen.com';
-
-// Keystatic's React UI hardcodes /api/keystatic/* and /keystatic/* paths with
-// no awareness of Astro's `base` setting. The base-path mismatch is handled
-// instead via a history.replaceState in src/pages/keystatic/[...params].astro
-// which strips the base prefix before the React router initialises.
-// This plugin is kept as a named placeholder in case future middleware is needed.
-const keystatic_base_proxy = {
-  name: 'keystatic-base-proxy',
-  enforce: /** @type {const} */ ('pre'),
-  apply: /** @type {const} */ ('serve'),
-  configureServer(server) {
-    server.middlewares.use((_req, _res, next) => next());
-  },
-};
-
 // Slim replacement for @keystatic/astro that only sets up the virtual-module
 // Vite plugin — route injection is handled by our own src/pages files instead,
 // which avoids the Astro-5 injectRoute collision and the base-path mismatch.
@@ -69,21 +53,25 @@ export default defineConfig({
     enabled: false,
   },
   prefetch: true,
+
+  // The Node adapter is required in dev so Keystatic's SSR routes
+  // (src/pages/keystatic/ and src/pages/api/keystatic/) can handle
+  // local-mode file I/O. The portfolio pages themselves are all static
+  // (prerendered) and deploy to GitHub Pages unchanged.
   adapter: node({ mode: 'standalone' }),
 
   site: 'https://digitizedbeing.com',
-  base: BASE,
+  base: '/philippinehoegen.com',
 
   integrations: [sitemap(), react(), keystatic_vite_only()],
   vite: {
-    // Force Vite to pick the Node.js conditional export of @keystatic/core packages
-    // in SSR context. Without this, Vite resolves the edge/default build which
-    // deliberately stubs out local-mode file I/O with a 500 error.
+    // Force Vite to pick the Node.js conditional export of @keystatic/core
+    // packages in SSR context. Without this Vite resolves the edge/default
+    // build which stubs out local-mode file I/O with a 500 error.
     ssr: {
       resolve: {
         conditions: ['node', 'import', 'module'],
       },
     },
-    plugins: [keystatic_base_proxy],
   },
 });
