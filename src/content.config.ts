@@ -17,7 +17,11 @@ const works = defineCollection({
 });
 
 const updates = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: "./src/content/news" }),
+  loader: glob({
+    pattern: '**/index.mdoc',
+    base: "./src/content/news",
+    generateId: ({ entry }) => entry.replace('/index.mdoc', ''),
+  }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
