@@ -4,9 +4,9 @@ import { glob } from 'astro/loaders';
 
 const works = defineCollection({
   loader: glob({
-    pattern: '**/index.md',
+    pattern: '**/index.mdoc',
     base: "./src/content/works",
-    generateId: ({ entry }) => entry.replace('/index.md', ''),
+    generateId: ({ entry }) => entry.replace('/index.mdoc', ''),
   }),
   schema: z.object({
     title: z.string(),
