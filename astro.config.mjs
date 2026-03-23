@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import vercel from '@astrojs/vercel';
 import markdoc from '@astrojs/markdoc';
+import tailwind from '@astrojs/tailwind';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
@@ -58,7 +59,7 @@ export default defineConfig({
   adapter: vercel(),
   site: 'https://philippinehoegen-com.vercel.app',
 
-  integrations: [sitemap(), react(), markdoc(), keystatic_vite_only()],
+  integrations: [tailwind({ applyBaseStyles: false }), sitemap(), react(), markdoc(), keystatic_vite_only()],
   vite: {
     // Force Vite to pick the Node.js conditional export of @keystatic/core
     // packages in SSR context. Without this Vite resolves the edge/default

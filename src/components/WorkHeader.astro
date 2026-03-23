@@ -9,29 +9,34 @@ const { tags } = Astro.props;
 <header class="title-header">
   <h2>Works</h2>
 
-  <div class="title-header__row">
-    <span id="header-caption" class="title-header__caption"></span>
+  <div class="flex items-center justify-between gap-4 mt-2">
+    <span id="header-caption" class="text-base text-muted"></span>
 
-    <div class="title-header__controls">
+    <div class="flex items-baseline gap-2 w-[360px] shrink-0">
       <input
         type="search"
         id="search-input"
         placeholder="Search"
         aria-label="Filter works by title"
         autocomplete="off"
+        class="text-base flex-1 min-w-0"
       />
 
       {tags.length > 0 && (
-        <div class="tag-dropdown-wrap">
+        <div class="relative">
           <button
             type="button"
             id="tag-trigger"
-            class="tag-trigger"
+            class="flex items-center gap-1.5 whitespace-nowrap"
             aria-haspopup="listbox"
             aria-expanded="false"
           >
             Tags
-            <span id="tag-badge" class="tag-badge" hidden></span>
+            <span
+              id="tag-badge"
+              class="bg-ink text-surface text-sm font-medium rounded-full px-1.5 py-px min-w-[18px] text-center"
+              hidden
+            ></span>
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
               <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -44,14 +49,14 @@ const { tags } = Astro.props;
             aria-multiselectable="true"
             hidden
           >
-            <div class="tag-dropdown__header">
-              <span id="tag-filter-by-tag">Filter by tag</span>
-              <button type="button" id="tag-clear" class="tag-clear">Clear</button>
+            <div class="flex items-center justify-between px-2.5 py-1.5 border-b border-rim-soft text-xs text-muted">
+              <span id="tag-filter-by-tag" class="text-sm px-1 py-0.5">Filter by tag</span>
+              <button type="button" id="tag-clear" class="text-sm text-muted px-1 py-0.5 cursor-pointer hover:text-ink">Clear</button>
             </div>
-            <ul class="tag-dropdown__list">
+            <ul class="list-none m-0 p-1 overflow-y-auto">
               {tags.map((tag) => (
                 <li>
-                  <label class="tag-option">
+                  <label class="flex items-center gap-2 px-2 py-1.5 rounded-md cursor-pointer text-base text-ink hover:bg-surface-alt">
                     <input type="checkbox" name="tag" value={tag} autocomplete="off" />
                     {tag}
                   </label>
@@ -66,115 +71,18 @@ const { tags } = Astro.props;
 </header>
 
 <style>
-  .title-header__row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-top: 0.5rem;
-  }
-
-  .title-header__caption {
-    font-size: 16px;
-    color: var(--color-text-secondary);
-  }
-
-  .title-header__controls {
-    display: flex;
-    align-items: baseline;
-    gap: 8px;
-    width: 360px;
-    flex-shrink: 0;
-  }
-
-  #search-input {
-    font-size:16px;
-    flex: 1;
-    min-width: 0;
-  }
-
-  .tag-dropdown-wrap {
-    position: relative;
-  }
-
-  .tag-trigger {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    white-space: nowrap;
-  }
-
-  .tag-badge {
-    background: var(--color-text-primary);
-    color: var(--color-background-primary);
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 999px;
-    padding: 1px 6px;
-    min-width: 18px;
-    text-align: center;
-    border: none;
-  }
-
+  /* Only complex positioning remains — all layout/spacing now uses Tailwind */
   .tag-dropdown {
-  position: absolute;
-  top: calc(100% + 6px);
-  right: 0;
-  min-width: 200px;
-  background: var(--color-background-primary, #f4f4f4);
-  border: 1.5px solid var(--color-border-secondary, black);
-  border-radius: var(--border-radius-lg);
-  overflow: hidden;
-  z-index: 50;
-}
-  .tag-dropdown__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 6px 10px;
-    border-bottom: 0.5px solid var(--color-border-tertiary);
-    font-size: 12px;
-    color: var(--color-text-secondary);
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    min-width: 200px;
+    background: var(--color-background-primary);
+    border: 1.5px solid var(--color-border-secondary);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    z-index: 50;
   }
-
-  #tag-filter-by-tag {
-    font-size: 14px;
-    color: var(--color-text-secondary);
-    background: none;
-    border: none;
-    padding: 2px 4px;
-  }
-
-  .tag-clear {
-    font-size: 14px;
-    color: var(--color-text-secondary);
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 2px 4px;
-  }
-
-  .tag-clear:hover { color: var(--color-text-primary); }
-
-  .tag-dropdown__list {
-    list-style: none;
-    margin: 0;
-    padding: 4px;
-    overflow-y: auto;
-  }
-
-  .tag-option {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 8px;
-    border-radius: var(--border-radius-md);
-    cursor: pointer;
-    font-size: 16px;
-    color: var(--color-text-primary);
-  }
-
-  .tag-option:hover { background: var(--color-background-secondary); }
 </style>
 
 <script>

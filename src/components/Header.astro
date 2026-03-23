@@ -2,107 +2,72 @@
 import TextSlider from "../components/TextSlider.astro";
 import Separator from "../components/Separator.astro";
 
-// Get the current pathname
 const currentPath = Astro.url.pathname;
-// Define a map of routes
 const routes = {
   "/": "Home",
   "/works/": "Works",
   "/news/": "News",
   "/bio/": "Bio",
 };
-// Determine the active route
 const activeRoute = routes[currentPath] || null;
 ---
 
-<nav>
-<header>
-  <div>
-    <h1><a href="/" class={activeRoute === "Home" ? "current" : ""}>PHILIPPINE HOEGEN</a></h1>
-  </div>
-  <div>
-    <ul>
-      <li><a
-          href="/works/"
-          class={activeRoute === "Works" ? "current" : ""}
-          data-astro-prefetch><TextSlider content="Works" /></a>
-      </li>
-      <li><a
-          href="/bio/"
-          class={activeRoute === "Bio" ? "current" : ""}
-          data-astro-prefetch><TextSlider content="Bio" /></a>
-      </li>
-      <li><a
-          href="/bio#contact"
-          class={activeRoute === "Contact" ? "current" : ""}
-          data-astro-prefetch><TextSlider content="Contact" /></a>
-      </li>
-      <li><a href="https://www.instagram.com/philippinehoegen/" rel="noopener" aria-label="Instagram, opens in a new tab. (Link goes to a different website and opens in a new window)." target="_blank">
-          <span class="icon instagram"></span>
-        </a>
-      </li>
-      <li><a href="https://www.linkedin.com/in/philippine-hoegen-a755561b/" rel="noopener" aria-label="Linkedin, opens in a new tab. (Link goes to a different website and opens in a new window)." target="_blank">
-          <span class="icon linkedin"></span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</header>
-<Separator />
+<nav class="sticky top-0 z-10 bg-surface">
+  <header class="relative flex font-bold py-4 px-1 gap-4 items-center justify-between">
+    <div>
+      <h1 class="text-base font-[inherit] m-0">
+        <a href="/" class={activeRoute === "Home" ? "current" : ""}>PHILIPPINE HOEGEN</a>
+      </h1>
+    </div>
+    <div>
+      <ul class="flex text-base list-none gap-4 my-0 mx-2 p-0">
+        <li>
+          <a href="/works/" class={activeRoute === "Works" ? "current" : ""} data-astro-prefetch>
+            <TextSlider content="Works" />
+          </a>
+        </li>
+        <li>
+          <a href="/bio/" class={activeRoute === "Bio" ? "current" : ""} data-astro-prefetch>
+            <TextSlider content="Bio" />
+          </a>
+        </li>
+        <li>
+          <a href="/bio#contact" class={activeRoute === "Contact" ? "current" : ""} data-astro-prefetch>
+            <TextSlider content="Contact" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/philippinehoegen/" rel="noopener"
+            aria-label="Instagram, opens in a new tab." target="_blank">
+            <span class="icon instagram"></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/philippine-hoegen-a755561b/" rel="noopener"
+            aria-label="Linkedin, opens in a new tab." target="_blank">
+            <span class="icon linkedin"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <Separator />
 </nav>
 
-
 <style>
-nav {
-    position: sticky; top: 0;
-    z-index: 1;
-    background-color: #f4f4f4;
-}
-header {
-
-    position: relative;
-    display: flex;
-    font-weight: 700;
-    padding: 1rem .2rem;
-    gap: 1rem;
-    align-items: center;
-    justify-content: space-between;
-
-  }
   header a.current {
     pointer-events: none;
-  }
-  h1 {
-    font-size: 1rem;
-    font-weight: inherit;
-    margin: 0;
-  }
-  ul {
-    display: flex;
-    font-size:1rem;
-    list-style: none;
-    gap: 1rem;
-    margin-block:0px;
-    margin-inline: 8px;
-    padding: 0;
-    grid-column: auto / span 2;
-  }
-  @media screen and (min-width: 50em) {
-    header {
-      grid-template-columns: 20vw 1fr auto auto;
-    }
   }
 
   .icon {
     height: 20px;
     width: 20px;
-    display: inline-block; 
-    background-repeat: no-repeat;             /* no tiling */
-    background-position: center;              /* center it */
-    background-size: contain;                 /* scale to fit 20×20, keep aspect */
-    /* Other styles here */
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
   }
 
-  .instagram {background-image: url('../assets/images/instagram.png');}
-  .linkedin {background-image: url('../assets/images/linkedin.png');}
+  .instagram { background-image: url('../assets/images/instagram.png'); }
+  .linkedin  { background-image: url('../assets/images/linkedin.png'); }
 </style>

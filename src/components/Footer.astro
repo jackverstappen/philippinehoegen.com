@@ -4,23 +4,13 @@ import Separator from "../components/Separator.astro";
 const year = new Date().getFullYear()
 ---
 
-<footer>
-<Separator />
-  <p>&copy; <span id="footer-year">{year}</span> - All rights reserved</p>
+<footer class="py-8 w-full">
+  <Separator />
+  <p class="m-0 font-bold leading-snug text-center text-muted">
+    &copy; <span id="footer-year">{year}</span> - All rights reserved
+  </p>
 </footer>
-<style>
-  footer {
-    padding: 2rem 0;
-    width:100%;
-  }
-  p {
-    margin: 0;
-    font-weight: bold;
-    line-height: 1.4;
-    text-align: center;
-    color: var(--color-text-alt);
-  }
-</style>
+
 <script is:inline>
   document.getElementById("footer-year").innerText = new Date().getFullYear();
 </script>

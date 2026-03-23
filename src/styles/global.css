@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
 
@@ -11,19 +15,37 @@
 
 :root {
   font-size: 16px;
-  --color-text: #000;
-  --color-text-alt: #6a6a6a;
-  --color-faded: #c9c9c9;
-  --color-bg: #fff;
-  --border-color: #ccc;
-  --color-link: #000;
-  --color-link-hover: #999;
-  --color-placeholder: #f8f8f8;
-  --sans-serif:'Encode Sans Condensed', sans-serif;
-  --font-size-s: 0.85rem;
-  --font-size-l: clamp(1.25rem, 3vw, 1.75rem);
-  --font-size-xl: clamp(1.5rem, 5vw, 2.75rem);
-  font-family: var(--sans-serif)
+
+  /* Primitive tokens */
+  --color-text:         #000;
+  --color-text-alt:     #6a6a6a;
+  --color-faded:        #c9c9c9;
+  --color-bg:           #fff;
+  --border-color:       #ccc;
+  --color-link:         #000;
+  --color-link-hover:   #999;
+  --color-placeholder:  #f8f8f8;
+
+  /* Semantic tokens — used in WorkHeader, Gallery */
+  --color-text-primary:          #000;
+  --color-text-secondary:        #6a6a6a;
+  --color-background-primary:    #f4f4f4;
+  --color-background-secondary:  #ebebeb;
+  --color-border-secondary:      #000;
+  --color-border-tertiary:       rgba(0, 0, 0, 0.1);
+  --color-border-info:           #378add;
+
+  /* Spacing / shape tokens */
+  --border-radius-md: 6px;
+  --border-radius-lg: 12px;
+
+  /* Typography */
+  --sans-serif:    'Encode Sans Condensed', sans-serif;
+  --font-size-s:   0.85rem;
+  --font-size-l:   clamp(1.25rem, 3vw, 1.75rem);
+  --font-size-xl:  clamp(1.5rem, 5vw, 2.75rem);
+
+  font-family: var(--sans-serif);
 }
 
 p, text, h1, h2, h3, button, input {
