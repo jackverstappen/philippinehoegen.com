@@ -52,6 +52,19 @@ const update_id = update.id;
 // Find the index of the current update in the updates array
 const currentUpdateIndex = updatesCollection.findIndex((a) => a.id === update_id);
 
+const dateOptions: object = {
+	year: "numeric",
+	month: "short",
+	day: "numeric",
+};
+
+const formatDate = (date) => new Date(date).toLocaleDateString("en-BE", dateOptions);
+const expose = (rec) => {
+  console.log(rec);
+  
+   return `${formatDate(rec.pubDate)}`
+};
+
 
 // Render the content of the current update (e.g., markdown or MDX)
 const { Content } = await render(update);
@@ -63,10 +76,10 @@ const { Content } = await render(update);
       <h2>
         {update.data.title}
       </h2>
-      <span class="faded">({update.data.pubDate})</span>
+      <span class="faded">({expose(update.data)})</span>
     </header>
     <Separator />
-        <Content/>
+    <Content/>
   </section>
 </BaseLayout>
 <style>

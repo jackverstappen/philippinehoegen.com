@@ -3,6 +3,28 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Preloader from "../components/Preloader.astro";
 
+const updatesCollection = await getCollection("updates");
+
+const dateOptions: object = {
+	year: "numeric",
+	month: "short",
+	day: "numeric",
+};
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const recentUpdates = updatesCollection
+  //.sort((a,b)=> a.data.pubDate - b.data.pubDate)
+  //.reverse()
+  .filter((update,i)=> i<20)
+  .map((update)=>({
+    ...update
+  }))
+
+const formatDate = (date) => new Date(date).toLocaleDateString("en-BE", dateOptions);
+const expose = (rec) => `${formatDate(rec.pubDate)}`;
+
+
 const title = "";
 ---
 
@@ -28,13 +50,24 @@ const title = "";
 
     </div>
     <div class="card">
+      <p class="tag">upcoming and recent developments</p>
       <h2>News</h2>
+      <ul class="news-list" id="list" >
+        {recentUpdates.map((update) => 
+          <li><a href={`${base}/news/${update.id}`}><b>{expose(update.data)}</b> -  {update.data.title}</a></li>)}
+      </ul>
+
     </div>
 </div>
   
 </BaseLayout>
 <script src="../scripts/index.js"></script>
 <style>
+
+  li {
+    margin-block: 8px;
+    line-height: 1.2em;
+  }
 /* container */
 .binary-grid {
     display:block;
