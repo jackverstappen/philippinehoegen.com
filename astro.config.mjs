@@ -3,14 +3,14 @@ import { defineConfig } from 'astro/config';
 
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
-import node from '@astrojs/node';
+import vercel from '@astrojs/vercel';
 import markdoc from '@astrojs/markdoc';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
 // Slim replacement for @keystatic/astro that only sets up the virtual-module
 // Vite plugin — route injection is handled by our own src/pages files instead,
-// which avoids the Astro-5 injectRoute collision and the base-path mismatch.
+// which avoids the Astro-5 injectRoute collision.
 /** @returns {import('astro').AstroIntegration} */
 function keystatic_vite_only() {
   return {
@@ -55,14 +55,8 @@ export default defineConfig({
   },
   prefetch: true,
 
-  // The Node adapter is required in dev so Keystatic's SSR routes
-  // (src/pages/keystatic/ and src/pages/api/keystatic/) can handle
-  // local-mode file I/O. The portfolio pages themselves are all static
-  // (prerendered) and deploy to GitHub Pages unchanged.
-  adapter: node({ mode: 'standalone' }),
-
+  adapter: vercel(),
   site: 'https://digitizedbeing.com',
-  base: '/philippinehoegen.com',
 
   integrations: [sitemap(), react(), markdoc(), keystatic_vite_only()],
   vite: {
