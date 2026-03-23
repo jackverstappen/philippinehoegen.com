@@ -2,10 +2,14 @@ import { config, collection, fields } from '@keystatic/core';
 
 export default config({
   storage: process.env.NODE_ENV === 'production'
-    ? { kind: 'cloud', project: 'digitizedbeing/philippinehoegen' }
+    ? { kind: 'cloud' }
     : { kind: 'local' },
 
-  
+  cloud: {
+    project: 'digitizedbeing/philippinehoegen',
+  },
+
+
 
   collections: {
     works: collection({
