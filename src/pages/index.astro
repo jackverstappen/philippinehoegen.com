@@ -36,8 +36,12 @@ const title = "";
   <Preloader />
   <div class="block px-8 gap-8 md:grid md:auto-rows-fr md:grid-cols-2">
     <div class="mt-9 rounded-lg bg-surface border border-[1.5px] border-ink p-4">
+          <header class="title-header">
+
       <p class="block font-bold text-muted">artistic research project</p>
       <h2>Performing Working</h2>
+      </header>
+      
       <p>In <b>Performing Working</b>, we look at work through the lens of performance. This artistic research project aims to address a broader social problem: the invisibility of the performative in healthcare work, and the invisibility of labour in art and performance.</p>
       <p><b>Performing Working</b> will examine, on the one hand, the hidden performativity of work situations such as a hospital - the emotional, affective performances that are expected of care staff in order to fulfil the many different roles that the work requires, and equally of the non-staff: the work involved in fulfilling the role of the patient.</p>
       <p>On the other hand, <b>Performing Working</b> looks at the many facets of the work involved in (performance) art, and tries to describe the - often invisible - labour of (performance) artists and art workers, and the many roles they too have to take in order to work in the complex field, to find out what it takes to do this work and what could make this work more sustainable.</p>
@@ -53,8 +57,11 @@ const title = "";
 
     </div>
     <div class="mt-9 rounded-lg bg-surface border border-[1.5px] border-ink p-4">
+      <header class="title-header">
+
       <p class="block font-bold text-muted">upcoming and recent developments</p>
       <h2>News</h2>
+      </header>
       <ul class="news-list list-none p-0 m-0" id="list">
         {recentUpdates.map((update) =>
           <li class="my-2 leading-snug">
