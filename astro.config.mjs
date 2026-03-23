@@ -56,7 +56,7 @@ export default defineConfig({
   prefetch: true,
 
   adapter: vercel(),
-  site: 'https://digitizedbeing.com',
+  site: 'https://philippinehoegen-com.vercel.app',
 
   integrations: [sitemap(), react(), markdoc(), keystatic_vite_only()],
   vite: {
