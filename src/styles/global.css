@@ -94,8 +94,7 @@ summary {
 
 @media screen and (min-width: 44em) {
   h2 {
-    margin-block: 16
-    ;
+    margin-block: 16px;
   }
 }
 
