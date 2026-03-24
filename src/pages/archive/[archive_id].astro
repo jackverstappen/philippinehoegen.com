@@ -22,8 +22,6 @@ export const getStaticPaths = async () => {
     };
   });
 
-  console.warn('getStaticPaths',paths);
-
   // Return the generated paths to Astro for  page generation
   return paths;
 };
@@ -39,9 +37,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 // Resolve a frontmatter path like "./uuid.jpg" to ImageMetadata
 const resolveImage = async (path: string): Promise<ImageMetadata | null> => {
-
-  console.warn('resolveImage',path);
-
   const filename = path.replace(/^\.\//, '');
   const key = `/src/content/archive/${filename}`;
 //  const key = `/src/content/archive/${archive.id}/${filename}`;
@@ -62,8 +57,6 @@ const nextWork = archiveCollection[nextWorkIndex];
 const mediaCount = archive.data.media ? archive.data.media.length : 0;
 
 const coverImage = archive.data.cover ? await resolveImage(archive.data.cover) : null;
-
-console.warn("archiveEntry",archive);
 
 const slides = (!archive.data.media || !archive.data.media.length) ? [] :
   (await Promise.all(
@@ -168,8 +161,6 @@ const { Content } = await render(archive);
 </style>
 
 <script define:vars={{ prevUrl: `${base}/archive/${prevWork.id}`, nextUrl: `${base}/archive/${nextWork.id}` }}>
-  const c = {archive};
-  console.log("c",archive);
   const isGalleryOpen = () =>
     !document.querySelector('[data-gallery-backdrop]')?.hasAttribute('hidden');
 
