@@ -291,7 +291,6 @@ function syncCols() {
   const H = pxUnitsToNum(pxH);
   const offsetX = (gridBBox.width - ((cols+.5)*H))/2; //paddingLeft + (gridBBox.width - ((cols+.5)*H))/4;
 
-  console.log('grid',cols,rows,totalHeight,tileBBox)
   grid!.style.setProperty('--cols', `${cols}`);
   grid!.style.setProperty('--rows', `${rows}`);
   grid!.style.setProperty('--offset-x', `${offsetX-((0.133*tileBBox.width)/2)}px`);

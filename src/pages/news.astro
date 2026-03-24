@@ -22,13 +22,7 @@ const recentUpdates = updatesCollection
   }))
 
 const formatDate = (date) => new Date(date).toLocaleDateString("en-US", dateOptions);
-const expose = (rec) => {
-  console.log(rec);
-  
-   return formatDate(rec.pubDate)
-};
-
-console.log(updatesCollection);
+const expose = (rec) => formatDate(rec.pubDate);
 
 const title = "UPDATES";
 ---

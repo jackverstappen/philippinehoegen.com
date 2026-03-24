@@ -36,12 +36,9 @@ type Props = {
 const { updatesCollection, update } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-console.warn("entry",update);
-
 // Resolve a frontmatter path like "../../assets/media/[slug]/foo.jpg" to ImageMetadata
 const resolveImage = async (path: string): Promise<ImageMetadata | null> => {
   const mediaPath = path.split('assets/media/').pop();
-  console.warn("resolveImage",path, mediaPath);
   const key = `/src/assets/media/${mediaPath}`;
   const loader = mediaImages[key];
   if (!loader) return null;
@@ -62,11 +59,7 @@ const dateOptions: object = {
 };
 
 const formatDate = (date) => new Date(date).toLocaleDateString("en-BE", dateOptions);
-const expose = (rec) => {
-  console.log(rec);
-  
-   return `${formatDate(rec.pubDate)}`
-};
+const expose = (rec) => `${formatDate(rec.pubDate)}`;
 
 
 // Render the content of the current update (e.g., markdown or MDX)
