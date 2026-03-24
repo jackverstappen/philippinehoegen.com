@@ -43,7 +43,8 @@ const resolveImage = async (path: string): Promise<ImageMetadata | null> => {
   console.warn('resolveImage',path);
 
   const filename = path.replace(/^\.\//, '');
-  const key = `/src/content/archive/${archive.id}/${filename}`;
+  const key = `/src/content/archive/${filename}`;
+//  const key = `/src/content/archive/${archive.id}/${filename}`;
   const loader = mediaImages[key];
   if (!loader) return null;
   const mod = await loader();
