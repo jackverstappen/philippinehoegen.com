@@ -9,13 +9,27 @@ export default config({
     project: 'digitizedbeing/philippinehoegen',
   },
 
-
+ui: {
+    brand: {
+      name: 'philippinehoegen.com',
+      /*
+      mark: ({ colorScheme }) => {
+        let path = colorScheme === 'dark'
+          ? '/images/dark-logo.png'
+          : '/images/dark-logo.png';
+        
+        return <img src={path} height={24} />
+      },
+      */
+    },
+},
 
   collections: {
     works: collection({
       label: 'Works',
       slugField: 'title',
       path: 'src/content/works/*/',
+      entryLayout: 'content',
       format: { contentField: 'description' },
       schema: {
         title: fields.slug({ name: { label: 'Title' } }),
@@ -73,6 +87,7 @@ export default config({
       label: 'News & Updates',
       slugField: 'title',
       path: 'src/content/news/*/',
+      entryLayout: 'content',
       format: { contentField: 'content' },
       schema: {
         title: fields.slug({ name: { label: 'Title' } }),
