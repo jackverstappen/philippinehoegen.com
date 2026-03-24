@@ -102,6 +102,11 @@ ui: {
         updatedDate: fields.date({
           label: 'Updated Date',
         }),
+        cover: fields.image({
+          label: 'Cover Image',
+          directory: 'src/content/works',
+          publicPath: './',
+        }),
         content: fields.document({
           label: 'Content',
           formatting: true,
