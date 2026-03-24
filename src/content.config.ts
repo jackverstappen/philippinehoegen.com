@@ -44,5 +44,16 @@ const bio = defineCollection({
   }),
 });
 
+const pinned = defineCollection({
+  loader: glob({
+    pattern: 'index.yaml',
+    base: './src/content/pinned',
+    generateId: () => 'pinned',
+  }),
+  schema: z.object({
+    works: z.array(z.string()).optional().default([]),
+  }),
+});
+
 // Export all collections
-export const collections = { works, updates, bio };
+export const collections = { works, updates, bio, pinned };

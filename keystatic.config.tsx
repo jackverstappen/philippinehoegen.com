@@ -40,6 +40,24 @@ export default config({
   },
 
   singletons: {
+    pinnedWorks: singleton({
+      label: 'Pinned Works',
+      path: 'src/content/pinned/',
+      format: { data: 'yaml' },
+      schema: {
+        works: fields.array(
+          fields.relationship({
+            label: 'Work',
+            collection: 'works',
+          }),
+          {
+            label: 'Pinned Works',
+            itemLabel: (props) => props.value ?? 'Select a work',
+          }
+        ),
+      },
+    }),
+
     bio: singleton({
       label: 'Bio Page',
       path: 'src/content/bio/',
@@ -93,12 +111,6 @@ export default config({
             itemLabel: props => props.value?.filename ?? 'Image',
           }
         ),
-
-        pinned: fields.checkbox({
-          label: 'Pinned',
-          description: 'Pin this work to highlight it',
-          defaultValue: false,
-        }),
 
         tags: fields.multiselect({
           label: 'Tags',
