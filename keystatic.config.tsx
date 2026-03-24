@@ -43,7 +43,7 @@ export default config({
     works: collection({
       label: 'Works',
       slugField: 'title',
-      path: 'src/content/archive/*/',
+      path: 'src/content/works/*/',
       entryLayout: 'content',
       format: { contentField: 'description' },
       schema: {
@@ -58,14 +58,14 @@ export default config({
         }),
         cover: fields.image({
           label: 'Cover Image',
-          directory: 'src/content/archive',
+          directory: 'src/content/works',
           publicPath: './',
         }),
 
         media: fields.array(
           fields.image({
             label: 'Image',
-            directory: 'src/content/archive',
+            directory: 'src/content/works',
             publicPath: './',
           }),
           {
