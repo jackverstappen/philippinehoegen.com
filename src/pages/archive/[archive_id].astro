@@ -168,6 +168,8 @@ const { Content } = await render(archive);
 </style>
 
 <script define:vars={{ prevUrl: `${base}/archive/${prevWork.id}`, nextUrl: `${base}/archive/${nextWork.id}` }}>
+  const c = {archive};
+  console.log("c",archive);
   const isGalleryOpen = () =>
     !document.querySelector('[data-gallery-backdrop]')?.hasAttribute('hidden');
 
