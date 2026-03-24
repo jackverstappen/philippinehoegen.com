@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 
 @tailwind base;
 @tailwind components;
@@ -41,6 +43,7 @@
 
   /* Typography */
   --sans-serif:    'Encode Sans Condensed', sans-serif;
+  --serif:         'Spectral, serif';
   --font-size-s:   0.85rem;
   --font-size-l:   clamp(1.25rem, 3vw, 1.75rem);
   --font-size-xl:  clamp(1.5rem, 5vw, 2.75rem);
@@ -49,7 +52,7 @@
 }
 
 p, text, h1, h2, h3, button, input {
-  font-family: var(--sans-serif)
+  font-family: var(--sans-serif);
 }
 
 html {
@@ -61,7 +64,7 @@ body {
   padding: 0;
   color: var(--color-text);
   background-color: var(--color-bg);
-  line-height: 1;
+  line-height: 1.2em;
   font-family: 'Instrument Sans Variable', serif;
   font-family: var(--sans-serif);
   font-variant-ligatures: none;
