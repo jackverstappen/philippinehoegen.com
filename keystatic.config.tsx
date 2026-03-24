@@ -74,6 +74,12 @@ export default config({
           }
         ),
 
+        pinned: fields.checkbox({
+          label: 'Pinned',
+          description: 'Pin this work to highlight it',
+          defaultValue: false,
+        }),
+
         tags: fields.multiselect({
           label: 'Tags',
           options: [

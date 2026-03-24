@@ -15,6 +15,7 @@ const works = defineCollection({
     cover: z.string().optional().default(''),
     media: z.array(z.string()).optional().nullable(),
     tags: z.array(z.string().optional().default('')).optional().nullable(),
+    pinned: z.boolean().optional().default(false),
   }),
 });
 
