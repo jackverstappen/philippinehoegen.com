@@ -35,7 +35,7 @@ function keystatic_vite_only() {
                 name: 'keystatic-virtual-config',
                 resolveId(id) {
                   if (id === 'virtual:keystatic-config') {
-                    return fileURLToPath(new URL('./keystatic.config.ts', import.meta.url));
+                    return fileURLToPath(new URL('./keystatic.config.tsx', import.meta.url));
                   }
                 },
               },
