@@ -1,4 +1,4 @@
-import { config, collection, fields } from '@keystatic/core';
+import { config, collection, fields, singleton } from '@keystatic/core';
 
 export default config({
   storage: process.env.NODE_ENV === 'production'
@@ -37,6 +37,26 @@ export default config({
         ,
       
     },
+  },
+
+  singletons: {
+    bio: singleton({
+      label: 'Bio Page',
+      path: 'src/content/bio/',
+      format: { contentField: 'content' },
+      schema: {
+        title: fields.text({
+          label: 'Page Title',
+          defaultValue: 'Bio',
+        }),
+        content: fields.document({
+          label: 'Content',
+          formatting: true,
+          dividers: true,
+          links: true,
+        }),
+      },
+    }),
   },
 
   collections: {

@@ -19,22 +19,6 @@ const works = defineCollection({
   }),
 });
 
-const archive = defineCollection({
-  loader: glob({
-    pattern: '**/index.mdoc',
-    base: "./src/content/archive",
-    generateId: ({ entry }) => entry.replace('/index.mdoc', ''),
-  }),
-  schema: z.object({
-    title: z.string(),
-    desc: z.string().optional().default(''),
-    keywords: z.string().optional().default(''),
-    cover: z.string().optional().default(''),
-    media: z.array(z.string()).optional().nullable(),
-    tags: z.array(z.string().optional().default('')).optional().nullable(),
-  }),
-});
-
 const updates = defineCollection({
   loader: glob({
     pattern: '**/index.mdoc',
@@ -49,5 +33,16 @@ const updates = defineCollection({
    }),
 });
 
+const bio = defineCollection({
+  loader: glob({
+    pattern: 'index.mdoc',
+    base: './src/content/bio',
+    generateId: () => 'bio',
+  }),
+  schema: z.object({
+    title: z.string().optional().default('Bio'),
+  }),
+});
+
 // Export all collections
-export const collections = {archive, works, updates};
+export const collections = { works, updates, bio };
