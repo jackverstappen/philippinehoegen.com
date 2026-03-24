@@ -129,7 +129,7 @@ export default config({
           links: true,
           images: {
             directory: 'src/content/news',
-            publicPath: './',
+            publicPath: '../',
           },
         }),
       },
