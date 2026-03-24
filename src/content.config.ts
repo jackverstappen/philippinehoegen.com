@@ -10,6 +10,8 @@ const works = defineCollection({
   }),
   schema: z.object({
     title: z.string(),
+    desc: z.string().optional().default(''),
+    keywords: z.string().optional().default(''),
     cover: z.string().optional().default(''),
     media: z.array(z.string()).optional().nullable(),
     tags: z.array(z.string().optional().default('')).optional().nullable(),
@@ -24,7 +26,7 @@ const updates = defineCollection({
   }),
   schema: z.object({
     title: z.string(),
-    description: z.string(),
+    description: z.string().optional(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(), 
    }),
