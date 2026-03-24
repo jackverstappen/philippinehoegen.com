@@ -2,6 +2,15 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Preloader from "../components/Preloader.astro";
+import WorkHeader from "../components/WorkHeader.astro";
+import WorkGrid from "../components/WorkGrid.astro";
+
+const workCollection = await getCollection("works");
+const pinnedCollection = workCollection.filter(work=>work.data.pinned);
+
+const allTags = [...new Set(
+  pinnedCollection.flatMap((work) => work.data.tags ?? [])
+)].sort();
 
 const updatesCollection = await getCollection("updates");
 
@@ -34,6 +43,8 @@ const title = "";
     If you don’t want to use the preloader (e.g., for faster page load times or if you don’t require preloading images), you can safely remove the <Preloader /> component from this layout.
   -->
   <Preloader />
+  <WorkHeader tags={allTags}/>
+  <WorkGrid collection={workCollection} gap={4} borderWidth={1} />
   <div class="block px-8 gap-8 md:grid md:auto-rows-fr md:grid-cols-2">
     <div class="mt-9 rounded-lg bg-surface border border-[1.5px] border-ink p-4">
           <header class="title-header">
