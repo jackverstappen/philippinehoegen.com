@@ -43,7 +43,7 @@ export default config({
     works: collection({
       label: 'Works',
       slugField: 'title',
-      path: 'src/content/works/*/',
+      path: 'src/content/archive/*/',
       entryLayout: 'content',
       format: { contentField: 'description' },
       schema: {

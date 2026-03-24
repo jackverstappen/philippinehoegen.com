@@ -5,6 +5,7 @@ import Separator from "../components/Separator.astro";
 const currentPath = Astro.url.pathname;
 const routes = {
   "/": "Home",
+  "/archive/": "Archive",
   "/works/": "Works",
   "/news/": "News",
   "/bio/": "Bio",
@@ -21,6 +22,11 @@ const activeRoute = routes[currentPath] || null;
     </div>
     <div>
       <ul class="flex text-base list-none gap-4 my-0 mx-2 p-0">
+         <li>
+          <a href="/archive/" class={activeRoute === "Archive" ? "current" : ""} data-astro-prefetch>
+            <TextSlider content="Archive" />
+          </a>
+        </li>
         <li>
           <a href="/works/" class={activeRoute === "Works" ? "current" : ""} data-astro-prefetch>
             <TextSlider content="Works" />

@@ -2,14 +2,14 @@
 import type { CollectionEntry } from "astro:content";
 
 type Props = {
-  works: CollectionEntry<"works">[];
+  archive: CollectionEntry<"archive">[];
 };
 
-const { works } = Astro.props;
+const { archive } = Astro.props;
 ---
 
 <ul class="project-list" id="list" >
-  {works.map((work) => <li><a href={work.id}> {work.data.title} </a></li>)}
+  {archive.map((work) => <li><a href={work.id}> {work.data.title} </a></li>)}
 </ul>
 
 

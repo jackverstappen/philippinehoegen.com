@@ -1,0 +1,13 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import WorkList from "../components/WorkList.astro";
+
+const archive = await getCollection("archive");
+
+const title = "ARCHIVE";
+---
+
+<BaseLayout title={title}>
+  <WorkList archive={archive} />
+</BaseLayout>
