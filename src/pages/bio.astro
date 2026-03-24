@@ -13,13 +13,49 @@ const { Content } = await render(entry);
 ---
 
 <BaseLayout title="Bio">
-   <header class="title-header">
+  <header class="title-header">
     <h2>BIO</h2>
   </header>
   <section class="bio-page">
     <Content />
   </section>
 </BaseLayout>
+
+<!-- Upgrade plain h2 section headings to <details> accordions at runtime.
+     This keeps the stored mdoc compatible with Keystatic's document editor
+     (which doesn't support custom Markdoc tags) while preserving the
+     collapsible UX on the frontend. -->
+<script>
+  function buildAccordions() {
+    const page = document.querySelector('.bio-page');
+    if (!page) return;
+
+    // All h2 elements become collapsible sections.
+    // h3 (Contact) is the natural stop marker — it is not wrapped.
+    const sectionHeadings = [...page.querySelectorAll('h2')];
+
+    for (const h2 of sectionHeadings) {
+      const details  = document.createElement('details');
+      const summary  = document.createElement('summary');
+      summary.textContent = h2.textContent ?? '';
+      details.appendChild(summary);
+
+      // Collect siblings until the next h2 or h3
+      const children: Element[] = [];
+      let next = h2.nextElementSibling;
+      while (next && next.tagName !== 'H2' && next.tagName !== 'H3') {
+        children.push(next);
+        next = next.nextElementSibling;
+      }
+      for (const child of children) details.appendChild(child);
+
+      h2.replaceWith(details);
+    }
+  }
+
+  // Run on first load and after every client-side navigation (View Transitions)
+  document.addEventListener('astro:page-load', buildAccordions);
+</script>
 
 <style>
   .bio-page {
@@ -29,12 +65,8 @@ const { Content } = await render(entry);
   }
 
   .bio-page :global(details) {
-    border-top: 1px solid var(--color-border, currentColor);
-    padding-block: 0.5rem;
-  }
-
-  .bio-page :global(details + details) {
-    border-top: none;
+    border-top: 1px solid currentColor;
+    padding-block: 0.25rem;
   }
 
   .bio-page :global(summary) {
@@ -58,7 +90,6 @@ const { Content } = await render(entry);
     content: '+';
     font-size: 1rem;
     line-height: 1;
-    transition: transform 0.15s ease;
   }
 
   .bio-page :global(details[open] > summary::before) {
@@ -69,18 +100,10 @@ const { Content } = await render(entry);
     padding-inline-start: 1.25rem;
   }
 
-  .bio-page :global(h2) {
-    font-size: 0.6875rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-block-end: 0.25rem;
-  }
-
   .bio-page :global(h3) {
     font-size: 0.6875rem;
     font-weight: 700;
-    margin-block: 0.75rem 0.25rem;
+    margin-block: 1.5rem 0.25rem;
   }
 
   .bio-page :global(h4) {
@@ -111,12 +134,7 @@ const { Content } = await render(entry);
 
   .bio-page :global(hr) {
     border: none;
-    border-top: 1px solid var(--color-border, currentColor);
+    border-top: 1px solid currentColor;
     margin-block: 0.5rem;
-  }
-
-  /* Contact section */
-  .bio-page :global(h3:last-of-type) {
-    margin-block-start: 1.5rem;
   }
 </style>
