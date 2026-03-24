@@ -19,7 +19,14 @@ export default config({
       format: { contentField: 'description' },
       schema: {
         title: fields.slug({ name: { label: 'Title' } }),
-
+        desc: fields.text({
+          label: 'meta description',
+          multiline: true
+        }),
+        keywords: fields.text({
+          label: 'meta keywords',
+          multiline: false
+        }),
         cover: fields.image({
           label: 'Cover Image',
           directory: 'src/content/works',
