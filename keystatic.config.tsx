@@ -58,14 +58,14 @@ export default config({
         }),
         cover: fields.image({
           label: 'Cover Image',
-          directory: 'src/content/works',
+          directory: 'src/content/archive',
           publicPath: './',
         }),
 
         media: fields.array(
           fields.image({
             label: 'Image',
-            directory: 'src/content/works',
+            directory: 'src/content/archive',
             publicPath: './',
           }),
           {
