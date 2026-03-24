@@ -5,7 +5,8 @@ import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import vercel from '@astrojs/vercel';
 import markdoc from '@astrojs/markdoc';
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
@@ -59,8 +60,13 @@ export default defineConfig({
   adapter: vercel(),
   site: 'https://philippinehoegen-com.vercel.app',
 
-  integrations: [tailwind({ applyBaseStyles: false }), sitemap(), react(), markdoc(), keystatic_vite_only()],
+  integrations: [sitemap(), react(), markdoc(), keystatic_vite_only()],
   vite: {
+    css: {
+      postcss: {
+        plugins: [tailwindcss(), autoprefixer()],
+      },
+    },
     // Force Vite to pick the Node.js conditional export of @keystatic/core
     // packages in SSR context. Without this Vite resolves the edge/default
     // build which stubs out local-mode file I/O with a 500 error.
