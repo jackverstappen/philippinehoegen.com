@@ -63,6 +63,8 @@ const mediaCount = archive.data.media ? archive.data.media.length : 0;
 
 const coverImage = archive.data.cover ? await resolveImage(archive.data.cover) : null;
 
+console.warn("archiveEntry",archive);
+
 const slides = (!archive.data.media || !archive.data.media.length) ? [] :
   (await Promise.all(
     archive.data.media.map(async (m) => {
@@ -91,8 +93,6 @@ const { Content } = await render(archive);
     </header>
     <Separator />
     <div class="content-wrap">
-      <p>{coverImage}</p>
-      <p>{archive.data.media.join(';')}</p>
       <div>
         {coverImage && (
           <Image
