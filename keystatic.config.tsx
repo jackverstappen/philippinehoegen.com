@@ -119,7 +119,7 @@ export default config({
         }),
         cover: fields.image({
           label: 'Cover Image',
-          directory: 'src/content/works',
+          directory: 'src/content/news',
           publicPath: './',
         }),
         content: fields.document({
