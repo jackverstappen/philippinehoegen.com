@@ -88,12 +88,18 @@ const { Content } = await render(work);
         {work.data.tags ? work.data.tags.join(" | ").toUpperCase() : ""
         }</span></p>
         
-      <div class="mt-2">
-        <a href={`${base}/works/${prevWork.id}`}>Prev</a>
-        <span class="faded">|</span>
-        <a href={`${base}/works`}>View all</a>
-        <span class="faded">|</span>
-        <a href={`${base}/works/${nextWork.id}`}>Next</a>
+  
+      <div class="mt-2 mb-2 relative items-center flex justify-between" style="align-items=end">
+        <div></div>
+        <div>
+          [
+          <a href={`${base}/works/${prevWork.id}`}>Prev</a>
+          <span class="faded">|</span>
+          <a href={`${base}/works`}>View all</a>
+          <span class="faded">|</span>
+          <a href={`${base}/works/${nextWork.id}`}>Next</a>
+          ]
+        </div>
       </div>
     </header>
     <Separator />
