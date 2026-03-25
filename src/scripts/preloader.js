@@ -25,24 +25,16 @@ const loadImages = () => {
     const allElements = [...imgElements, ...bgElements];
 
     // Use imagesLoaded to track asset loading.
+    // always resolves — a broken image should never leave the page blank.
     const imgLoad = imagesLoaded(allElements, { background: true });
-    imgLoad.on('done', resolve);
-    imgLoad.on('fail', () => {
-      reject(new Error('Failed to load some images or assets'));
-    });
+    imgLoad.on('always', resolve);
   });
 };
 
 // Load assets and dispatch a custom event when done.
 const loadAssets = async () => {
-  try {
-    await loadImages();
-    const event = new CustomEvent('assetsLoaded');
-    document.dispatchEvent(event);
-  } catch (error) {
-    console.error('Failed to load assets:', error);
-    throw error;
-  }
+  await loadImages();
+  document.dispatchEvent(new CustomEvent('assetsLoaded'));
 };
 
 // Show the preloader, load assets if needed, and then hide the preloader.
@@ -55,9 +47,10 @@ const toggleLoading = async () => {
   try {
     await loadAssets();
     sessionStorage.setItem('preloadComplete', 'true');
-    hide();
   } catch (error) {
-    console.error('Failed to load assets or animate:', error);
+    console.warn('Preloader: asset load error:', error);
+  } finally {
+    hide();
   }
 };
 

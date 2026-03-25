@@ -104,15 +104,17 @@ const grid = tiles.map((tile, i) => {
       title={title ?? alt}
       style={`--delay:${delay}`}
     >
-      <img
-        src={src}
-        alt={alt}
-        title=""
-        width={W}
-        height={H}
-        loading="lazy"
-        decoding="async"
-      />
+      {src && (
+        <img
+          src={src}
+          alt={alt}
+          title=""
+          width={W}
+          height={H}
+          loading="lazy"
+          decoding="async"
+        />
+      )}
     </a>
   ))}
 </div>
