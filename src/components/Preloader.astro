@@ -14,6 +14,12 @@
       overflow: hidden;
       transition: opacity 0.2s ease-out;
     }
+
+    /* JS adds .hidden to dismiss the overlay — define it here so
+       Tailwind's JIT scanner doesn't need to find it statically. */
+    .loading.hidden {
+      display: none;
+    }
   }
 </style>
 <script src="../scripts/preloader.js"></script>
