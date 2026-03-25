@@ -88,12 +88,6 @@ const { Content } = await render(work);
         {work.data.tags ? work.data.tags.join(" | ").toUpperCase() : ""
         }</span></p>
         
-        <!--
-        <ul class="tag-list">
-          {(work.data.tags ? work.data.tags :[]).map((tag) => <li class="tag-item">{tag}</li>)}
-
-        </ul>
-         -->
       <div class="mt-2">
         <a href={`${base}/works/${prevWork.id}`}>Prev</a>
         <span class="faded">|</span>

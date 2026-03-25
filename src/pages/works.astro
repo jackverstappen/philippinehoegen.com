@@ -1,7 +1,8 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import WorkHeader from "../components/WorkHeader.astro";
+import WorkFilter from "../components/WorkFilter.astro";
+import WorkCaption from "../components/WorkCaption.astro";
 import WorkGrid from "../components/WorkGrid.astro";
 
 const workCollection = await getCollection("works");
@@ -14,6 +15,10 @@ const title = "WORKS";
 ---
 
 <BaseLayout title={title}>
-  <WorkHeader tags={allTags}/>
+  <header class="title-header">
+    <h2>WORKS</h2>
+  </header>
+  <WorkCaption/>
+  <WorkFilter tags={allTags}/>
   <WorkGrid collection={workCollection} gap={4} borderWidth={1} />
 </BaseLayout>
