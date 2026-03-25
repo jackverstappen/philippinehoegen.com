@@ -5,7 +5,6 @@ import WorkHeader from "../components/WorkHeader.astro";
 import WorkGrid from "../components/WorkGrid.astro";
 
 const workCollection = await getCollection("works");
-const workTotal = workCollection.length;
 
 const allTags = [...new Set(
   workCollection.flatMap((work) => work.data.tags ?? [])

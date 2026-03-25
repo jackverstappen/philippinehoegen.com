@@ -52,6 +52,7 @@ export default config({
           }),
           {
             label: 'Pinned Works',
+//            itemLabel: (props) => props.value ?? 'Select a work',
             itemLabel: (props) => props.value ?? 'Select a work',
           }
         ),

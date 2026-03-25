@@ -1,0 +1,29 @@
+---
+type Props = {
+};
+
+---
+
+  <div class="flex items-center justify-between gap-4 mt-2 mb-8 h-4">
+    <span id="header-caption" class="text-base text-muted"></span>
+  </div>
+
+<style>
+</style>
+
+<script>
+  function onHexHover(e: Event) {
+    const { slug } = (e as CustomEvent).detail;
+    const caption = document.getElementById('header-caption') as HTMLElement | null;
+    if (caption) caption.textContent = slug ?? '';
+  }
+
+  function init() {
+    // Hover caption — managed inside init to handle navigation correctly
+    document.removeEventListener('hex-hover', onHexHover);
+    document.addEventListener('hex-hover', onHexHover);
+  }
+
+  init();
+  document.addEventListener('astro:page-load', init);
+</script>
