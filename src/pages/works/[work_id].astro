@@ -85,7 +85,7 @@ const { Content } = await render(work);
       <p><span class="meta faded">&lbrack; DESC &rbrack;: </span><span>{work.data.desc})</span></p>
       <p><span class="meta faded">&lbrack; KEYWORDS &rbrack;: </span><span>{work.data.keywords}</span></p>
       <p><span class="meta faded">&lbrack; TAGS &rbrack;: </span><span>
-        {work.data.tags.join(" | ").toUpperCase()
+        {work.data.tags ? work.data.tags.join(" | ").toUpperCase() : ""
         }</span></p>
         
         <!--
