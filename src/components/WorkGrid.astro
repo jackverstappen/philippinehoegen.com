@@ -30,6 +30,8 @@ const tiles = await Promise.all(collection.map(async (p) => {
     src,
     alt: p.data.title ?? "",
     title: p.data.title ?? "",
+    desc: p.data.desc,
+    keywords: p.data.keywords,
     tags: p.data.tags,
   };
 }));

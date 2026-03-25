@@ -94,12 +94,14 @@ const grid = tiles.map((tile, i) => {
 `}
   {...rest}
 >
-  {grid.map(({ id, href, src, alt, title, tags, delay }) => (
+  {grid.map(({ id, href, src, alt, title, desc, keywords, tags, delay }) => (
     <a
       class="hex-tile"
       href={href}
       data-id={id}
       data-title={title.toLowerCase()}
+      data-desc={desc.toLowerCase()}
+      data-keywords={keywords.toLowerCase()}
       data-tags={tags?.join(' ').toLowerCase() ?? ''}
       title={title ?? alt}
       style={`--delay:${delay}`}
@@ -261,8 +263,12 @@ function onHexFilter(e: Event) {
 
   grid!.querySelectorAll<HTMLElement>('.hex-tile').forEach((tile) => {
     const title   = (tile.dataset.title   ?? '').toLowerCase();
+    const keywords   = (tile.dataset.keywords   ?? '').toLowerCase();
+    const desc   = (tile.dataset.desc   ?? '').toLowerCase();
+    const group = [title,keywords,desc];
+
     const tileTags = (tile.dataset.tags   ?? '').toLowerCase().split(' ');
-    const matchesText = title.includes(searchTerm); // || tileTags.includes(searchTerm);
+    const matchesText = [title,keywords,desc].some(n=>n.includes(searchTerm)); // || tileTags.includes(searchTerm);
     const matchesTags = tags.every((t: string) => tileTags.includes(t));
 
 
