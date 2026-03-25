@@ -6,6 +6,7 @@ import type { ImageMetadata } from "astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Separator from "../../components/Separator.astro";
 import Gallery from "../../components/Gallery.astro";
+import Prose from '../../components/Prose.astro';
 
 const mediaImages = import.meta.glob<{ default: ImageMetadata }>(
   '/src/content/works/**/*.{jpg,jpeg,png,webp,avif,gif}'
@@ -115,7 +116,9 @@ const { Content } = await render(work);
         </ul>
         </div>
         <h3>{work.data.title}</h3>
+        <Prose>
         <Content />
+        </Prose>
       </div>
     </div>
   </section>
@@ -135,7 +138,6 @@ const { Content } = await render(work);
     ul li { 
         font-weight:700;
         margin-inline:4px; list-style: none; display: inline; }
-
 
   .content-wrap {
     grid-template-areas: "content" "img" "works";
