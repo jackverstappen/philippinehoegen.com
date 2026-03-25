@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Prose from '@components/Prose.astro';
 
 const entries = await getCollection('bio');
 const entry = entries[0];
@@ -17,7 +18,9 @@ const { Content } = await render(entry);
     <h2>BIO</h2>
   </header>
   <section class="bio-page">
+    <Prose>
     <Content />
+    </Prose>
   </section>
 </BaseLayout>
 
@@ -58,83 +61,7 @@ const { Content } = await render(entry);
 </script>
 
 <style>
-  .bio-page {
-    max-width: 72ch;
-    margin-inline: auto;
-    padding-block: 2rem;
-  }
-
-  .bio-page :global(details) {
-    border-top: 1px solid currentColor;
-    padding-block: 0.25rem;
-  }
-
-  .bio-page :global(summary) {
-    cursor: pointer;
-    font-size: 0.6875rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    padding-block: 0.5rem;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    user-select: none;
-  }
-
-  .bio-page :global(summary::-webkit-details-marker) {
-    display: none;
-  }
-
-  .bio-page :global(summary::before) {
-    content: '+';
-    font-size: 1rem;
-    line-height: 1;
-  }
-
-  .bio-page :global(details[open] > summary::before) {
-    content: '–';
-  }
-
-  .bio-page :global(details > *:not(summary)) {
-    padding-inline-start: 1.25rem;
-  }
-
-  .bio-page :global(h3) {
-    font-size: 0.6875rem;
-    font-weight: 700;
-    margin-block: 1.5rem 0.25rem;
-  }
-
-  .bio-page :global(h4) {
-    font-size: 0.6875rem;
-    font-weight: 700;
-    margin-block: 0.75rem 0.25rem;
-  }
-
-  .bio-page :global(ul) {
-    padding-inline-start: 1rem;
-    margin-block: 0.25rem;
-  }
-
-  .bio-page :global(li) {
-    font-size: 0.6875rem;
-    margin-block: 0.125rem;
-  }
-
-  .bio-page :global(p) {
-    font-size: 0.6875rem;
-    margin-block: 0.5rem;
-  }
-
-  .bio-page :global(a) {
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
-
-  .bio-page :global(hr) {
-    border: none;
-    border-top: 1px solid currentColor;
-    margin-block: 0.5rem;
+  .abc {
+    
   }
 </style>

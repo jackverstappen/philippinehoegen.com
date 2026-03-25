@@ -82,8 +82,19 @@ const { Content } = await render(work);
       <h2>
         {work.data.title}
       </h2>
-      <span class="faded">({work.data.title})</span>
-      <div>
+      <p><span class="meta faded">&lbrack; DESC &rbrack;: </span><span>{work.data.desc})</span></p>
+      <p><span class="meta faded">&lbrack; KEYWORDS &rbrack;: </span><span>{work.data.keywords}</span></p>
+      <p><span class="meta faded">&lbrack; TAGS &rbrack;: </span><span>
+        {work.data.tags.join(" | ").toUpperCase()
+        }</span></p>
+        
+        <!--
+        <ul class="tag-list">
+          {(work.data.tags ? work.data.tags :[]).map((tag) => <li class="tag-item">{tag}</li>)}
+
+        </ul>
+         -->
+      <div class="mt-2">
         <a href={`${base}/works/${prevWork.id}`}>Prev</a>
         <span class="faded">|</span>
         <a href={`${base}/works`}>View all</a>
@@ -109,13 +120,6 @@ const { Content } = await render(work);
     />
       </div>
       <div class="content">
-        <div class="tags">
-        <ul class="tag-list">
-          {(work.data.tags ? work.data.tags :[]).map((tag) => <li class="tag-item">{tag}</li>)}
-
-        </ul>
-        </div>
-        <h3>{work.data.title}</h3>
         <Prose>
         <Content />
         </Prose>
@@ -124,20 +128,28 @@ const { Content } = await render(work);
   </section>
 </BaseLayout>
 <style>
-    ul:before {
-            content: "TAGS: ";
-    }
-    ul {
-    font-size: .6875rem;
-        font-weight:700;
-        padding-inline-start: 0px;
-    }
+  span {
+    font-weight: 400;
+  }
+  .meta {
+    font-size:.75rem;
+    font-weight: 700;
+    text-align: right;
+    width: 5rem;
+    min-width:5rem;
+    color:goldenrod;
+  }
     ul li:first-child {
         margin-left: 20px;
     }
     ul li { 
         font-weight:700;
         margin-inline:4px; list-style: none; display: inline; }
+
+   p {
+    margin-block: 0rem;
+  }
+
 
   .content-wrap {
     grid-template-areas: "content" "img" "works";
@@ -185,7 +197,7 @@ const { Content } = await render(work);
     if (isGalleryOpen()) return;
 
     if (e.key === 'ArrowLeft')   { window.location.href = prevUrl; }
-    if (e.key === 'Escape')   { window.location.href = viewAllUrl; }
+    if (e.key === 'Backspace')   { window.location.href = viewAllUrl; }
     if (e.key === 'ArrowRight') { window.location.href = nextUrl; }
 
     if (e.key === ' ') {
