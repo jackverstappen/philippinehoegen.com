@@ -44,6 +44,7 @@
 
   /* Typography */
   --sans-serif:    'Encode Sans Condensed', sans-serif;
+  --sans-serif:    "gf_Instrument_Serif variant0", Tofu, Georgia, "Times New Roman", Times, serif;
   --serif:         'Spectral, serif';
   --font-size-s:   0.85rem;
   --font-size-l:   clamp(1.25rem, 3vw, 1.75rem);

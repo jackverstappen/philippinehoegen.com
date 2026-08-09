@@ -52,11 +52,11 @@ const title = "";
     If you don’t want to use the preloader (e.g., for faster page load times or if you don’t require preloading images), you can safely remove the <Preloader /> component from this layout.
   -->
   <Preloader />
-  <p>Recent and selected work:</p>
+  <p>Recent and selected work  (for more visit the <a href={`${base}/works`}>Works</a> section): </p>
   <WorkCaption/>
   <WorkGrid collection={pinnedCollection} gap={4} borderWidth={1}/>
   <div class="block px-8 gap-8 md:grid md:auto-rows-fr md:grid-cols-2">
-    <div class="mt-9 rounded-lg bg-surface border border-[1.5px] border-ink p-4" style="filter: url('#rough')">
+    <div class="mt-9 rounded-lg bg-surface border border-[1.5px] border-ink p-4" >
         <header class="title-header">
           <p class="block font-light">artistic research project</p>
           <h2>Performing Working</h2>
