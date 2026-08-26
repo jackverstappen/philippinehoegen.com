@@ -5,8 +5,9 @@ import WorkFilter from "../components/WorkFilter.astro";
 import WorkCaption from "../components/WorkCaption.astro";
 import WorkGrid from "../components/WorkGrid.astro";
 
-const workCollection = await getCollection("works");
-
+const workCollection = (await getCollection("works"))
+  .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+  
 const allTags = [...new Set(
   workCollection.flatMap((work) => work.data.tags ?? [])
 )].sort();
