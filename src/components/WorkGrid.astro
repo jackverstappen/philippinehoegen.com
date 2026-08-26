@@ -17,7 +17,7 @@ const mediaImages = import.meta.glob<{ default: ImageMetadata }>(
 const tiles = await Promise.all(collection.map(async (p) => {
   let src = "";
   if (p.data.cover) {
-    const loader = mediaImages[`/src/content/works/${p.data.cover.replace(/^\.\//, '')}`];
+    const loader = mediaImages[`/src/content/works/${p.id}/${p.data.cover.replace(/^\.\//, '')}`];
     if (loader) {
       const mod = await loader();
       const optimized = await getImage({ src: mod.default, width: 200 });

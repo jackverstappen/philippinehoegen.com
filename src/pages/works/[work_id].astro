@@ -17,7 +17,7 @@ export const getStaticPaths = async () => {
   // Fetch all works from the 'works' collection
 const workCollection = (await getCollection("works"))
   .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
-  
+
   // Map over the works to generate paths for each work's page
   const paths = workCollection.map((work) => {
     return {
@@ -41,7 +41,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 // Resolve a frontmatter path like "./slug/cover.jpg" to ImageMetadata
 const resolveImage = async (path: string): Promise<ImageMetadata | null> => {
-  const key = `/src/content/works/${path.replace(/^\.\//, '')}`;
+  const key = `/src/content/works/${work.id}/${path.replace(/^\.\//, '')}`;
   const loader = mediaImages[key];
   if (!loader) return null;
   const mod = await loader();

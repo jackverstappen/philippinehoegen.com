@@ -12,14 +12,14 @@ worden ontwikkeld en ontwikkelt zich ook een specifi ek instrumentarium en vocab
 • Wat moeten we kunnen en wat moeten we leren?
 • De praktijk verandert de ‘makers’, hoe gaan we om met dit gegeven?
 
-![Werkconferentie Exploding Practices](../presentation-and-panel/werkconferentie-exploding-practices.png)
+![Werkconferentie Exploding Practices](werkconferentie-exploding-practices.png)
 
-![De tafel van kunst en methode](../presentation-and-panel/de-tafel-van-kunst-en-methode.png)
+![De tafel van kunst en methode](de-tafel-van-kunst-en-methode.png)
 
 Workshop/presentation for the launch of Performance Research Journal: On Social Imaginaries, introducing our article How We Wish To Work.
 Philippine Hoegen and Veerle Spronck, 16 May 2025
 
-![Programme Performance Research On Social Imaginaries](../presentation-and-panel/programme-performance-research-on-social-imaginaries.png)
+![Programme Performance Research On Social Imaginaries](programme-performance-research-on-social-imaginaries.png)
 
 Session 2 How We Wish to Work 
 By Philippine Hoegen & Veerle Spronck

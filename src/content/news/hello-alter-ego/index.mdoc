@@ -9,7 +9,7 @@ Please be welcome to join "Hello Alter Ego - A workshop on Alter Ego" by Ina Dar
 - Location: Buitenplaats Brienenoord in Rotterdam
 - Participation: free, but reservation is needed (limited spots available)
 
-![](../hello-alter-ego/hello-alter-ego.png)
+![](hello-alter-ego.png)
 
 Please have a look for more information and the reservation link on the Buitenplaats website and on IG. https://www.buitenplaatsbrienenoord.nl/events/hello-alter-ego
 
