@@ -8,4 +8,4 @@ Join us for a festive weekend at **argos**.
 
 Come for the books, the launch of a new publication by argos, a presentation of the a.pass publication IN THESE CIRCUMSTANCES or stay for the exhibition and screenings! Presentation of the a.pass publication In These Circumstances (Saturday 16:00) by Philippine Hoegen (Ed.), Pia Louwerens, Túlio Rosa & Tamar Levit
 
-![In these circumstances](../presentation-book-in-these-circumstances/in-these-circumstances.png)
+![In these circumstances](in-these-circumstances.png)

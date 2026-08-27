@@ -4,7 +4,6 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import vercel from '@astrojs/vercel';
-import markdoc from '@astrojs/markdoc';
 import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
 import { mkdirSync, writeFileSync } from 'node:fs';
@@ -60,7 +59,7 @@ export default defineConfig({
   adapter: vercel(),
   site: 'https://philippinehoegen-com.vercel.app',
 
-  integrations: [sitemap(), react(), markdoc(), keystatic_vite_only()],
+  integrations: [sitemap(), react(), keystatic_vite_only()],  
   vite: {
     css: {
       postcss: {

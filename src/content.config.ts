@@ -4,9 +4,9 @@ import { glob } from 'astro/loaders';
 
 const works = defineCollection({
   loader: glob({
-    pattern: '**/index.mdoc',
+    pattern: '**/index.md',
     base: "./src/content/works",
-    generateId: ({ entry }) => entry.replace('/index.mdoc', ''),
+    generateId: ({ entry }) => entry.replace('/index.md', ''),
   }),
   schema: z.object({
     title: z.string(),
@@ -21,9 +21,9 @@ const works = defineCollection({
 
 const updates = defineCollection({
   loader: glob({
-    pattern: '**/index.mdoc',
+    pattern: '**/index.md',
     base: "./src/content/news",
-    generateId: ({ entry }) => entry.replace('/index.mdoc', ''),
+    generateId: ({ entry }) => entry.replace('/index.md', ''),
   }),
   schema: z.object({
     title: z.string(),
@@ -35,7 +35,7 @@ const updates = defineCollection({
 
 const bio = defineCollection({
   loader: glob({
-    pattern: 'index.mdoc',
+    pattern: 'index.md',
     base: './src/content/bio',
     generateId: () => 'bio',
   }),
