@@ -8,7 +8,6 @@ keywords: >-
   labour, work
 cover: cover.jpg
 media: []
-pinned: true
 tags:
   - house
   - works

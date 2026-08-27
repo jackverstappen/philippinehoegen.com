@@ -1,0 +1,117 @@
+backend:
+  name: github
+  repo: jackverstappen/philippinehoegen.com
+  branch: main
+  base_url: https://sveltia-cms-auth.jack-verstappen.workers.dev   # dezelfde inlogworker als ziektealswerk
+
+# Paden hieronder zijn relatief aan de hoofdmap van de repo.
+# Losse uploads die niet bij een specifieke entry horen:
+media_folder: "public/media"
+public_folder: "/media"
+
+collections:
+  # ---------------------------------------------------------------- works
+  - name: works
+    label: Werken
+    label_singular: Werk
+    folder: src/content/works
+    path: "{{slug}}/index"
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    slug: "{{slug}}"
+    # Lege media_folder = naast het index.md van de entry zelf.
+    # Bestaande galerijen staan in media/, dat blijft werken.
+    media_folder: ""
+    public_folder: ""
+    summary: "{{title}}"
+    sortable_fields: [title]
+    fields:
+      - { name: title, label: Titel, widget: string }
+      - { name: desc, label: Omschrijving, widget: text, required: false }
+      - name: keywords
+        label: Trefwoorden
+        widget: string
+        required: false
+        hint: Komma-gescheiden, voor zoekmachines en het filter
+      - { name: cover, label: Cover, widget: image, required: false }
+      - name: media
+        label: Galerij
+        widget: list
+        required: false
+        field: { name: image, label: Afbeelding, widget: image }
+      - name: tags
+        label: Tags
+        widget: list
+        required: false
+        hint: "Bestaand: works, research, display, exhibition, image_and_word, house, capture, border, agent_and_informer"
+        field: { name: tag, label: Tag, widget: string }
+      - { name: body, label: Tekst, widget: markdown }
+
+  # ----------------------------------------------------------------- news
+  - name: news
+    label: Nieuws
+    label_singular: Nieuwsbericht
+    folder: src/content/news
+    path: "{{slug}}/index"
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    slug: "{{slug}}"
+    media_folder: ""
+    public_folder: ""
+    summary: "{{pubDate}} — {{title}}"
+    sortable_fields: [pubDate, title]
+    fields:
+      - { name: title, label: Titel, widget: string }
+      - { name: description, label: Omschrijving, widget: text, required: false }
+      - name: pubDate
+        label: Datum
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+      - name: updatedDate
+        label: Bijgewerkt op
+        widget: datetime
+        required: false
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+      - { name: body, label: Tekst, widget: markdown }
+
+  # -------------------------------------------------------------- pagina's
+  - name: pages
+    label: Pagina's
+    files:
+      - name: bio
+        label: Bio
+        file: src/content/bio/index.md
+        extension: md
+        format: yaml-frontmatter
+        media_folder: ""
+        public_folder: ""
+        fields:
+          - { name: title, label: Titel, widget: string, default: Bio }
+          - name: body
+            label: Tekst
+            widget: markdown
+            hint: Elke h2-kop wordt op de site een uitklapbaar blok
+
+      - name: pinned
+        label: Uitgelicht op de homepage
+        file: src/content/pinned/index.yaml
+        format: yml
+        fields:
+          - name: works
+            label: Werken
+            widget: list
+            hint: Volgorde bepaalt de volgorde van het raster op de homepage
+            field:
+              name: work
+              label: Werk
+              widget: relation
+              collection: works
+              search_fields: [title]
+              display_fields: [title]
+              value_field: "{{slug}}"

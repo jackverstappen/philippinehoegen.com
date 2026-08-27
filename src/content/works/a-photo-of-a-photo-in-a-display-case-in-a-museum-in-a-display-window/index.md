@@ -15,7 +15,6 @@ media:
     media/2.jpg
   - >-
     media/3.jpg
-pinned: true
 tags:
   - works
   - display

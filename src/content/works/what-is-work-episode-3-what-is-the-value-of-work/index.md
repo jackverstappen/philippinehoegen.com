@@ -12,7 +12,6 @@ media:
   - media/0.jpg
   - media/1.jpg
   - media/2.jpg
-pinned: true
 tags:
   - house
   - works
