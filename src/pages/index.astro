@@ -32,12 +32,8 @@ const dateOptions: object = {
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const recentUpdates = updatesCollection
-  //.sort((a,b)=> a.data.pubDate - b.data.pubDate)
-  //.reverse()
-  .filter((update,i)=> i<20)
-  .map((update)=>({
-    ...update
-  }))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+  .slice(0, 20);
 
 const formatDate = (date) => new Date(date).toLocaleDateString("en-BE", dateOptions);
 const expose = (rec) => `${formatDate(rec.pubDate)}`;
