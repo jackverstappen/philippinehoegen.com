@@ -1,12 +1,12 @@
 ---
-- title: 'On the future and the artist-run spaces'
-- date: 2 december 2020
-- desc: A series of 3 podcasts, moderated by Philippine Hoegen, for and with Club Solo, Breda. Stemming from the publication: ‘Over de toekomst en het kunstenaarsinitiatief.’
-- keywords:”collaboration, self-organisation, artist-run, podcast, symposium, publication'
-- tags: 
+title: 'On the future and the artist-run spaces'
+date: 2 december 2020
+desc: 'A series of 3 podcasts, moderated by Philippine Hoegen, for and with Club Solo, Breda. Stemming from the publication: ‘Over de toekomst en het kunstenaarsinitiatief.’'
+keywords: collaboration, self-organisation, artist-run, podcast, symposium, publication
+tags: 
     - podcast
     - broadcast
-- cover: cover.png
+cover: cover.png
 ---
 [https://clubsolo.nl/en/podcasts/episode-1dreams-as-a-guideline/](https://clubsolo.nl/en/podcasts/episode-1dreams-as-a-guideline/) (NL)
 

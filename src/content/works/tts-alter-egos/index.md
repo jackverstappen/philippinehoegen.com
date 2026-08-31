@@ -1,12 +1,12 @@
 ---
-- title: Alter Ego: Training the Sense of Your Other Selves
-- date: 29 Nov 2024
-- desc: Workshop within the series Training the Senses. A workshop on Alter Ego’s.
-- keywords: Workshop, performance, Alter Ego, Performance as research, Marres
-- tags: 
+title: 'Alter Ego: Training the Sense of Your Other Selves'
+date: 29 Nov 2024
+desc: Workshop within the series Training the Senses. A workshop on Alter Ego’s.
+keywords: Workshop, performance, Alter Ego, Performance as research, Marres
+tags: 
     - workshop
-- cover: cover.jpg
-- media: 
+cover: cover.jpg
+media: 
     - media/0.jpg
     - media/1.jpg
     - media/2.jpg

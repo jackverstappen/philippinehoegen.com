@@ -1,12 +1,12 @@
 ---
-- title: Callisthenics\: Stories of Support, Aversion and Love: The Score
-- date: 23 January and 10 May 2025
-- desc: Published score of the performance series *Callesthenics*, consisting of letters the performers wrote to each other and drawings depicting their movement vocabulary.\
-- keywords: Score, performance, artistic research, performance as research, publication, letter writing, auto theory, auto ethnography,\
-- tags: 
+title: 'Callisthenics: Stories of Support, Aversion and Love: The Score'
+date: 23 January and 10 May 2025
+desc: Published score of the performance series *Callesthenics*, consisting of letters the performers wrote to each other and drawings depicting their movement vocabulary.\
+keywords: Score, performance, artistic research, performance as research, publication, letter writing, auto theory, auto ethnography,
+tags: 
     - publication
-- cover: cover.jpg
-- media:
+cover: cover.jpg
+media:
     - media/0.jpg
     - media/1.jpg
     - media/2.jpg

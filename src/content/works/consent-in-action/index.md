@@ -1,12 +1,12 @@
 ---
-- title: Consent in action: Learning from artistic research within an institutional review context
-- date: 13 December 2025
-- desc: Article published in Methods in Psychology, authors Veerle Spronck, Fabiola Camuti, Judith Leest, Philippine Hoegen, Truus Teunissen, as part of a special issue entitled: Ethics in Qualitative Research published in Methods in Psychology.
-- keywords: Artistic research, publication, consent, care ethics, auto ethnography,
-- tags: 
+title: 'Consent in action: Learning from artistic research within an institutional review context'
+date: 13 December 2025
+desc: 'Article published in Methods in Psychology, authors Veerle Spronck, Fabiola Camuti, Judith Leest, Philippine Hoegen, Truus Teunissen, as part of a special issue entitled: Ethics in Qualitative Research published in Methods in Psychology.'
+keywords: Artistic research, publication, consent, care ethics, auto ethnography,
+tags: 
     - publication
-- cover: cover.png
-- media:
+cover: cover.png
+media:
     - media/0.png
     - media/1.png
     - media/2.png

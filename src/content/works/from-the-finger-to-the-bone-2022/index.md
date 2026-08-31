@@ -1,12 +1,12 @@
 ---
-- title: 'From the Finger to the Bone'
-- date: 25 November 2022
-- desc: "Performance by Paloma Bouhana and Philippine Hoegen at wpZimmer, Antwerp, 2022"
-- keywords: 'Performance as research, Autotheory, wpZimmer'
-- tags:
+title: 'From the Finger to the Bone'
+date: 25 November 2022
+desc: "Performance by Paloma Bouhana and Philippine Hoegen at wpZimmer, Antwerp, 2022"
+keywords: 'Performance as research, Autotheory, wpZimmer'
+tags:
     - 'performance'
     - 'research'
-- media: cover.jpg
+cover: cover.jpg
 ---
 
 Both **Paloma Bouhana** and **Philippine Hoegen** have spent the past years researching, through their artistic practices, issues related to work. What is work, what is not work, how to work without exhausting yourself and/or your environment? Who are we when we work, and who if we are not able to work? How do bodies perform work, how are they supported at work? What is work performance and what is performance work?

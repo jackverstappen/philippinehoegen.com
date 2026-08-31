@@ -1,11 +1,11 @@
 ---
-- title: The Body at Work: The Work of Being a Body
-- date: 24 October 2023
-- desc: A workshop which addresses, through exchange and practice, aspects of what we understand is the work of being a body, at the Dutch Design Week in Eindhoven, 2023
-- keywords: Performative workshop, performance as research, workshop as research, work, body, Performing Working, The body at work
-- tags: 
+title: 'The Body at Work: The Work of Being a Body'
+date: 24 October 2023
+desc: A workshop which addresses, through exchange and practice, aspects of what we understand is the work of being a body, at the Dutch Design Week in Eindhoven, 2023
+keywords: Performative workshop, performance as research, workshop as research, work, body, Performing Working, The body at work
+tags: 
     - workshop
-- cover: cover.jpg
+cover: cover.jpg
 ---
 
 [<u>https://www.baltanlaboratories.org/events/performing-working-the-body-at-work-and-the-work-of-being-a-body</u>](https://www.baltanlaboratories.org/events/performing-working-the-body-at-work-and-the-work-of-being-a-body)

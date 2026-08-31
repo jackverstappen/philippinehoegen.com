@@ -1,12 +1,12 @@
 ---
-- title: Callisthenics: Stories of Support, Aversion and Love
-- date: 10 May 2025
-- desc: A performance piece about being untrained, unprepared, and unwilling for care giving and receiving, by Paloma Bouhana, Henny Dörr & Philippine Hoegen. Performed during the festival Beyond the Black Box, Monty theatre, Antwerp, May 2025.
-- keywords: Performance, artistic research, care ethics, Performing Working
-- tags: 
+title: 'Callisthenics: Stories of Support, Aversion and Love'
+date: 10 May 2025
+desc: A performance piece about being untrained, unprepared, and unwilling for care giving and receiving, by Paloma Bouhana, Henny Dörr & Philippine Hoegen. Performed during the festival Beyond the Black Box, Monty theatre, Antwerp, May 2025.
+keywords: Performance, artistic research, care ethics, Performing Working
+tags: 
     - performance
-- cover: cover.jpg
-- media:
+cover: cover.jpg
+media:
     - media/0.jpg
     - media/1.jpg
     - media/2.jpg

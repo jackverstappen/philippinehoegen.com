@@ -1,13 +1,13 @@
 ---
-- title: Performing Working at Disseminar 2022
-- date: 29 November 2022
-- desc: Performance as dissemination of the research project *Performing Working*
-- keywords: Performance, Performance as research, Performance as dissemination
-- tags: 
+title: Performing Working at Disseminar 2022
+date: 29 November 2022
+desc: Performance as dissemination of the research project *Performing Working*
+keywords: Performance, Performance as research, Performance as dissemination
+tags: 
     - performance
     - presentation
-- cover: cover.jpg
-- media:
+cover: cover.jpg
+media:
     - media/0.png
     - media/1.png
     - media/2.png
