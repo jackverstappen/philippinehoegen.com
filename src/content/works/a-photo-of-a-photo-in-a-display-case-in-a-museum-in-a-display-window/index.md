@@ -21,7 +21,6 @@ tags:
   - image_and_word
 ---
 …
-
 \*A Photo of a Photo in a Display Case in a Museum in a Display Window, 2013\
 \*\
 Installation with photo and text in display window, 111 x 246 x 25 cm.\
