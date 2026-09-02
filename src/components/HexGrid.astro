@@ -313,8 +313,9 @@ function syncCols() {
   const tile = visibleTiles[0];
   const tileBBox = tile.getBoundingClientRect();;
   const totalHeight = rows ? (2+1.5*gap + tileBBox.height + (rows-1)*.75*(gap+tileBBox.height)): 0
-  const pxH = computed.getPropertyValue('--hspace');
-  const H = pxUnitsToNum(pxH);
+  //const pxH = computed.getPropertyValue('--hspace');
+  //const H = pxUnitsToNum(pxH);
+  const H = 0.866 * tileBBox.width + gap;
   const offsetX = (gridBBox.width - ((cols+.5)*H))/2; //paddingLeft + (gridBBox.width - ((cols+.5)*H))/4;
 
   grid!.style.setProperty('--cols', `${cols}`);
