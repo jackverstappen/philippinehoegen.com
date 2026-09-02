@@ -16,6 +16,11 @@ export default defineConfig({
   output: 'static',
   site: 'https://philippinehoegen.com',
 
+  trailingSlash: 'never',
+  build: {
+    format: 'file',
+  },
+
   integrations: [sitemap(), react()],
   vite: {
     css: {
