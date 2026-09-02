@@ -17,3 +17,4 @@ const init = () => {
 
 // Initialize fade-in effects on Astro page load.
 document.addEventListener('astro:page-load', init);
+document.addEventListener('DOMContentLoaded', init);  
