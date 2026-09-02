@@ -191,6 +191,16 @@ const grid = tiles.map((tile, i) => {
     z-index: 10;
   }
 
+  @media (max-width: 640px) {
+    .hex-grid {
+      --col-w: 68.00px;
+      --tile-w: 66.00px;
+      --tile-h: 66.00px;
+      --vspace: 53.50px;
+      --hspace: 61.16px;
+    }
+  }
+
   /* ── Sequential sweep animation ─────────────────────────────────────────
    *
    *  Each tile has a 60 s cycle (slow and calm, matching Observable's feel).
