@@ -122,10 +122,20 @@ const grid = tiles.map((tile, i) => {
 </div>
 
 <style>
-  /* ── Container ──────────────────────────────────────────────────────────── */
+  @media (max-width: 640px) {
+    .hex-grid {
+      --col-w:  68.00px !important;
+      --tile-w: 66.00px !important;
+      --tile-h: 66.00px !important;
+      --vspace: 53.50px !important;
+      --hspace: 61.16px !important;
+    }
+  }
+
+/* ── Container ──────────────────────────────────────────────────────────── */
   .hex-grid {
     padding: 0;
-    padding-right:calc(var(--gap) + var(--tile-w));
+    padding-right: calc(var(--gap) + var(--tile-w) / 2) !important;
     position: relative;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(calc(.866*var(--col-w)), 1fr));
@@ -189,16 +199,6 @@ const grid = tiles.map((tile, i) => {
 
     filter: brightness(1.1) saturate(0.15) grayscale(0) blur(0); ;
     z-index: 10;
-  }
-
-  @media (max-width: 640px) {
-    .hex-grid {
-      --col-w: 68.00px;
-      --tile-w: 66.00px;
-      --tile-h: 66.00px;
-      --vspace: 53.50px;
-      --hspace: 61.16px;
-    }
   }
 
   /* ── Sequential sweep animation ─────────────────────────────────────────
