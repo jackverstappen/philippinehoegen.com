@@ -86,6 +86,10 @@ document.addEventListener('astro:page-load', () => {
   handlePageEvent('page-load', init);
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  handlePageEvent('page-load', init);
+});
+
 document.addEventListener('astro:before-swap', () => {
   handlePageEvent('before-swap', cleanup);
 });

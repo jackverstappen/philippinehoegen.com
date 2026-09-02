@@ -89,6 +89,10 @@ document.addEventListener('astro:page-load', () => {
   handlePageEvent('page-load', init);
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  handlePageEvent('page-load', init);
+});
+
 // Astro lifecycle hook: clean up before swapping pages.
 document.addEventListener('astro:before-swap', () => {
   handlePageEvent('before-swap', cleanup);
