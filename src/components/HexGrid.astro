@@ -79,15 +79,23 @@ const grid = tiles.map((tile, i) => {
 
 ---
 
-<div
-  class:list={["hex-grid", { "hex-grid--animated": animated }, className]}
-  style={`
+<!--     
     --col-w: ${C.toFixed(2)}px;
     --tile-w: ${W.toFixed(2)}px;
     --tile-h: ${H.toFixed(2)}px;
-    --gap: ${gap.toFixed(2)}px;
     --vspace: ${vSpace.toFixed(2)}px;
     --hspace: ${hSpace.toFixed(2)}px;
+-->
+
+<div
+  class:list={["hex-grid", { "hex-grid--animated": animated }, className]}
+  style={`
+    --gap: ${gap.toFixed(2)}px;
+    --tile-w: clamp(66px, 15vw, ${W.toFixed(2)}px);
+    --tile-h: var(--tile-w);
+    --hspace: calc(0.866 * var(--tile-w) + var(--gap));
+    --vspace: calc(0.75 * var(--tile-w) + var(--gap));
+    --col-w: calc(var(--tile-w) + var(--gap) / 2);
     --border-width: ${borderWidth.toFixed(2)}px;
     --border-color: ${borderColor};
     --magnify: ${magnify};
