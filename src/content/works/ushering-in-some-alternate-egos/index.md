@@ -1,6 +1,6 @@
 ---
 title: Ushering in some alternate ego’s
-date: 14 february 2025
+period: 14 february 2025
 desc: performative script reading of the performance in process Ushering In Some Alternate Ego’s, by Antye Guenther and Philippine Hoegen.
 tags: 
     - Performance

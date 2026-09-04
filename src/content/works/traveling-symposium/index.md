@@ -1,6 +1,6 @@
 ---
 title: Traveling Symposium
-date: 27 October 2021
+period: 27 October 2021
 desc: A Series of 3 symposiums hosted by different organisations, stemming from the publication and the podcast series ‘About the future and the artist-run space’. Utrecht, Rotterdam, Breda. 2021/22
 keywords: Commons, Moderating, symposium, discussion, collaborating, artist-run, sustainability\
 tags: 

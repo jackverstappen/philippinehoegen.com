@@ -7,6 +7,9 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import Separator from "../../components/Separator.astro";
 import Gallery from "../../components/Gallery.astro";
 import Prose from '../../components/Prose.astro';
+import FuzzyDate from '../../components/FuzzyDate.astro';
+//import { parse } from "../lib/fuzzyDate.ts";
+
 
 const mediaImages = import.meta.glob<{ default: ImageMetadata }>(
   '/src/content/works/**/*.{jpg,jpeg,png,webp,avif,gif}'
@@ -15,8 +18,17 @@ const mediaImages = import.meta.glob<{ default: ImageMetadata }>(
 
 export const getStaticPaths = async () => {
   // Fetch all works from the 'works' collection
-const workCollection = (await getCollection("works"))
-  .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+  const workCollection = (await getCollection("works"));
+  //  .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+
+  // Undated entries sort last. An explicit comparator beats a sentinel like
+  // `?? '9999'`: it says what it means and cannot be tripped by odd data.
+  workCollection.sort((a, b) => {
+    if (!a.data.period && !b.data.period) return a.data.title.localeCompare(b.data.title);
+    if (!a.data.period) return 1;
+    if (!b.data.period) return -1;
+    return -a.data.period.start.localeCompare(b.data.period.start);
+  });
 
   // Map over the works to generate paths for each work's page
   const paths = workCollection.map((work) => {
@@ -84,6 +96,7 @@ const { Content } = await render(work);
         {work.data.title}
       </h2>
       <p><span class="meta faded">&lbrack; DESC &rbrack;: </span><span>{work.data.desc})</span></p>
+      <p><span class="meta faded">&lbrack; PERIOD &rbrack;: </span><span><FuzzyDate value={work.data.period} /></span></p>
       <p><span class="meta faded">&lbrack; KEYWORDS &rbrack;: </span><span>{work.data.keywords}</span></p>
       <p><span class="meta faded">&lbrack; TAGS &rbrack;: </span><span>
         {work.data.tags ? work.data.tags.join(" | ").toUpperCase() : ""

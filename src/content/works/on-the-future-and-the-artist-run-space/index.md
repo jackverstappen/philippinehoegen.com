@@ -1,6 +1,6 @@
 ---
 title: 'On the future and the artist-run spaces'
-date: 2 december 2020
+period: 2 december 2020
 desc: 'A series of 3 podcasts, moderated by Philippine Hoegen, for and with Club Solo, Breda. Stemming from the publication: ‘Over de toekomst en het kunstenaarsinitiatief.’'
 keywords: collaboration, self-organisation, artist-run, podcast, symposium, publication
 tags: 

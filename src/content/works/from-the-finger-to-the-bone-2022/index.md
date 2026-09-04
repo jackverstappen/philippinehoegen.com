@@ -1,6 +1,6 @@
 ---
 title: 'From the Finger to the Bone'
-date: 25 November 2022
+period: 25 November 2022
 desc: "Performance by Paloma Bouhana and Philippine Hoegen at wpZimmer, Antwerp, 2022"
 keywords: 'Performance as research, Autotheory, wpZimmer'
 tags:

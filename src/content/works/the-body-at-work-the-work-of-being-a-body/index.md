@@ -1,6 +1,6 @@
 ---
 title: 'The Body at Work: The Work of Being a Body'
-date: 24 October 2023
+period: 24 October 2023
 desc: A workshop which addresses, through exchange and practice, aspects of what we understand is the work of being a body, at the Dutch Design Week in Eindhoven, 2023
 keywords: Performative workshop, performance as research, workshop as research, work, body, Performing Working, The body at work
 tags: 

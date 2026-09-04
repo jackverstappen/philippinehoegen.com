@@ -6,20 +6,39 @@ import WorkCaption from "../components/WorkCaption.astro";
 import WorkGrid from "../components/WorkGrid.astro";
 
 const workCollection = await getCollection("works");
+workCollection.sort((a, b) => {
+  if (!a.data.period && !b.data.period) return a.data.title.localeCompare(b.data.title);
+  if (!a.data.period) return 1;
+  if (!b.data.period) return -1;
+  return -a.data.period.start.localeCompare(b.data.period.start);
+});
+
+const recentWorks = workCollection.slice(0,5).map(n=>n.id);
 
 // Read pinned order from the singleton YAML — one save = one deploy
 const [pinnedData] = await getCollection("pinned");
 const pinnedIds = pinnedData?.data.works ?? [];
 
+const selection = [... new Set(recentWorks.concat(pinnedIds))]
+
+console.log("recent",JSON.stringify(recentWorks));
+console.log("pinned",JSON.stringify(pinnedData), JSON.stringify(pinnedIds));
+console.log("selection",JSON.stringify(selection));
+
+
 // Preserve the order defined in the singleton
+const pinnedCollection = workCollection.filter((w) => selection.includes(w.id))
+const allTags = [...new Set(
+  workCollection.flatMap((work) => work.data.tags ?? [])
+)].sort();
+/*
 const pinnedCollection = pinnedIds
   .map((id) => workCollection.find((w) => w.id === id))
   .filter((w) => w !== undefined);
 const allTags = [...new Set(
   workCollection.flatMap((work) => work.data.tags ?? [])
 )].sort();
-
-
+*/
 
 const updatesCollection = await getCollection("updates");
 

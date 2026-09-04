@@ -1,6 +1,6 @@
 ---
 title: How We Wish to Work
-date: 14 February 2025
+period: 14 February 2025
 desc: Article published in Performance Research, Journal of the Performing Art, in which Philippine Hoegen and Veerle Spronck engage in a dialogue on the intertwining of care and connectivity, and ethics and aesthetics in artistic and research practices.
 keywords: Performance Research, Journal of the Performing Art, artistic research, performance as research, publication, ethics, care ethics
 tags: 

@@ -1,6 +1,6 @@
 ---
 title: 'In These Circumstances: On collaboration, performativity, self-organisation and transdisciplinarity in research-based practices'
-date: 20 May 2022
+period: 20 May 2022
 desc: Publication by and about a.pass. About collaboration in artistic research, performativity, self-organisation and transdisciplinarity in research-based practices, published by Onomatopee, 2022. Editor Philippine Hoegen
 keywords: collaboration, performativity, self-organisation, transdisciplinarity, research-based practices, publication
 tags: 

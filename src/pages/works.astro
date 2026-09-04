@@ -4,9 +4,30 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import WorkFilter from "../components/WorkFilter.astro";
 import WorkCaption from "../components/WorkCaption.astro";
 import WorkGrid from "../components/WorkGrid.astro";
+import { parse } from "../lib/fuzzyDate.ts";
 
 const workCollection = (await getCollection("works"))
-  .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+  //.sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+
+
+// Undated entries sort last. An explicit comparator beats a sentinel like
+// `?? '9999'`: it says what it means and cannot be tripped by odd data.
+workCollection.sort((a, b) => {
+  if (!a.data.period && !b.data.period) return a.data.title.localeCompare(b.data.title);
+  if (!a.data.period) return 1;
+  if (!b.data.period) return -1;
+  return -a.data.period.start.localeCompare(b.data.period.start);
+});
+ 
+
+const window = parse('2023 Q1 - Q3');
+console.log("window",JSON.stringify(window));
+
+/*
+workCollection.forEach((w)=>{
+  console.log(w.id,w.period,JSON.stringify(parse(w.date)));
+})
+  */
   
 const allTags = [...new Set(
   workCollection.flatMap((work) => work.data.tags ?? [])

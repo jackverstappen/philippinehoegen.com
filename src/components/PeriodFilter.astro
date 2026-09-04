@@ -1,0 +1,83 @@
+---
+/**
+ * Client-side island: type a fuzzy period, filter the list.
+ *
+ * The <script> below is bundled by Vite and runs in the browser, so the
+ * parser ships to the client here — a few KB gzipped, no dependencies.
+ * Use this only when the user types dates; build-time parsing costs nothing.
+ */
+interface Props {
+  /** Selector for the list to filter. Items need `data-period-item`. */
+  target: string;
+  /** What to do with undated items while a filter is active. */
+  undated?: 'hide' | 'keep';
+}
+const { target, undated = 'hide' } = Astro.props;
+---
+
+<div class="period-filter" data-target={target} data-undated={undated}>
+  <label for="period">Filter by period</label>
+  <input id="period" type="text" placeholder="e.g. 2023 Q2, Dec 2019, 2020-2024" autocomplete="off" />
+  <p class="hint" role="status" aria-live="polite"></p>
+</div>
+
+<script>
+  import { tryParse } from '../lib/fuzzyDate.ts';
+  import { formatFuzzyDate } from '../lib/fuzzyDateFormat.ts';
+
+  document.querySelectorAll<HTMLElement>('.period-filter').forEach((root) => {
+    const input = root.querySelector('input')!;
+    const hint = root.querySelector('.hint')!;
+    const keepUndated = root.dataset.undated === 'keep';
+    const items = document.querySelectorAll<HTMLElement>(
+      `${root.dataset.target} [data-period-item]`,
+    );
+
+    const showAll = () => items.forEach((el) => (el.hidden = false));
+
+    input.addEventListener('input', () => {
+      const raw = input.value.trim();
+
+      if (!raw) {
+        showAll();
+        hint.textContent = '';
+        input.removeAttribute('aria-invalid');
+        return;
+      }
+
+      const span = tryParse(raw);
+      if (!span) {
+        hint.textContent = `Can't read "${raw}" as a period.`;
+        input.setAttribute('aria-invalid', 'true');
+        return;
+      }
+
+      input.removeAttribute('aria-invalid');
+      let shown = 0;
+      let hiddenUndated = 0;
+
+      items.forEach((el) => {
+        const { start, end } = el.dataset;
+
+        // No period: it cannot overlap anything, so there is no right answer
+        // here — only a choice. Hiding is the default; `undated="keep"` keeps
+        // them pinned so they don't vanish from a browsable list.
+        if (!start || !end) {
+          el.hidden = !keepUndated;
+          if (keepUndated) shown += 1;
+          else hiddenUndated += 1;
+          return;
+        }
+
+        // overlap test on ISO strings — lexicographic order is date order
+        const hit = start <= span.endISO && span.startISO <= end;
+        el.hidden = !hit;
+        if (hit) shown += 1;
+      });
+
+      const suffix = hiddenUndated ? `, ${hiddenUndated} undated hidden` : '';
+      hint.textContent =
+        `${formatFuzzyDate(span)} — ${shown} match${shown === 1 ? '' : 'es'}${suffix}`;
+    });
+  });
+</script>

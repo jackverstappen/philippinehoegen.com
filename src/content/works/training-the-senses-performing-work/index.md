@@ -1,6 +1,6 @@
 ---
 title: 'Training the Senses: Performing'
-date: 9 november 2022
+period: 9 november 2022
 desc: "Performative workshop by Philippine Hoegen, Nirav Christophe and Carolien Stikker at Marres, Maastricht, 2022"
 keywords: 'Performative workshop, Performance as research, Alter Ego, Work, Performing Working, Marres'
 tags:

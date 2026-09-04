@@ -29,7 +29,7 @@ collections:
     fields:
       - { name: title, label: Titel, widget: string }
       - { name: desc, label: Omschrijving, widget: text, required: false }
-      - name: date
+      - name: period
         label: Datum/Periode
         widget: string
         required: false

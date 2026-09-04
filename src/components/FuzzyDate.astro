@@ -1,0 +1,38 @@
+---
+/**
+ * Renders a fuzzy date span, or a fallback when there is no period.
+ *
+ * Emits <time> with a machine-readable datetime where HTML has one, and a
+ * plain <span> where it does not (quarters, halves, decades and ranges have
+ * no valid `datetime` value — don't fake it).
+ */
+import { formatFuzzyDate, toDateTimeAttr, type FuzzyDateInput } from '../lib/fuzzyDateFormat.ts';
+
+interface Props {
+  value: FuzzyDateInput | null | undefined;
+  locale?: string;
+  class?: string;
+  /** Shown when value is null. Prefer real words over a bare dash: a screen
+   *  reader announces "—" as nothing at all. */
+  fallback?: string;
+}
+
+const { value, locale = 'en-GB', class: className, fallback = '-' } = Astro.props;
+
+const json = value ? ('toJSON' in value ? value.toJSON() : value) : null;
+const label = json ? formatFuzzyDate(json, locale) : fallback;
+const datetime = json ? toDateTimeAttr(json) : null;
+---
+
+{json === null ? (
+  <span class={className} data-undated>{label}</span>
+) : datetime ? (
+  <time class={className} datetime={datetime} title={json.text}>{label}</time>
+) : (
+  <span
+    class={className}
+    title={json.text}
+    data-start={json.start}
+    data-end={json.end}
+  >{label}</span>
+)}

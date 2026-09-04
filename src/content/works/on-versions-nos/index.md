@@ -1,6 +1,6 @@
 ---
 title: 'On Versions/ NÓS'
-date: 2 July 2022
+period: 2 July 2022
 desc: "Performance by Philippine Hoegen and Flávio Rodrigo at ZSenne ArtLab/apass, Brussels, 2022"
 keywords: 'David, Performance as research, Autotheory, apass, ZSenne ArtLab'
 tags:

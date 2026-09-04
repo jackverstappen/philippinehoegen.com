@@ -1,6 +1,6 @@
 ---
 title: Performing Working at Disseminar 2022
-date: 29 November 2022
+period: 29 November 2022
 desc: Performance as dissemination of the research project *Performing Working*
 keywords: Performance, Performance as research, Performance as dissemination
 tags: 
