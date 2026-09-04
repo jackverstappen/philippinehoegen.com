@@ -24,7 +24,7 @@ collections:
     # Bestaande galerijen staan in media/, dat blijft werken.
     media_folder: ""
     public_folder: ""
-    summary: "{{title}} - {{date}}"
+    summary: "{{title}} - {{period}}"
     sortable_fields: [title]
     fields:
       - { name: title, label: Titel, widget: string }
