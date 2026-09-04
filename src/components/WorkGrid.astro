@@ -2,6 +2,8 @@
 import { getImage } from "astro:assets";
 import type { ImageMetadata } from "astro";
 import HexGrid from "../components/HexGrid.astro";
+import { imageConfig } from "astro:assets";
+import { undefined } from "astro:schema";
 
 const {
   collection  = [],
@@ -35,6 +37,20 @@ const tiles = await Promise.all(collection.map(async (p) => {
     tags: p.data.tags,
   };
 }));
+
+/*
+const spots  = Math.floor(tiles.length / 9 );
+const spotters = [];
+for (let i=0; i<spots; i++) {
+  const offset = Math.floor(Math.random()*10);
+
+  tiles.splice(i*10+offset,0,{src:undefined,desc:'',keywords:'', tags:[], title:''})
+}
+
+//spots.forEach((d,i)=>d.idx=0); // Math.floor(Math.random()*10));
+
+console.log("spots",tiles.length,JSON.stringify(tiles));
+*/
 ---
 
 

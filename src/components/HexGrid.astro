@@ -103,7 +103,7 @@ const grid = tiles.map((tile, i) => {
   {...rest}
 >
   {grid.map(({ id, href, src, alt, title, desc, keywords, tags, delay }) => (
-    <a
+    id ? <a
       class="hex-tile"
       href={href}
       data-id={id}
@@ -125,7 +125,11 @@ const grid = tiles.map((tile, i) => {
           decoding="async"
         />
       )}
-    </a>
+    </a> : <a
+      class="hex-tile"
+      style={`--delay:${delay}`}
+    >
+    </a> 
   ))}
 </div>
 
@@ -169,6 +173,7 @@ const grid = tiles.map((tile, i) => {
     text-decoration: none;
 
   }
+
 
   .hex-tile[hidden] {
     display: none;

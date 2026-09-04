@@ -11,6 +11,7 @@ const works = defineCollection({
   schema: z.object({
     title: z.string(),
     desc: z.string().optional().default(''),
+    date: z.union([z.string(), z.date()]).optional(),
     keywords: z.string().optional().default(''),
     cover: z.string().optional().default(''),
     media: z.array(z.string()).optional().nullable(),
