@@ -24,11 +24,16 @@ collections:
     # Bestaande galerijen staan in media/, dat blijft werken.
     media_folder: ""
     public_folder: ""
-    summary: "{{title}}"
+    summary: "{{title}} - {{date}}"
     sortable_fields: [title]
     fields:
       - { name: title, label: Titel, widget: string }
       - { name: desc, label: Omschrijving, widget: text, required: false }
+      - name: date
+        label: Datum/Periode
+        widget: string
+        required: false
+        hint: Fuzzy datum
       - name: keywords
         label: Trefwoorden
         widget: string
