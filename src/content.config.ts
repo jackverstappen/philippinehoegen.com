@@ -1,7 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
-import { tryParse } from './lib/fuzzydate.ts';
-import type { FuzzyDateJSON } from './lib/fuzzydate-format.ts';
+import { tryParse } from './lib/fuzzyDate';
+import type { FuzzyDateJSON } from './lib/fuzzyDateFormat';
  
 /**
  * Fuzzy date fields for frontmatter.

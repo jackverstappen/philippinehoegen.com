@@ -6,7 +6,7 @@
  * for anyone west of UTC and give you a hydration mismatch.
  */
 
-import type { FuzzyDate, Precision } from "./fuzzyDate.ts";
+import type { FuzzyDate, Precision } from "./fuzzyDate";
 
 /** The shape a FuzzyDate takes once it has been through JSON. */
 export interface FuzzyDateJSON {

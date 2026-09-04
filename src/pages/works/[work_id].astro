@@ -8,8 +8,6 @@ import Separator from "../../components/Separator.astro";
 import Gallery from "../../components/Gallery.astro";
 import Prose from '../../components/Prose.astro';
 import FuzzyDate from '../../components/FuzzyDate.astro';
-//import { parse } from "../lib/fuzzyDate.ts";
-
 
 const mediaImages = import.meta.glob<{ default: ImageMetadata }>(
   '/src/content/works/**/*.{jpg,jpeg,png,webp,avif,gif}'

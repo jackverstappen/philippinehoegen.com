@@ -4,7 +4,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import WorkFilter from "../components/WorkFilter.astro";
 import WorkCaption from "../components/WorkCaption.astro";
 import WorkGrid from "../components/WorkGrid.astro";
-import { parse } from "../lib/fuzzyDate.ts";
+import { parse } from "../lib/fuzzyDate";
 
 const workCollection = (await getCollection("works"))
   //.sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));

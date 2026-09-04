@@ -22,8 +22,8 @@ const { target, undated = 'hide' } = Astro.props;
 </div>
 
 <script>
-  import { tryParse } from '../lib/fuzzyDate.ts';
-  import { formatFuzzyDate } from '../lib/fuzzyDateFormat.ts';
+  import { tryParse } from '../lib/fuzzyDate';
+  import { formatFuzzyDate } from '../lib/fuzzyDateFormat';
 
   document.querySelectorAll<HTMLElement>('.period-filter').forEach((root) => {
     const input = root.querySelector('input')!;
