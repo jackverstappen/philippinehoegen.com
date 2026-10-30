@@ -20,6 +20,7 @@ tags:
   - display
   - image_and_word
 ---
+
 …
 \*A Photo of a Photo in a Display Case in a Museum in a Display Window, 2013\
 \*\

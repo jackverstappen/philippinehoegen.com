@@ -21,6 +21,10 @@ export default defineConfig({
     format: 'file',
   },
 
+  redirects: {
+    '/projekten/fld75/': '/works/presentation-performing-working'
+  },
+
   integrations: [sitemap(), react()],
   vite: {
     css: {
