@@ -22,7 +22,7 @@ export default defineConfig({
   },
 
   redirects: {
-    '/projekten/fld75/': '/works/presentation-performing-working'
+    '/projekten/fld75': '/works/presentation-performing-working'
   },
 
   integrations: [sitemap(), react()],
