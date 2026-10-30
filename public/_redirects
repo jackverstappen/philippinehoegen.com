@@ -1,0 +1,59 @@
+# ============================================================
+# Cloudflare _redirects for philippinehoegen.com
+# Place this file in: public/_redirects
+# Astro copies it to dist/ at build time.
+#
+# Format (one rule per line):
+#   [source]   [destination]   [status code]
+#
+# Limits: 2,000 static + 100 dynamic rules (2,100 total),
+#         max 1,000 characters per line.
+#
+# Rules:
+#   - Lines starting with # are comments (no inline comments).
+#   - The first matching rule wins, so keep specific rules
+#     at the top and splat/placeholder rules at the bottom.
+#   - Always add 301 for permanent moves (default is 302).
+#   - List both the no-slash and slash version of old URLs
+#     so each redirects in a single hop.
+# ============================================================
+
+
+# ------------------------------------------------------------
+# 1. Static redirects: old project pages -> new works pages
+# ------------------------------------------------------------
+
+/projecten/fld75    /works/presentation-performing-working    301
+/projecten/fld75/   /works/presentation-performing-working    301
+
+# Copy this pair for each additional page:
+# /projekten/OLD-SLUG    /works/NEW-SLUG    301
+# /projekten/OLD-SLUG/   /works/NEW-SLUG    301
+
+
+# ------------------------------------------------------------
+# 2. Section-level redirects (old index pages)
+# ------------------------------------------------------------
+
+# /projekten     /works    301
+# /projekten/    /works    301
+
+
+# ------------------------------------------------------------
+# 3. External redirects (short links to other sites)
+# ------------------------------------------------------------
+
+# /instagram    https://www.instagram.com/YOUR-HANDLE    302
+
+
+# ------------------------------------------------------------
+# 4. Dynamic redirects (keep these LAST)
+#    Counts toward the 100 dynamic-rule limit.
+# ------------------------------------------------------------
+
+# Catch-all for any remaining /projekten/* URLs where the slug
+# stayed the same on the new site:
+/projecten/*    /works/:splat    301
+
+# Placeholder example (reorders path segments):
+# /archive/:year/:slug    /works/:slug    301
