@@ -24,7 +24,8 @@ Launch of
 *April 19th, Art Brussels   
   
 Watch the [trailer](https://art-action.org/site/en/cat/_random.php?code=AMu87663035)
-Watch the film: [https://vimeo.com/266104832 ](https://vimeo.com/266104832) (momentarily unavailable)
+
+Watch the film: [https://vimeo.com/1242035592 ](https://vimeo.com/1242035592) 
 
 An array of people with different perspectives on the Brussels or Belgian art world discuss their own and each other’s practices, what connects them and what divides them, and the conditions for working in art here, in relation to the market, to cultural politics etc.
 
