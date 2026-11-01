@@ -1,6 +1,6 @@
 ---
 title: Presentation Performing Working
-period: 26 March 2026
+period: 23 June 2023
 desc: Public introduction to the PD (professional Doctorate) Performing Working, HKU, 2023-2028
 keywords: Performance, artistic research, Professional Doctorate, Performing Working
 tags: 
