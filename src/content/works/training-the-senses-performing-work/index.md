@@ -20,7 +20,7 @@ media:
 
 As a form of documentation we invited two actresses to embody the sentences and movements people articulated and attached to their different selves during the workshop. Watch the video here:
 
-[<u>https://vimeo.com/782642401/f88c58968b?fl=ip&fe=ec</u>](https://vimeo.com/782642401/f88c58968b?fl=ip&fe=ec)
+[<u>https://vimeo.com/782642401/f88c58968b</u>](https://vimeo.com/782642401/f88c58968b)
 
 “A lawyer who is defending her client, and an instrument maker who is tuning a violin will most probably refer to their activity as work, while the musician playing the same violin or a belly dancer taking the stage will probably refer to their work as performance. Most of us would not find it hard to see the performance of the latter two as work, but we might not have considered that most of the work we all do is in some way a performance, and that we tend to call upon different versions of ourselves to perform that work.
 
