@@ -1,5 +1,5 @@
 ---
-title: 'Another Verson 2'
+title: 'Another Version 2'
 desc: 'Performance at Aleppo, Brussels, 2015'
 keywords: ''
 cover: 'cover.jpg'
