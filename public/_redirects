@@ -108,8 +108,6 @@
 /projecten/Ventriloquists_3/  /works/ventriloquists-iii-sar-version   301
 /projecten/Ventriloquists_I/  /works/ventriloquists-1   301
 /projecten/Ventriloquists_III,_Narrative_Matters_version/  /works/ventriloquists-iii-narrative-matters-version   301
-
-
 /projecten/A_Printed_Other_Version  /works/a-printed-other-version   301
 /projecten/Another_Version  /works/another-version-2014   301
 /projecten/Body_of_Books  /works/body-of-books   301
@@ -198,17 +196,13 @@
 
 
 
-# Copy this pair for each additional page:
-# /projekten/OLD-SLUG    /works/NEW-SLUG    301
-# /projekten/OLD-SLUG/   /works/NEW-SLUG    301
-
 
 # ------------------------------------------------------------
 # 2. Section-level redirects (old index pages)
 # ------------------------------------------------------------
 
-# /projekten     /works    301
-# /projekten/    /works    301
+# /projecten     /works    301
+# /projecten/    /works    301
 
 
 # ------------------------------------------------------------
@@ -223,9 +217,9 @@
 #    Counts toward the 100 dynamic-rule limit.
 # ------------------------------------------------------------
 
-# Catch-all for any remaining /projekten/* URLs where the slug
+# Catch-all for any remaining /projecten/* URLs where the slug
 # stayed the same on the new site:
-/projecten/*    /works/:splat    301
+/projecten/*    /works__/:splat    301
 
 # Placeholder example (reorders path segments):
 # /archive/:year/:slug    /works/:slug    301
