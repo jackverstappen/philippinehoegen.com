@@ -3,6 +3,7 @@ title: 'Book Launch "When the second voice..." by Maddy Arkesteyn'
 desc: 'Book launch of "When the second voice does not occupy a stable position" and opening exhibition of the work of Maddy Arkesteyn at Das Esszimmer in Bonn.'
 keywords: 'Artists book, Das Esszimmer Bonn, Maddy Arkesteijn'
 cover: 'cover.jpg'
+period: 11 April 2013 - 23 May 2013
 media:
   - 'media/0.jpg'
   - 'media/1.jpg'

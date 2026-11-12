@@ -3,6 +3,7 @@ title: 'Adaptation: Exhibition'
 desc: 'Exhibition at The Collective Gallery in Edinburgh, October 2012'
 keywords: 'Banu Cennetoglu, Collective Gallery Edinburgh, Philippine Hoegen, artists collaborations'
 cover: 'cover.jpg'
+period: October 2013
 media:
   - 'media/0.jpg'
   - 'media/1.jpg'

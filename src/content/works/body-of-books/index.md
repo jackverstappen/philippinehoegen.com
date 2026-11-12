@@ -3,6 +3,7 @@ title: 'Body of Books'
 desc: 'Essay for Collectorspace Publication #8: The BAS Collection with Corrections and Clarifications (Anita Di Bianco). http://collectorspace.org http://collectorspace.org/wp-content/uploads/2017/05/cs_pub8_bas_collection.pdf'
 keywords: 'Anita di Bianco, Artistic Research, Artists book, BAS Istanbul, Banu Cennetoglu, Collectorspace Istanbul'
 cover: 'cover.jpg'
+period: May 2017
 media:
   - 'media/0.jpg'
   - 'media/1.jpg'

@@ -3,6 +3,7 @@ title: 'Agent and Informer 2'
 desc: 'Installation with photographic work and soundtrack'
 keywords: 'Installation, Philippine Hoegen, audiotrack, natural history museum, photography'
 cover: 'cover.jpg'
+period: 2008
 media:
   - 'media/0.jpg'
 tags:

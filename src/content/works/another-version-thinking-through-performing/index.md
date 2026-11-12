@@ -2,6 +2,7 @@
 title: 'ANOTHER VERSION Thinking Through Performing'
 desc: 'Publication by Philippine Hoegen, published by Onomatopee, 2020'
 keywords: 'AKV St Joost, AKV-St Joost, Artistic Research, Artist book, CARADT, Kristine Van Den Brande, Performance, Sebastian Olma, a.pass, apass, daretoknow, onomatopee eindhoven, onomatopee publisher, onomatopeenet, performance, performative, personhood'
+period: 2020
 cover: 'cover.jpg'
 media:
   - 'media/0.jpg'

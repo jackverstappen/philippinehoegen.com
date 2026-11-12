@@ -3,6 +3,7 @@ title: 'Another Version 2'
 desc: 'Performance at Aleppo, Brussels, 2015'
 keywords: ''
 cover: 'cover.jpg'
+period: 28 May 2015
 media:
   - 'media/0.jpg'
   - 'media/1.jpg'

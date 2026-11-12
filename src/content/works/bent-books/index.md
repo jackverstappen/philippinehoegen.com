@@ -3,6 +3,7 @@ title: 'Bent Books'
 desc: 'A series of artists books from Turkey'
 keywords: 'Artists book, Banu Cennetoğlu, Bent Books, Philippine Hoegen, artists collaborations'
 cover: 'cover.jpg'
+period: May – October 2006
 media:
   - 'media/0.jpg'
   - 'media/1.jpg'

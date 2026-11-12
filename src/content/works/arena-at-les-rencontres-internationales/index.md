@@ -2,6 +2,7 @@
 title: '''Arena'' at Les Rencontres Internationales'
 desc: '''Arena'' at Les Rencontres Internationales, Nouveau Cinema et Art Contemporain, Paris'
 keywords: 'Les Rencontres Internationales, Nouveau Cinema et Art Contemporain, Paris, Video Installation'
+period: 2014
 media:
 tags:
   - 'exhibition'

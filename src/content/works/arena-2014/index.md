@@ -3,6 +3,7 @@ title: 'Arena, 2014'
 desc: 'Video Installation, single channel projection, Title: Arena, year: 2014'
 keywords: 'Installation, Missiemuseum Steyl, Philippine Hoegen, Venlo, natural history museum'
 cover: 'cover.jpg'
+period: 2014
 media:
   - 'media/0.jpg'
   - 'media/1.jpg'

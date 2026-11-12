@@ -3,6 +3,7 @@ title: 'Calcite Revolt'
 desc: 'Calcite Revolt, since 2009, an organisation for professional exchange between different actors within the artistic field.'
 keywords: 'Calcite Revolt, Contemporary art organization, artists collaborations'
 cover: 'cover.jpg'
+period: 2009
 media:
   - 'media/0.jpg'
   - 'media/1.jpg'

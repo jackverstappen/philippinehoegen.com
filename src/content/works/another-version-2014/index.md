@@ -3,6 +3,7 @@ title: 'Another Version (2014)'
 desc: 'A performance which took place at PAF in France, connected to the pre-viewing of the video installation "Arena".'
 keywords: 'PAF, Philippine Hoegen, apass, display, performance'
 cover: 'cover.jpg'
+period: 2014
 media:
   - 'media/0.jpg'
   - 'media/1.jpg'

@@ -3,6 +3,7 @@ title: 'Apogee'
 desc: 'Artists Books edited by Nuans'
 keywords: 'Apogee, Artists book, Nuans, Philippine Hoegen, Revolver Publishers'
 cover: 'cover.jpg'
+period: November 2011
 media:
   - 'media/0.jpg'
   - 'media/1.jpg'

@@ -3,6 +3,7 @@ title: 'Between Art and Politics'
 desc: 'Between Art and Politics, a round table discussion organised by students of the AKC St. Joost'
 keywords: 'AKV St Joost, Art and Politics, Philippine Hoegen, Pietje Tegenbosch'
 cover: 'cover.jpg'
+period: 16 March 2012
 media:
   - 'media/0.jpg'
   - 'media/1.jpg'

@@ -3,6 +3,7 @@ title: 'Apogee - The Self-Taught Musical'
 desc: 'An evening with ''Nüans'' at Smart Project Space with a reading performance by Philippine Hoegen & Carolien Stikker.'
 keywords: 'Artists book, Nüans, Revolver Publishers, Smart Project Space, artists collaborations, carolien stikker, text and image'
 cover: 'cover.jpg'
+period: 1 June 2012
 media:
   - 'media/0.jpg'
   - 'media/1.jpg'

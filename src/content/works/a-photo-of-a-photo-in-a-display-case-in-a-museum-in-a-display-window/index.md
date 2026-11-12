@@ -1,6 +1,7 @@
 ---
 title: A Photo of a Photo in a Display Case in a Museum in a Display Window
 desc: 'Installation with photograph and text '
+period: 2013
 keywords: >-
   AKV-St Joost, Installation, Koninklijk Museum voor Centraal Afrika, Philippine
   Hoegen, Tervuren, text and image
